@@ -1,8 +1,11 @@
+import PageLayout from '@/components/layout/PageLayout'
 import React from 'react'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <PageLayout title={"Contact Us | Indiscon 2024"}>
+
+    </PageLayout>
   )
 }
 

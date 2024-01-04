@@ -1,8 +1,11 @@
+import PageLayout from '@/components/layout/PageLayout'
 import React from 'react'
 
 function Committees() {
   return (
-    <div>Committees</div>
+    <PageLayout title={"Committees | Indiscon 2024"}>
+
+    </PageLayout>
   )
 }
 

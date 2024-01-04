@@ -1,8 +1,11 @@
+import PageLayout from '@/components/layout/PageLayout'
 import React from 'react'
 
 function Registration() {
   return (
-    <div>Registration</div>
+    <PageLayout title={"Registration | Indiscon 2024"}>
+
+    </PageLayout>
   )
 }
 

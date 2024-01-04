@@ -1,8 +1,11 @@
+import PageLayout from '@/components/layout/PageLayout'
 import React from 'react'
 
 function Venue() {
   return (
-    <div>Venue</div>
+    <PageLayout title={"Venue | Indiscon 2024"}>
+
+    </PageLayout>
   )
 }
 
