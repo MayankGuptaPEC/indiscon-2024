@@ -23,8 +23,9 @@ button {
 }
 
 *::-webkit-scrollbar {
-    height: 9px;
-    width: 11px;
+    /* height: 9px;
+    width: 11px; */
+    display: none;
 }
 *::-webkit-scrollbar-track {
     border-radius: 4px;

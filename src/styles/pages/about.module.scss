@@ -1,0 +1,94 @@
+@import "../variables.scss";
+
+.heading {
+    font-size: 36px;
+    margin: 20px 0;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0px;
+        // transform: translate(-50%);
+        background: $acm-primary;
+        height: 10px;
+        width: 70px;
+    }
+}
+
+.description {
+    width: 60%;
+
+    .about_text {
+        text-align: justify;
+        line-height: 25px;
+
+        .emphasize {
+            font-weight: 700;
+        }
+    }
+    a {
+        color: $acm-primary;
+    }
+}
+
+@media screen and (max-width: $navbar-breakpoint){
+    .description {
+        width: 100%;
+    }
+}
+
+.spacer {
+    height: 50px;
+}
+
+.section {
+    .section_heading {
+        text-align: center;
+        margin: 10px 0;
+        background: $acm-primary-bg;
+        border-radius: 10px;
+        padding: 5px 0;
+    }
+
+    .section_details {
+        .text {
+            text-align: justify;
+            // word-break: normal;
+            line-height: 25px;
+            // display: inline;
+        }
+        a {
+            // text-decoration: underline;
+            color: $acm-primary;
+        }
+    }
+}
+
+.college_heading {
+    font-size: 36px;
+    margin: 20px 0;
+    position: relative;
+    text-align: right;
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        right: 0px;
+        // transform: translate(-50%);
+        background: $acm-primary;
+        height: 10px;
+        width: 70px;
+    }
+}
+
+.college_description{
+    text-align: justify;
+    line-height: 25px;
+    a {
+        // text-decoration: underline;
+        color: $acm-primary;
+    }
+}
