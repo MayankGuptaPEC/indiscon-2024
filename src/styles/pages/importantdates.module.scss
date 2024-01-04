@@ -1,0 +1,15 @@
+@import "../variables.scss";
+
+.event__title {
+    font: bold;
+    font-size: 20px;
+    word-break: break-word;
+}
+
+.heading {
+    font-size: 60px;
+    text-align: center;
+    background-color: $acm-primary;
+    border-radius: 20px;
+    color: white;
+}
