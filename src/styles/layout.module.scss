@@ -1,0 +1,40 @@
+@import "./variables.scss";
+
+.layout {
+    background: #fff;
+    margin: 0 10%;
+    height: calc(100vh - 30px);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.layout::-webkit-scrollbar {
+    display: none;
+}
+
+.top_bar {
+    height: 30px;
+    background-color: #ddd;
+    width: 100%;
+    border-top: 2px solid $acm-primary;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top_bar .skip {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: $navbar-breakpoint) {
+    .layout {
+        margin: 10px 10px;
+        width: calc(100% - 20px);
+    }
+}
