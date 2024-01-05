@@ -35,7 +35,7 @@ function Committees() {
                                                     {head.name}
                                                 </p>
                                                 <p className={styles.post}>
-                                                    {head.post}
+                                                    {head.designation}
                                                 </p>
                                             </div>
                                         </div>
