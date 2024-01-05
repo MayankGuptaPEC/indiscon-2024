@@ -1,0 +1,124 @@
+@import '../variables.scss';
+
+.heading {
+    text-align: center;
+    color: $acm-primary;
+    position: relative;
+    margin: 20px 0;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 60px;
+        left: 50%;
+        transform: translate(-50%);
+        background: #000;
+        bottom: -20px;
+    }
+}
+
+.core {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h3 {
+        font-size: 28px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+        max-width: 1200px;
+        width: 70%;
+        background-color: #f2f4f6;
+        border-radius: 20px;
+        padding: 0 20px;
+
+        .card {
+            display: flex;
+            max-width: 400px;
+            padding: 10px;
+            background: #fff;
+            margin: 20px 5px;
+            align-items: center;
+            border-radius: 20px;
+
+            img {
+                height: 70px;
+                width: 70px;
+                border-radius: 9999px;
+                object-fit: cover;
+            }
+
+            .data {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0 10px;
+
+                .post {
+                    font-weight: 200;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $navbar-breakpoint) {
+    .heads {
+        .card {
+            img {
+                height: 150px !important;
+                width: 150px !important;
+            }
+        }
+    }
+
+    .core {
+        .cards {
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: $tablet-breakpoint) {
+    .heads {
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .card {
+            img {
+                height: 200px !important;
+                width: 200px !important;
+            }
+        }
+    }
+
+    .core {
+        .cards {
+            grid-template-columns: repeat(2, 1fr); 
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .heads .card img {
+        height: 140px !important;
+        width: 140px !important;
+    }
+    .core {
+        .cards {
+            grid-template-columns: repeat(1, 1fr); 
+            width: 90%;
+        }
+    }
+}
