@@ -6,9 +6,7 @@
 }
 
 button,
-a,
-ul,
-li {
+a {
     all: unset;
 }
 
