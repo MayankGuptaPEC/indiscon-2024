@@ -14,7 +14,6 @@ function PageLayout({ children, title, description }) {
                 {/* <a href="#main" className={styles.skip}>
                     Skip to main section
                 </a> */}
-
             </div>
             <div className={`${styles.layout} ${inter.className}`}>
                 <Head>
