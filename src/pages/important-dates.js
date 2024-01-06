@@ -26,7 +26,7 @@ const events = [
     },
     {
         title: "Last date of submission for regular papers",
-        date: "February 28, 2024",
+        date: "March 15, 2024",
         description: "",
         icon: <LaptopMac />,
     },

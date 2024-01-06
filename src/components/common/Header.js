@@ -26,9 +26,10 @@ function Header() {
                     src="/assets/logos/indiscon-new-logo-withoutbg.png"
                     alt="indiscon 2024"
                 />
-                {/* <img src="/assets/logos/ieee-banner.png" alt="indiscon 2024" /> */}
+                <img src="/assets/logos/ieee-delhi-section.png" alt="indiscon 2024" />
+                <img src="/assets/logos/ieee-india.png" alt="indiscon 2024" />
                 <img
-                    src="/assets/logos/pec_centenary_logo.jpg"
+                    src="/assets/logos/pec.png"
                     alt="indiscon 2024"
                 />
             </div>
@@ -108,6 +109,14 @@ const headerItems = [
     {
         href: "/registration",
         name: "Registration",
+    },
+    {
+        href: "/sponsorship",
+        name: "Sponsorship",
+    },
+    {
+        href: "/speakers",
+        name: "Speakers",
     },
     {
         href: "/venue",

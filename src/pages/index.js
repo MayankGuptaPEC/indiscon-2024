@@ -20,7 +20,7 @@ export default function Home() {
                 </Marquee>
                 <main className={styles.main}>
                     <div className={styles.hero_box}>
-                        <p>
+                        <p className={styles.sub_heading}>
                             5th IEEE India Council International Subsections
                             Conference
                         </p>
@@ -36,12 +36,12 @@ export default function Home() {
 
                         <div className={styles.venue_details}>
                             <div className={styles.dates}>
-                                <p>Conference</p>
+                                <p>Conference Dates</p>
                                 <p>August 22-24, 2024</p>
                             </div>
                             <div className={styles.venue}>
                                 <p>Venue</p>
-                                <p>PEC</p>
+                                <p>Punjab Engineering College (deemed to be university), Sector 12, Chandigarh</p>
                             </div>
                         </div>
                     </div>

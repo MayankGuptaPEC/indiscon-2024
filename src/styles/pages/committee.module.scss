@@ -1,4 +1,4 @@
-@import '../variables.scss';
+@import "../variables.scss";
 
 .heading {
     text-align: center;
@@ -34,15 +34,20 @@
     .cards {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        align-items: center;
         justify-content: center;
         max-width: 1200px;
         width: 100%;
         background-color: #f2f4f6;
         border-radius: 20px;
         padding: 0 20px;
+        justify-content: center; /* Horizontally center the items */
+        align-content: center; /* Vertically center the items */
+        gap: 10px; /* Adjust the gap between items */
+        grid-auto-flow: dense; /* Helps to fill from the center */
 
         .card {
+            margin: 0 auto;
+            width: 100%;
             display: flex;
             max-width: 400px;
             padding: 10px;
@@ -52,8 +57,8 @@
             border-radius: 20px;
 
             img {
-                height: 70px;
-                width: 70px;
+                height: 80px;
+                width: 80px;
                 border-radius: 9999px;
                 object-fit: cover;
             }
@@ -106,7 +111,7 @@
 
     .core {
         .cards {
-            grid-template-columns: repeat(2, 1fr); 
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 }
@@ -118,7 +123,7 @@
     }
     .core {
         .cards {
-            grid-template-columns: repeat(1, 1fr); 
+            grid-template-columns: repeat(1, 1fr);
             width: 90%;
         }
     }

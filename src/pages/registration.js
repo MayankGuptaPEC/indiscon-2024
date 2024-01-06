@@ -12,7 +12,7 @@ const ieeeColumns = [
     {
         align: "center",
         id: "name",
-        label: "Category of Delegates/Authors (IEEE Member)",
+        label: "Category of Authors/Attendees (IEEE Member)",
         // minWidth: 170,
     },
     {
@@ -44,7 +44,7 @@ const ieeeColumns = [
 const nonIeeeColumns = [
     {
         id: "name",
-        label: "Category of Delegates/Authors (Non-IEEE Member)",
+        label: "Category of Authors/Attendees (Non-IEEE Member)",
         align: "center",
         // minWidth: 170,
     },
@@ -208,11 +208,7 @@ function Registration() {
             <h3>* The registration fee is inclusive of all taxes.</h3>
             <p className={styles.note}>
                 Note : Every accepted paper can have up to 6 pages in the final
-                PDF. If needed, additional pages (maximum 2 more additional
-                pages apart from basic 6 pages) can be added to make the final
-                version of the paper. This has to be done by paying an extra
-                charge of INR 2000 per additional page at the time of author
-                registration payment.
+                PDF.
             </p>
 
             <div className={styles.rules}>
@@ -312,28 +308,6 @@ function Registration() {
                         the paper at the conference. Non-presented paper will
                         not be submitted to IEEE Xplore digital library as per
                         IEEE no-show policy.
-                    </p>
-                </div>
-                <div className={styles.section}>
-                    <h2 className={styles.section_heading}>Transfer Policy</h2>
-                    <p className={styles.section_details}>
-                        All requests for registration transfers must be provided
-                        in writing and email latest by June 30, 2024.
-                        Registration rate difference will apply depending on the
-                        membership status of the new registration.
-                    </p>
-                </div>
-                <div className={styles.section}>
-                    <h2 className={styles.section_heading}>
-                        Substitution Policy
-                    </h2>
-                    <p className={styles.section_details}>
-                        If an author or co-author is NOT available to present
-                        the paper at the conference, the TPC Chair can grant
-                        permission in some extreme cases to have the paper
-                        presented by a qualified substitute presenter. The
-                        deadline to submit a substitute presenter is June 30,
-                        2024.
                     </p>
                 </div>
             </div>
