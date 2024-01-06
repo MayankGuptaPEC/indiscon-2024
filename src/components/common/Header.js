@@ -4,6 +4,7 @@ import styles from "@/styles/components/header.module.scss";
 import Hamburger from "./Hamburger";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { getAssetName } from "@/util/githubPagesImagesUtil";
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -24,21 +25,28 @@ function Header() {
             <div className={styles.logo_wrapper}>
                 <div>
                     <img
-                        src="/assets/logos/indiscon-new-logo-withoutbg.png"
+                        src={getAssetName(
+                            "/assets/logos/indiscon-new-logo-withoutbg.png"
+                        )}
                         alt="indiscon 2024"
                     />
                     <img
-                        src="/assets/logos/ieee-delhi-section.png"
+                        src={getAssetName(
+                            "/assets/logos/ieee-delhi-section.png"
+                        )}
                         alt="indiscon 2024"
                     />
                 </div>
 
                 <div>
                     <img
-                        src="/assets/logos/ieee-india.png"
+                        src={getAssetName("/assets/logos/ieee-india.png")}
                         alt="indiscon 2024"
                     />
-                    <img src="/assets/logos/pec.png" alt="indiscon 2024" />
+                    <img
+                        src={getAssetName("/assets/logos/pec.png")}
+                        alt="indiscon 2024"
+                    />
                 </div>
             </div>
             <nav className={styles.navbar}>

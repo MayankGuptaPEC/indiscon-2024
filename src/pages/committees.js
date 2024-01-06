@@ -2,6 +2,7 @@ import PageLayout from "@/components/layout/PageLayout";
 import React from "react";
 import { COMMITTEE } from "@/data/committee";
 import styles from "@/styles/pages/committee.module.scss";
+import { getAssetName } from "@/util/githubPagesImagesUtil";
 
 function Committees() {
     const keys = Object.keys(COMMITTEE);
@@ -20,7 +21,7 @@ function Committees() {
                                     const image =
                                         head.image_url.length != 0
                                             ? head.image_url
-                                            : "/assets/logos/ieee-logo.png";
+                                            : getAssetName("/assets/logos/ieee-logo.png");
                                     return (
                                         <div className={styles.card} key={i}>
                                             {/*  eslint-disable-next-line @next/next/no-img-element */}

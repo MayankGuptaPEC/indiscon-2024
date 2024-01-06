@@ -10,6 +10,7 @@ import {
     TableHead,
     TableRow,
 } from "@mui/material";
+import { getAssetName } from "@/util/githubPagesImagesUtil";
 
 const prevEditionData = [
     {
@@ -78,7 +79,7 @@ function About() {
                 <div className={styles.img_wrapper}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                        src="/assets/logos/indiscon-new-logo-withoutbg.png"
+                        src={getAssetName("/assets/logos/indiscon-new-logo-withoutbg.png")}
                         alt="indiscon 2024"
                     />
                 </div>

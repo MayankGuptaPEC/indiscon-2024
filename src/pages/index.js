@@ -1,6 +1,7 @@
 import styles from "@/styles/Home.module.scss";
 import PageLayout from "@/components/layout/PageLayout";
 import Marquee from "react-fast-marquee";
+import { getAssetName } from "@/util/githubPagesImagesUtil";
 
 export default function Home() {
     console.log(process.env.NODE_ENV);
@@ -19,7 +20,14 @@ export default function Home() {
                     </p>
                     <p className={styles.marquee}>Another announcement!</p>
                 </Marquee>
-                <main className={styles.main}>
+                <main
+                    className={styles.main}
+                    style={{
+                        backgroundImage: getAssetName(
+                            "/assets/images/pec_chowk.jpeg"
+                        ),
+                    }}
+                >
                     <div className={styles.hero_box}>
                         <p className={styles.sub_heading}>
                             5th IEEE India Council International Subsections
@@ -42,7 +50,10 @@ export default function Home() {
                             </div>
                             <div className={styles.venue}>
                                 <p>Venue</p>
-                                <p>Punjab Engineering College (deemed to be university), Sector 12, Chandigarh</p>
+                                <p>
+                                    Punjab Engineering College (deemed to be
+                                    university), Sector 12, Chandigarh
+                                </p>
                             </div>
                         </div>
                     </div>
