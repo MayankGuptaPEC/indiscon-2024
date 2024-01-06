@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   reactStrictMode: true,
-  basePath: '/github-pages',
+  basePath: '/indiscon-2024',
 }
 
 module.exports = nextConfig
