@@ -22,7 +22,7 @@ function CallForPapers() {
 
             <div className={styles.technical_tracks}>
                 <p className={styles.paper_track}>
-                    Track 1 : Power and Energy Enabling Technologies
+                    Track 1: Power and Energy Systems
                 </p>
                 <p className={styles.paper_track}>
                     Track 2 : Power Electronics, Drives and Intelligent Control{" "}

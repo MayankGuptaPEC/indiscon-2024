@@ -1,0 +1,19 @@
+@import "../variables.scss";
+
+.heading {
+    text-align: center;
+    color: $acm-primary;
+    position: relative;
+    margin: 20px 0;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 60px;
+        left: 50%;
+        transform: translate(-50%);
+        background: #000;
+        bottom: -20px;
+    }
+}

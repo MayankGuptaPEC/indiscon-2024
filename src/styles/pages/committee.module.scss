@@ -32,7 +32,8 @@
     }
 
     .cards {
-        display: grid;
+        display: flex;
+        flex-wrap: wrap;
         grid-template-columns: repeat(3, 1fr);
         justify-content: center;
         max-width: 1200px;
@@ -40,14 +41,10 @@
         background-color: #f2f4f6;
         border-radius: 20px;
         padding: 0 20px;
-        justify-content: center; /* Horizontally center the items */
-        align-content: center; /* Vertically center the items */
-        gap: 10px; /* Adjust the gap between items */
-        grid-auto-flow: dense; /* Helps to fill from the center */
+        justify-items: center;
 
         .card {
-            margin: 0 auto;
-            width: 100%;
+            width: 300px;
             display: flex;
             max-width: 400px;
             padding: 10px;
