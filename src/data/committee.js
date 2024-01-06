@@ -424,5 +424,7 @@ export const COMMITTEE = {
             "image_url": "/assets/committee/rachnagarg.jpg",
             "position": "Technical Track 13"
         }
-    ]
+    ],
+    "International Advisory Council": [],
+    "National Advisory Council": []
 }
