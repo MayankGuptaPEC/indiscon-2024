@@ -3,6 +3,7 @@ import PageLayout from "@/components/layout/PageLayout";
 import Marquee from "react-fast-marquee";
 
 export default function Home() {
+    console.log(process.env.NODE_ENV);
     return (
         <>
             <PageLayout
