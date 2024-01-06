@@ -17,3 +17,34 @@
         bottom: -20px;
     }
 }
+
+.wrapper {
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+
+    .map {
+        width: 50%;
+        height: 400px;
+    }
+
+    .contact_details {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+
+        p {
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        a {
+            color: $acm-primary;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+    }
+}
