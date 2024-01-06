@@ -40,7 +40,7 @@ function Sponsorship() {
                 opportunities; join our team of 20+ long term industry partners.
             </p>
 
-            <h2>Sponsoring Packages</h2>
+            <h2 className={styles.subheading}>Sponsoring Packages</h2>
             <p>
                 Five categories of sponsorship packages are available to suit
                 your needs at INDISCON 2024. Sponsorship packages offer you a
@@ -49,40 +49,174 @@ function Sponsorship() {
                 customers and touch base with them.
             </p>
 
-            <h2>Sponsorship Options</h2>
+            {/* <h3>Sponsorship Options</h3> */}
 
-            <TableContainer>
+            <TableContainer sx={{ margin: "20px 0" }}>
                 <Table>
                     <TableHead>
                         <TableRow>
-                            <TableCell>Sponsorship grade</TableCell>
-                            <TableCell>Amount of Contribution</TableCell>
+                            <TableCell sx={{ fontWeight: 700 }}>
+                                Sponsorship grade
+                            </TableCell>
+                            <TableCell sx={{ fontWeight: 700 }}>
+                                Amount of Contribution
+                            </TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
-                        <TableRow>
+                        <TableRow hover>
                             <TableCell>Title Sponsors</TableCell>
                             <TableCell>INR 5,00,000</TableCell>
                         </TableRow>
-                        <TableRow>
+                        <TableRow hover>
                             <TableCell>Platinum Sponsors</TableCell>
                             <TableCell>INR 3,00,000</TableCell>
                         </TableRow>
-                        <TableRow>
+                        <TableRow hover>
                             <TableCell>Gold Sponsors</TableCell>
                             <TableCell>INR 1,00,000</TableCell>
                         </TableRow>
-                        <TableRow>
+                        <TableRow hover>
                             <TableCell>Silver Sponsors</TableCell>
                             <TableCell>INR 50,000</TableCell>
                         </TableRow>
-                        <TableRow>
+                        <TableRow hover>
                             <TableCell>Academic Partners</TableCell>
                             <TableCell>INR 50,000</TableCell>
                         </TableRow>
                     </TableBody>
                 </Table>
             </TableContainer>
+
+            <h2 className={styles.subheading}>
+                Sponsorship Benefits (Grade specific)
+            </h2>
+
+            <div className={styles.sponsor_class}>
+                <h3>Title sponsors</h3>
+                <p>
+                    Contribution: <span>Rs. 5,00,000/-</span>
+                </p>
+
+                <p>
+                    Special mention &ldquo;Presented by&rdquo;, Inclusion in PR
+                    Activities, Inaugural ceremony presence, 10 minutes
+                    Presentation slot about the Company/Organisation, Social
+                    media mentions, Main stage panels, Podium, Name of the
+                    sponsor as well as its logo (Please provide a high
+                    resolution jpg file in a CD at the time of the contract)
+                    will appear in all announcement materials/documents
+                    including banner, poster, proceedings of the conference.
+                    Sponsors will be provided space (please mention your
+                    requirement at the time of the contract up to 5mx5m) at the
+                    very strategic place of the conference venue to showcase
+                    their products. 8 Conference Passes, 8 Gala dinner invite
+                    passes
+                </p>
+            </div>
+
+            <div className={styles.sponsor_class}>
+                <h3>Platinum sponsors</h3>
+                <p>
+                    Contribution: <span>Rs. 3,00,000/-</span>
+                </p>
+
+                <p>
+                    Main stage panels, Podium, Inaugural ceremony presence, Gala
+                    dinner Invite, Social media mentions, Inclusion in PR
+                    Activity, Name of the sponsor as well as its logo (Please
+                    provide a high resolution jpg file in a CD at the time of
+                    the contract) will appear in all announcement
+                    materials/documents including banner, poster, proceedings of
+                    the conference. Sponsors will be provided space (please
+                    mention your requirement at the time of the contract upto
+                    4mX4m) at the very strategic place of the conference venue
+                    to showcase their products. Acknowledgement to the sponsors
+                    during inaugural welcome/closing event of the conference.
+                    Opportunity to nominate upto 4 participants (Please mention
+                    it in advance during registration period itself) for the
+                    conference under Platinum category of registration. 6
+                    Conference passes, 6 Gala dinner Invite passes
+                </p>
+            </div>
+
+            <div className={styles.sponsor_class}>
+                <h3>Gold sponsors</h3>
+                <p>
+                    Contribution: <span>Rs. 1,00,000/-</span>
+                </p>
+
+                <p>
+                    Name of the sponsor as well as its logo (Please provide a
+                    high resolution jpg file in a CD at the time of the
+                    contract) will appear in all announcement materials
+                    including banner, poster, hoarding of the conference.
+                    Sponsors will be provided space (Please mention your
+                    requirement at the time of the contract upto 4mX4m) at the
+                    exhibition venue of the conference to showcase their
+                    products. Acknowledgement to the sponsors during inaugural
+                    welcome/closing event of the conference. Opportunity to
+                    nominate 2 participants (Please mention it in advance during
+                    registration period itself) for the conference under Gold
+                    category of registration. 4 Conference pass, 4 Gala dinner
+                    invite pass
+                </p>
+            </div>
+
+            <div className={styles.sponsor_class}>
+                <h3>Silver sponsors</h3>
+                <p>
+                    Contribution: <span>Rs. 50,000/-</span>
+                </p>
+
+                <p>
+                    Sponsors name will be displayed in the event banner of the
+                    conference. Sponsors will be provided space (Please mention
+                    your requirement at the time of the contract upto 4mX4m) at
+                    the exhibition venue of the conference to showcase their
+                    products.
+                </p>
+            </div>
+
+            <div className={styles.sponsor_class}>
+                <h3>Academic Partners</h3>
+                <p>
+                    Contribution: <span>Rs. 50,000/-</span>
+                </p>
+
+                <p>
+                    This option is only open to the Academic
+                    institution/Colleges/Universities where IEEE Student
+                    branches exist. Partner name will be displayed in the event
+                    banner of the conference. Partner will be provided space
+                    (Please mention your requirement at the time of the contract
+                    upto 4mX4m) at the exhibition venue of the conference to
+                    showcase their Activities and Innovations.
+                </p>
+            </div>
+
+            <p className={styles.note}>
+                To secure participation, please write to us at
+                ieeeindiscon2024@gmail.com
+            </p>
+
+            <h2 className={styles.subheading}>Fellowship/Travel Grants</h2>
+            <p
+                style={{
+                    textAlign: "justify",
+                    lineHeight: "20px",
+                    marginBottom: "20px",
+                }}
+            >
+                INDISCON 2024 is pleased to offer financial support to the
+                selected IEEE student first author for presenting their research
+                work during INDISCON 2024 Conference. The grant will be awarded
+                to a limited number of applicants on a highly competitive basis.
+                The grant will help to cover Conference registration fees or
+                partial travel of the authors for attending the Conference. The
+                decision regarding this grant will be taken by the Conference
+                Fellowship Committee.
+            </p>
         </PageLayout>
     );
 }
