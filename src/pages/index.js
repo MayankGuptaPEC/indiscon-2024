@@ -23,9 +23,13 @@ export default function Home() {
                 <main
                     className={styles.main}
                     style={{
-                        backgroundImage: getAssetName(
+                        backgroundImage: `url(${getAssetName(
                             "/assets/images/pec_chowk.jpeg"
-                        ),
+                        )})`,
+                        height: "80vh",
+                        width: "100%",
+                        backgroundPosition: "center",
+                        backgroundSize: "cover"
                     }}
                 >
                     <div className={styles.hero_box}>

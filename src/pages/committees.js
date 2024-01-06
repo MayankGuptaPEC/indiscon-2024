@@ -20,7 +20,7 @@ function Committees() {
                                 {COMMITTEE[key].map((head, i) => {
                                     const image =
                                         head.image_url.length != 0
-                                            ? head.image_url
+                                            ? getAssetName(head.image_url)
                                             : getAssetName("/assets/logos/ieee-logo.png");
                                     return (
                                         <div className={styles.card} key={i}>
