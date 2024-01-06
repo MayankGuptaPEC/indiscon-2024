@@ -7,6 +7,12 @@
 }
 
 .logo_wrapper {
+    div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        // width: 50%;
+    }
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -162,6 +168,13 @@
     }
 }
 
+@media screen and (max-width: 1300px) {
+    
+    .logo_wrapper img {
+        height: 60px;
+    }
+}
+
 @media screen and (max-width: $navbar-breakpoint) {
     .navbar {
         // box-shadow: none;
@@ -170,18 +183,22 @@
     }
 
     .logo_wrapper img {
-        height: 50px;
+        height: 40px;
     }
 }
 
-@media screen and (max-width: 500px) {
-    .logo_wrapper img {
-        height: 40px;
+@media screen and (max-width: 600px) {
+    .logo_wrapper {
+        flex-wrap: wrap;
+        div {
+            width: 100%;
+            justify-content: center;
+        }
     }
 }
 
 @media screen and (max-width: 370px) {
     .logo_wrapper img {
-        height: 30px;
+        height: 20px;
     }
 }

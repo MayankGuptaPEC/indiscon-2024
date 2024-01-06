@@ -67,7 +67,7 @@ export default function Home() {
                 <div className={styles.banner}>
                     <div className={styles.register}>
                         <h3>Submit your paper</h3>
-                        <a href="https://cmt3.research.microsoft.com/MIND2023/">
+                        <a href="https://cmt3.research.microsoft.com/INDISCON2024/">
                             <button>Microsoft CMT</button>
                         </a>
                     </div>

@@ -22,16 +22,24 @@ function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.logo_wrapper}>
-                <img
-                    src="/assets/logos/indiscon-new-logo-withoutbg.png"
-                    alt="indiscon 2024"
-                />
-                <img src="/assets/logos/ieee-delhi-section.png" alt="indiscon 2024" />
-                <img src="/assets/logos/ieee-india.png" alt="indiscon 2024" />
-                <img
-                    src="/assets/logos/pec.png"
-                    alt="indiscon 2024"
-                />
+                <div>
+                    <img
+                        src="/assets/logos/indiscon-new-logo-withoutbg.png"
+                        alt="indiscon 2024"
+                    />
+                    <img
+                        src="/assets/logos/ieee-delhi-section.png"
+                        alt="indiscon 2024"
+                    />
+                </div>
+
+                <div>
+                    <img
+                        src="/assets/logos/ieee-india.png"
+                        alt="indiscon 2024"
+                    />
+                    <img src="/assets/logos/pec.png" alt="indiscon 2024" />
+                </div>
             </div>
             <nav className={styles.navbar}>
                 <div className={styles.list_items_wrapper}>

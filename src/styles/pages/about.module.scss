@@ -54,6 +54,12 @@
     .description {
         width: 100%;
     }
+
+    .about {
+        .img_wrapper {
+            display: none;
+        }
+    }
 }
 
 .spacer {
@@ -81,6 +87,11 @@
             color: $acm-primary;
         }
     }
+}
+
+.link {
+    // text-decoration: underline;
+    color: $acm-primary;
 }
 
 .college_heading {
