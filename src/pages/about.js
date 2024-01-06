@@ -7,29 +7,42 @@ function About() {
     return (
         <PageLayout title={"About Indiscon 2024 | Punjab Engineering College"}>
             <h1 className={styles.heading}>About us</h1>
-            <div className={styles.description}>
-                <p className={styles.about_text}>
-                    <span className={styles.emphasize}>INDISCON</span> is a
-                    flagship annual international conference of the IEEE India
-                    Council organized by an IEEE Subsection in INDIA. INDISCON
-                    2024 scheduled during{" "}
-                    <span className={styles.emphasize}>August 22-24, 2024</span>
-                    , is being organized by IEEE Chandigarh Subsection along
-                    with IEEE India Council and IEEE Delhi Section. The
-                    conference will be hosted by{" "}
-                    <span className={styles.emphasize}>
-                        {" "}
-                        Punjab Engineeing College (Deemed to be University),
-                        Chandigarh
-                    </span>
-                    . The conference aims to provide an interdisciplinary
-                    platform for the academicians, researchers, industry
-                    professionals and research scholars to exchange and share
-                    their knowledge, experience & research.
-                </p>
-                <a href="https://ieeexplore.ieee.org/xpl/conhome/1839985/all-proceedings">
-                    Previous versions of the conference <FaExternalLinkAlt />{" "}
-                </a>
+            <div className={styles.about}>
+                <div className={styles.description}>
+                    <p className={styles.about_text}>
+                        <span className={styles.emphasize}>INDISCON</span> is a
+                        flagship annual international conference of the IEEE
+                        India Council organized by an IEEE Subsection in INDIA.
+                        INDISCON 2024 scheduled during{" "}
+                        <span className={styles.emphasize}>
+                            August 22-24, 2024
+                        </span>
+                        , is being organized by IEEE Chandigarh Subsection along
+                        with IEEE India Council and IEEE Delhi Section. The
+                        conference will be hosted by{" "}
+                        <span className={styles.emphasize}>
+                            {" "}
+                            Punjab Engineeing College (Deemed to be University),
+                            Chandigarh
+                        </span>
+                        . The conference aims to provide an interdisciplinary
+                        platform for the academicians, researchers, industry
+                        professionals and research scholars to exchange and
+                        share their knowledge, experience & research.
+                    </p>
+                    <a href="https://ieeexplore.ieee.org/xpl/conhome/1839985/all-proceedings">
+                        Previous versions of the conference{" "}
+                        <FaExternalLinkAlt />{" "}
+                    </a>
+                </div>
+
+                <div className={styles.img_wrapper}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                        src="/assets/logos/indiscon-new-logo-withoutbg.png"
+                        alt="indiscon 2024"
+                    />
+                </div>
             </div>
 
             <div className={styles.spacer} />

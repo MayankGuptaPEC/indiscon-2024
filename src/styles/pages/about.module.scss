@@ -1,22 +1,39 @@
 @import "../variables.scss";
 
 .heading {
-    font-size: 36px;
-    margin: 20px 0;
+    text-align: center;
+    color: $acm-primary;
     position: relative;
+    margin: 20px 0;
+    margin-bottom: 40px;
 
     &::after {
         content: "";
         position: absolute;
-        bottom: -10px;
-        left: 0px;
-        // transform: translate(-50%);
-        background: $acm-primary;
         height: 10px;
-        width: 70px;
+        width: 60px;
+        left: 50%;
+        transform: translate(-50%);
+        background: #000;
+        bottom: -20px;
     }
 }
 
+.about {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    .img_wrapper {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 80%;
+        }
+    }
+}
 .description {
     width: 60%;
 
@@ -71,13 +88,14 @@
     margin: 20px 0;
     position: relative;
     text-align: right;
+    text-align: center;
 
     &::after {
         content: "";
         position: absolute;
         bottom: -15px;
-        right: 0px;
-        // transform: translate(-50%);
+        right: 50%;
+        transform: translate(50%);
         background: $acm-primary;
         height: 10px;
         width: 70px;
