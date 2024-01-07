@@ -7,9 +7,9 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: isProd ? "/indiscon-2024" : "",
+    basePath: isProd ? "/ieeconf" : "",
     assetPrefix: isProd
-        ? "/indiscon-2024"
+        ? "/ieeconf"
         : undefined,
 };
 
