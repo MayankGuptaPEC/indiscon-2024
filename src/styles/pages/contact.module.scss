@@ -48,3 +48,14 @@
         }
     }
 }
+
+
+@media screen and (max-width: $laptop-breakpoint) {
+    .wrapper {
+        flex-direction: column;
+        .map {
+            width: 100%;
+            margin: 20px 0;
+        }
+    }
+}
