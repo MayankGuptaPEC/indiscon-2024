@@ -2,9 +2,9 @@ import styles from "@/styles/Home.module.scss";
 import PageLayout from "@/components/layout/PageLayout";
 import Marquee from "react-fast-marquee";
 import { getAssetName } from "@/util/githubPagesImagesUtil";
+import { ANNOUNCEMENTS } from "@/data/marquee";
 
 export default function Home() {
-    console.log(process.env.NODE_ENV);
     return (
         <>
             <PageLayout
@@ -14,11 +14,9 @@ export default function Home() {
                 }
             >
                 <Marquee className={styles.marquee_container}>
-                    <p className={styles.marquee}>
-                        INDISCON 2024 website is not live, Important
-                        announcements will be shown here!
-                    </p>
-                    <p className={styles.marquee}>Another announcement!</p>
+                    {ANNOUNCEMENTS.map((an, i) => (
+                        <p key={i} className={styles.marquee}>{an}</p>
+                    ))}
                 </Marquee>
                 <main
                     className={styles.main}
@@ -29,7 +27,7 @@ export default function Home() {
                         height: "80vh",
                         width: "100%",
                         backgroundPosition: "center",
-                        backgroundSize: "cover"
+                        backgroundSize: "cover",
                     }}
                 >
                     <div className={styles.hero_box}>
