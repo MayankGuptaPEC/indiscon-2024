@@ -7,10 +7,10 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: isProd ? "/ieeconf" : "",
-    assetPrefix: isProd
-        ? "/ieeconf"
-        : undefined,
+    // basePath: isProd ? "/indiscon-2024" : "",
+    // assetPrefix: isProd
+    //     ? "/ieeconf"
+    //     : undefined,
 };
 
 module.exports = nextConfig;
