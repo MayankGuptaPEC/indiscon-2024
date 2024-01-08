@@ -66,19 +66,19 @@ function Sponsorship() {
                     <TableBody>
                         <TableRow hover>
                             <TableCell>Title Sponsors</TableCell>
-                            <TableCell>INR 5,00,000</TableCell>
-                        </TableRow>
-                        <TableRow hover>
-                            <TableCell>Platinum Sponsors</TableCell>
                             <TableCell>INR 3,00,000</TableCell>
                         </TableRow>
                         <TableRow hover>
+                            <TableCell>Platinum Sponsors</TableCell>
+                            <TableCell>INR 2,00,000</TableCell>
+                        </TableRow>
+                        <TableRow hover>
                             <TableCell>Gold Sponsors</TableCell>
-                            <TableCell>INR 1,00,000</TableCell>
+                            <TableCell>INR 1,25,000</TableCell>
                         </TableRow>
                         <TableRow hover>
                             <TableCell>Silver Sponsors</TableCell>
-                            <TableCell>INR 50,000</TableCell>
+                            <TableCell>INR 75,000</TableCell>
                         </TableRow>
                         <TableRow hover>
                             <TableCell>Academic Partners</TableCell>
@@ -95,7 +95,7 @@ function Sponsorship() {
             <div className={styles.sponsor_class}>
                 <h3>Title sponsors</h3>
                 <p>
-                    Sponsorship amount: <span>Rs. 5,00,000/-</span>
+                    Sponsorship amount: <span>Rs. 3,00,000/-</span>
                 </p>
 
                 <p>
@@ -110,15 +110,14 @@ function Sponsorship() {
                     Sponsors will be provided space (please mention your
                     requirement at the time of the contract up to 5mx5m) at the
                     very strategic place of the conference venue to showcase
-                    their products. 8 Conference Passes, 8 Gala dinner invite
-                    passes
+                    their products. Compilmentry 5 registrations.
                 </p>
             </div>
 
             <div className={styles.sponsor_class}>
                 <h3>Platinum sponsors</h3>
                 <p>
-                    Sponsorship amount: <span>Rs. 3,00,000/-</span>
+                    Sponsorship amount: <span>Rs. 2,00,000/-</span>
                 </p>
 
                 <p>
@@ -133,17 +132,14 @@ function Sponsorship() {
                     4mX4m) at the very strategic place of the conference venue
                     to showcase their products. Acknowledgement to the sponsors
                     during inaugural welcome/closing event of the conference.
-                    Opportunity to nominate upto 4 participants (Please mention
-                    it in advance during registration period itself) for the
-                    conference under Platinum category of registration. 6
-                    Conference passes, 6 Gala dinner Invite passes
+                    Compilmentry 4 registrations. 
                 </p>
             </div>
 
             <div className={styles.sponsor_class}>
                 <h3>Gold sponsors</h3>
                 <p>
-                    Sponsorship amount: <span>Rs. 1,00,000/-</span>
+                    Sponsorship amount: <span>Rs. 1,25,000/-</span>
                 </p>
 
                 <p>
@@ -155,18 +151,14 @@ function Sponsorship() {
                     requirement at the time of the contract upto 4mX4m) at the
                     exhibition venue of the conference to showcase their
                     products. Acknowledgement to the sponsors during inaugural
-                    welcome/closing event of the conference. Opportunity to
-                    nominate 2 participants (Please mention it in advance during
-                    registration period itself) for the conference under Gold
-                    category of registration. 4 Conference pass, 4 Gala dinner
-                    invite pass
+                    welcome/closing event of the conference. Compilmentry 2 registrations.
                 </p>
             </div>
 
             <div className={styles.sponsor_class}>
                 <h3>Silver sponsors</h3>
                 <p>
-                    Sponsorship amount: <span>Rs. 50,000/-</span>
+                    Sponsorship amount: <span>Rs. 75,000/-</span>
                 </p>
 
                 <p>
