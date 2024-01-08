@@ -86,8 +86,8 @@ function CallForPapers() {
             <div className={styles.submission}>
                 <h2>Paper Specifications</h2>
                 <div className={styles.submission_details}>
-                    Use our template to meet formatting requirements below. Your
-                    paper must comply with the following specifications:
+                    Use IEEE template to meet formatting requirements. Your
+                    paper must comply with the following:
                     <ul>
                         <li>
                             <FaArrowRight /> Paper Length: Maximum 6 pages
@@ -126,8 +126,8 @@ function CallForPapers() {
             <div className={styles.submission}>
                 <h2>Final Submission Procedure</h2>
                 <div className={styles.submission_details}>
-                    Use our template to meet formatting requirements below. Your
-                    paper must comply with the following specifications:
+                    Use IEEE template to meet formatting requirements. Your
+                    paper must comply with the following:
                     <ul>
                         <li>
                             <FaArrowRight /> Pay for conference registration
@@ -149,9 +149,8 @@ function CallForPapers() {
                             format using our templates
                         </li>
                         <li>
-                            <FaArrowRight /> MANDATORY: Make sure your PDF file
-                            meets IEEE Xplore compliance by following the
-                            instructions on the PDF Express page.
+                            <FaArrowRight /> MANDATORY: Make sure your PDF file meets IEEE Xplore compliance 
+                                by following the instructions on the PDF Express page. IEEE Xplore link will be provided later.
                         </li>
                         <li>
                             <FaArrowRight /> Log in using the same username and
