@@ -89,7 +89,7 @@ function ImportantDates() {
                                     background: "rgba(48, 111, 160, 0.2)",
                                     backdropFilter: "blur( 8px )",
                                     boxShadow:
-                                        "0 8px 32px 0 rgba( 0, 0, 0, 0.18 );",
+                                        "0 8px 32px 0 rgba( 0, 0, 0, 0.18 )",
                                     borderRadius: "10px",
                                     border: "1px solid rgba( 255, 255, 255, 0.18 )",
                                     position: "relative",
@@ -99,7 +99,7 @@ function ImportantDates() {
                                     borderRight: "7px solid  rgb(33, 150, 243)",
                                 }}
                                 date={event.date}
-                                dateClassName="text-white"
+                                dateClassName={styles.date}
                                 iconStyle={{
                                     background: "rgb(2,36,61,0.3)",
                                     color: "#fff",
@@ -107,12 +107,9 @@ function ImportantDates() {
                                 }}
                                 icon={event.icon}
                             >
-                                <h3 className="vertical-timeline-element-title font-bold text-[20px] underline decoration-gray-400 decoration-4 break-words">
+                                <h3 className={styles.description}>
                                     {event.title}
                                 </h3>
-                                {/* <p className="font-extralight">
-                                    {event.description}
-                                </p> */}
                             </VerticalTimelineElement>
                         );
                     })}
