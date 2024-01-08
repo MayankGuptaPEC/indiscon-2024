@@ -14,19 +14,19 @@ import styles from "@/styles/pages/importantdates.module.scss";
 const events = [
     {
         title: "Call for papers",
-        date: "January 01, 2024",
+        date: "January 15, 2024",
         description: "",
         icon: <AiOutlineForm />,
     },
     {
         title: "Call for tutorials and workshop proposals",
-        date: "January 01, 2024",
+        date: "January 15, 2024",
         description: "",
         icon: <Handshake />,
     },
     {
         title: "Last date of submission for regular papers",
-        date: "March 15, 2024",
+        date: "March 31, 2024",
         description: "",
         icon: <LaptopMac />,
     },
