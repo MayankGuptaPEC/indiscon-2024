@@ -349,7 +349,7 @@ export const COMMITTEE = {
         {
             "name": "Prof. Bhavesh Kumar R Bhalja",
             "designation": "Indian Institute of Technology, Roorkee",
-            "image_url": "/assets/committee/Dr. Jeevanand S.jpg",
+            "image_url": "/assets/committee/Prof. Bhavesh Kumar R Bhalja",
             "position": "Technical Track 1"
         },
         {
