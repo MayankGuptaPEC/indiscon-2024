@@ -47,7 +47,7 @@ function Header() {
                 </div>
                 <div>
                     <img
-                        src={getAssetName("/assets/logos/pec-logo2.png")}
+                        src={getAssetName("/assets/logos/pec-logo2.jpg")}
                         alt="indiscon 2024"
                     />
                 </div>
