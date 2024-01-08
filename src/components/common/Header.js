@@ -23,25 +23,31 @@ function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.logo_wrapper}>
+    <div className={styles.logo_wrapper}>
     <div className={styles.logo_container}>
         <img
             src={getAssetName("/assets/logos/indiscon-new-conf-logo.png")}
             alt="indiscon 2024"
+            className={styles.logo}
         />
         <img
             src={getAssetName("/assets/logos/ieee-india.png")}
             alt="indiscon 2024"
+            className={styles.logo}
         />
         <img
             src={getAssetName("/assets/logos/ieee-delhi-section.png")}
             alt="indiscon 2024"
+            className={styles.logo}
         />
         <img
             src={getAssetName("/assets/logos/pec-logo2.jpg")}
             alt="indiscon 2024"
+            className={styles.logo}
         />
     </div>
 </div>
+
             <nav className={styles.navbar}>
                 <div className={styles.list_items_wrapper}>
                     {!menuOpen ? (
