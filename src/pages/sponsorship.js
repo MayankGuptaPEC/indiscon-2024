@@ -95,7 +95,7 @@ function Sponsorship() {
             <div className={styles.sponsor_class}>
                 <h3>Title sponsors</h3>
                 <p>
-                    Contribution: <span>Rs. 5,00,000/-</span>
+                    Sponsorship amount: <span>Rs. 5,00,000/-</span>
                 </p>
 
                 <p>
@@ -118,7 +118,7 @@ function Sponsorship() {
             <div className={styles.sponsor_class}>
                 <h3>Platinum sponsors</h3>
                 <p>
-                    Contribution: <span>Rs. 3,00,000/-</span>
+                    Sponsorship amount: <span>Rs. 3,00,000/-</span>
                 </p>
 
                 <p>
@@ -143,7 +143,7 @@ function Sponsorship() {
             <div className={styles.sponsor_class}>
                 <h3>Gold sponsors</h3>
                 <p>
-                    Contribution: <span>Rs. 1,00,000/-</span>
+                    Sponsorship amount: <span>Rs. 1,00,000/-</span>
                 </p>
 
                 <p>
@@ -166,7 +166,7 @@ function Sponsorship() {
             <div className={styles.sponsor_class}>
                 <h3>Silver sponsors</h3>
                 <p>
-                    Contribution: <span>Rs. 50,000/-</span>
+                    Sponsorship amount: <span>Rs. 50,000/-</span>
                 </p>
 
                 <p>
@@ -181,7 +181,7 @@ function Sponsorship() {
             <div className={styles.sponsor_class}>
                 <h3>Academic Partners</h3>
                 <p>
-                    Contribution: <span>Rs. 50,000/-</span>
+                    Sponsorship amount: <span>Rs. 50,000/-</span>
                 </p>
 
                 <p>
