@@ -26,10 +26,18 @@ function Header() {
                 <div>
                     <img
                         src={getAssetName(
-                            "/assets/logos/indiscon-new-logo-withoutbg.png"
+                            "/assets/logos/indiscon-new-conf-logo.png"
                         )}
                         alt="indiscon 2024"
                     />
+                </div>
+                <div>
+                    <img
+                        src={getAssetName("/assets/logos/ieee-india.png")}
+                        alt="indiscon 2024"
+                    />
+                </div>
+                <div>
                     <img
                         src={getAssetName(
                             "/assets/logos/ieee-delhi-section.png"
@@ -37,14 +45,9 @@ function Header() {
                         alt="indiscon 2024"
                     />
                 </div>
-
                 <div>
                     <img
-                        src={getAssetName("/assets/logos/ieee-india.png")}
-                        alt="indiscon 2024"
-                    />
-                    <img
-                        src={getAssetName("/assets/logos/pec.png")}
+                        src={getAssetName("/assets/logos/pec-logo2.png")}
                         alt="indiscon 2024"
                     />
                 </div>
