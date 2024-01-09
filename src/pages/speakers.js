@@ -1,10 +1,39 @@
 import PageLayout from "@/components/layout/PageLayout";
 import React from "react";
 import styles from "@/styles/pages/speakers.module.scss";
+import { SPEAKERS } from "@/data/speakers";
+
 function Speakers() {
     return (
         <PageLayout title={"Speakers | Indiscon'24"}>
             <h1 className={styles.heading}>Speakers</h1>
+
+            <div className={styles.heads}>
+                <div className={styles.cards}>
+                    {SPEAKERS.map((head, i) => {
+                        return (
+                            <div className={`${styles.card}`} key={i}>
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img
+                                    height={200}
+                                    width={200}
+                                    src={head.image}
+                                    alt={head.name}
+                                />
+                                <p className={styles.name}>{head.name}</p>
+                                <p>{head.designation}</p>
+                                <a
+                                    href={head.link}
+                                    target="_blank"
+                                    referrerPolicy="no-referrer"
+                                >
+                                    More Info
+                                </a>
+                            </div>
+                        );
+                    })}
+                </div>
+            </div>
         </PageLayout>
     );
 }
