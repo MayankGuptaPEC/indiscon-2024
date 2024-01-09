@@ -71,7 +71,7 @@ function About() {
                         share their knowledge, experience & research.
                     </p>
                     <a href="https://ieeexplore.ieee.org/xpl/conhome/1839985/all-proceedings">
-                        Proceedings of previous versions of the conference{" "}
+                        Proceedings of previous versions of the conference are available here{" "}
                         <FaExternalLinkAlt />{" "}
                     </a>
                 </div>
@@ -79,7 +79,9 @@ function About() {
                 <div className={styles.img_wrapper}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                        src={getAssetName("/assets/logos/indiscon-new-logo-withoutbg.png")}
+                        src={getAssetName(
+                            "/assets/logos/indiscon-new-logo-withoutbg.png"
+                        )}
                         alt="indiscon 2024"
                     />
                 </div>
@@ -134,7 +136,8 @@ function About() {
                                     colSpan={1}
                                     style={{ fontWeight: "400" }}
                                 >
-                                    <a className={styles.link}
+                                    <a
+                                        className={styles.link}
                                         href={data.link}
                                         target="_blank"
                                         referrerPolicy="no-referrer"
@@ -260,7 +263,7 @@ function About() {
                 Punjab Engineering College
             </h1>
             <div className={styles.college_description}>
-                Punjab Engineering College (Deemed to be University) (PEC)
+                Punjab Engineering College (Deemed to be University)
                 having its roots in Lahore as Mugalpura Engineering College
                 since 1921, moved to its present campus in 1953 as PEC
                 affiliated to Panjab University. The institute became Deemed
@@ -272,27 +275,21 @@ function About() {
                 Architecture also. The academic and administrative processes are
                 similar to IITs in the country. The institute governance is
                 through a vibrant Board of Governors, chaired by a renowned
-                industrialist, Sh. Rajinder Gupta. The institute is headed by a
-                Director on 5 years tenure; a position, which is equivalent to
-                Vice Chancellor of Universities. The institute offers 8
+                industrialist, Sh. Rajinder Gupta. The institute offers 8
                 Undergraduate B. Tech. Programmes and 14 Post graduate M. Tech.
                 Programmes in various disciplines of engineering and technology.
                 After becoming University, the institute has also started PhD
                 programme in various disciplines of engineering, science,
-                management, humanities and social sciences. The admission to UG
-                and PG programmes are made through national level examinations
-                namely JEE (Mains) and GATE respectively. There are 9 academic
+                management, humanities and social sciences.  There are 9 academic
                 departments and 2 centers of excellence. The faculty of academic
                 departments and centers is involved in cutting edge research and
                 development works. The institute collaborates very closely with
                 research organisations, industries, alumni and other academic
                 institutions both India and abroad, and has signed MoUs to
-                pursue joint research in niche areas. The students graduating
-                from this institute are placed in highly reputed companies with
-                handsome salary packages. With a history of 100 Years now, the
-                institute has produced a number of alumni who have earned name
-                and fame both for themselves and the institute. For more
-                details, visit{" "}
+                pursue joint research in niche areas. With a history of more
+                than 100 Years now, the institute has produced a number of
+                alumni who have earned name and fame both for themselves and the
+                institute. For more details, visit{" "}
                 <a
                     href="https://pec.ac.in/"
                     target="_blank"

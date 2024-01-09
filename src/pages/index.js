@@ -15,7 +15,9 @@ export default function Home() {
             >
                 <Marquee className={styles.marquee_container}>
                     {ANNOUNCEMENTS.map((an, i) => (
-                        <p key={i} className={styles.marquee}>{an}</p>
+                        <p key={i} className={styles.marquee}>
+                            {an}
+                        </p>
                     ))}
                 </Marquee>
                 <main
@@ -57,6 +59,7 @@ export default function Home() {
                                     university), Sector 12, Chandigarh
                                 </p>
                             </div>
+                            <h2>Theme- Science, Technology and Society</h2>
                         </div>
                     </div>
                 </main>

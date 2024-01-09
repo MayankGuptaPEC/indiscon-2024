@@ -106,12 +106,12 @@ const headerItems = [
         name: "Home",
     },
     {
-        href: "/important-dates",
-        name: "Important Dates",
-    },
-    {
         href: "/about",
         name: "About us",
+    },
+    {
+        href: "/important-dates",
+        name: "Important Dates",
     },
     {
         href: "/committees",
@@ -139,7 +139,7 @@ const headerItems = [
     },
     {
         href: "/fellowship",
-        name: "Fellowship",
+        name: "Awards/Grants",
     },
     {
         href: "/contact",

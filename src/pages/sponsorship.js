@@ -66,22 +66,26 @@ function Sponsorship() {
                     <TableBody>
                         <TableRow hover>
                             <TableCell>Title Sponsors</TableCell>
-                            <TableCell>INR 3,00,000</TableCell>
+                            <TableCell>INR 5,00,000</TableCell>
                         </TableRow>
                         <TableRow hover>
                             <TableCell>Platinum Sponsors</TableCell>
-                            <TableCell>INR 2,00,000</TableCell>
+                            <TableCell>INR 3,00,000</TableCell>
                         </TableRow>
                         <TableRow hover>
                             <TableCell>Gold Sponsors</TableCell>
-                            <TableCell>INR 1,25,000</TableCell>
+                            <TableCell>INR 2,00,000</TableCell>
                         </TableRow>
                         <TableRow hover>
                             <TableCell>Silver Sponsors</TableCell>
-                            <TableCell>INR 75,000</TableCell>
+                            <TableCell>INR 1,00,000</TableCell>
                         </TableRow>
                         <TableRow hover>
                             <TableCell>Academic Partners</TableCell>
+                            <TableCell>INR 50,000</TableCell>
+                        </TableRow>
+                        <TableRow hover>
+                            <TableCell>Exhibitors</TableCell>
                             <TableCell>INR 50,000</TableCell>
                         </TableRow>
                     </TableBody>
@@ -95,7 +99,7 @@ function Sponsorship() {
             <div className={styles.sponsor_class}>
                 <h3>Title sponsors</h3>
                 <p>
-                    Sponsorship amount: <span>Rs. 3,00,000/-</span>
+                    Sponsorship amount: <span>Rs. 5,00,000/-</span>
                 </p>
 
                 <p>
@@ -110,14 +114,14 @@ function Sponsorship() {
                     Sponsors will be provided space (please mention your
                     requirement at the time of the contract up to 5mx5m) at the
                     very strategic place of the conference venue to showcase
-                    their products. Compilmentry 5 registrations.
+                    their products. Compilmentry 10 registrations.
                 </p>
             </div>
 
             <div className={styles.sponsor_class}>
                 <h3>Platinum sponsors</h3>
                 <p>
-                    Sponsorship amount: <span>Rs. 2,00,000/-</span>
+                    Sponsorship amount: <span>Rs. 3,00,000/-</span>
                 </p>
 
                 <p>
@@ -132,14 +136,14 @@ function Sponsorship() {
                     4mX4m) at the very strategic place of the conference venue
                     to showcase their products. Acknowledgement to the sponsors
                     during inaugural welcome/closing event of the conference.
-                    Compilmentry 4 registrations. 
+                    Compilmentry 5 registrations.
                 </p>
             </div>
 
             <div className={styles.sponsor_class}>
                 <h3>Gold sponsors</h3>
                 <p>
-                    Sponsorship amount: <span>Rs. 1,25,000/-</span>
+                    Sponsorship amount: <span>Rs. 2,00,000/-</span>
                 </p>
 
                 <p>
@@ -151,22 +155,23 @@ function Sponsorship() {
                     requirement at the time of the contract upto 4mX4m) at the
                     exhibition venue of the conference to showcase their
                     products. Acknowledgement to the sponsors during inaugural
-                    welcome/closing event of the conference. Compilmentry 2 registrations.
+                    welcome/closing event of the conference. Compilmentry 3
+                    registrations.
                 </p>
             </div>
 
             <div className={styles.sponsor_class}>
                 <h3>Silver sponsors</h3>
                 <p>
-                    Sponsorship amount: <span>Rs. 75,000/-</span>
+                    Sponsorship amount: <span>Rs. 1,00,000/-</span>
                 </p>
 
                 <p>
                     Sponsors name will be displayed in the event banner of the
                     conference. Sponsors will be provided space (Please mention
-                    your requirement at the time of the contract upto 4mX4m) at
+                    your requirement at the time of the contract upto 3mX3m) at
                     the exhibition venue of the conference to showcase their
-                    products.
+                    products. Compilmentry 2 registrations.
                 </p>
             </div>
 
@@ -182,8 +187,23 @@ function Sponsorship() {
                     branches exist. Partner name will be displayed in the event
                     banner of the conference. Partner will be provided space
                     (Please mention your requirement at the time of the contract
-                    upto 4mX4m) at the exhibition venue of the conference to
-                    showcase their Activities and Innovations.
+                    upto 3mX3m) at the exhibition venue of the conference to
+                    showcase their Activities and Innovations. Compilmentry 1
+                    registration.
+                </p>
+            </div>
+
+            <div className={styles.sponsor_class}>
+                <h3>Exhibitors</h3>
+                <p>
+                    Sponsorship amount: <span>Rs. 50,000/-</span>
+                </p>
+
+
+                <p>
+                    Exhibitors will be provided space at the exhibition venue of
+                    the conference to showcase their Activities and Innovations.
+                    Compilmentry 1 registration.
                 </p>
             </div>
 
@@ -191,8 +211,9 @@ function Sponsorship() {
                 To secure participation, please write to us at
                 ieeeindiscon2024@gmail.com
             </p>
+            <p></p>
 
-            <h2 className={styles.subheading}>Fellowship/Travel Grants</h2>
+            {/* <h2 className={styles.subheading}>Fellowship/Travel Grants</h2>
             <p
                 style={{
                     textAlign: "justify",
@@ -208,7 +229,7 @@ function Sponsorship() {
                 partial travel of the authors for attending the Conference. The
                 decision regarding this grant will be taken by the Conference
                 Fellowship Committee.
-            </p>
+            </p> */}
         </PageLayout>
     );
 }
