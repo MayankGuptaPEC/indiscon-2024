@@ -38,6 +38,9 @@ function Committees() {
                                                 <p className={styles.post}>
                                                     {head.designation}
                                                 </p>
+                                                <p className={styles.track}>
+                                                    {head.track}
+                                                </p>
                                             </div>
                                         </div>
                                     );

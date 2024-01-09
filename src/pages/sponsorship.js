@@ -41,7 +41,7 @@ function Sponsorship() {
             </p>
 
             <h2 className={styles.subheading}>Sponsoring Packages</h2>
-            <p>
+            <p className={styles.description}>
                 Five categories of sponsorship packages are available to suit
                 your needs at INDISCON 2024. Sponsorship packages offer you a
                 unique and focused way to showcase your service, technology and

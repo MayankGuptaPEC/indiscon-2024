@@ -139,6 +139,10 @@ const headerItems = [
         name: "Venue",
     },
     {
+        href: "/fellowship",
+        name: "Fellowship",
+    },
+    {
         href: "/contact",
         name: "Contact",
     },
