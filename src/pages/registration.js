@@ -205,7 +205,7 @@ function Registration() {
                 </Table>
             </TableContainer>
 
-            <h3>* The registration fee is inclusive of all taxes.</h3>
+            <h3>* The registration fee does not include GST or any other taxes.</h3>
             <p className={styles.note}>
                 Note : Every accepted paper can have up to 6 pages in the final
                 PDF.
@@ -258,9 +258,8 @@ function Registration() {
                             conference.
                         </li>
                         <li>
-                            Please note that the fees shown above are inclusive
-                            of all taxes and levies. Any gateway charges along
-                            with applicable taxes or levies, if any, will have
+                            Please note that the fees shown above are exclusive of all taxes and levies.
+                            Any gateway charges along with applicable taxes or levies, if any, will have
                             to be borne by the registrant.
                         </li>
                         <li>
@@ -289,7 +288,7 @@ function Registration() {
                             Please note that INDISCON 2024, or the organizing
                             institute, represented by the Organizing Committee
                             as well as the IEEE India Council or IEEE Delhi
-                            Section, will not be responsible for any loss,
+                            Section or IEEE Chandigarh Subsection, will not be responsible for any loss,
                             financial or otherwise, caused by improper
                             transactions conducted online. While organizers have
                             taken all reasonable precautions to ensure a safe

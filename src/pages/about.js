@@ -71,7 +71,7 @@ function About() {
                         share their knowledge, experience & research.
                     </p>
                     <a href="https://ieeexplore.ieee.org/xpl/conhome/1839985/all-proceedings">
-                        Previous versions of the conference{" "}
+                        Proceedings of previous versions of the conference{" "}
                         <FaExternalLinkAlt />{" "}
                     </a>
                 </div>
