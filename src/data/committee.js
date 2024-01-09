@@ -2,7 +2,7 @@ export const COMMITTEE = {
     "Executive Steering Committee": [
         {
             "name": "Sh. Deepak Mathur",
-            "designation": "Vice President Elect-MGA, IEEE",
+            "designation": "2024 IEEE Vice President-MGA",
             "image_url": "/assets/committee/sh-deepak-mathur.jpg",
             "position": "Executive Steering Committee"
         },
@@ -14,7 +14,7 @@ export const COMMITTEE = {
         },
         {
             "name": "Dr. Suresh Nair",
-            "designation": "Chair Elect, IEEE India Council",
+            "designation": "Founder and Managing Director, Amara Raja Design Alpha",
             "image_url": "/assets/committee/dr-suresh-nair.jpg",
             "position": "Executive Steering Committee"
         },
@@ -94,13 +94,13 @@ export const COMMITTEE = {
         },
         {
             "name": "Prof. Manish Hooda",
-            "designation": "Head TDD, Semi-Conductor Laboratory, Mohali",
+            "designation": "Semi-Conductor Laboratory, Mohali",
             "image_url": "/assets/committee/prof-manish-kumar-hooda.jpg",
             "position": "General Chairs"
         },
         {
             "name": "Dr. Puneet Mishra",
-            "designation": "Vice Chair IEEE India Council Technical Activities",
+            "designation": "Vice Chair, IEEE India Council Technical Activities",
             "image_url": "/assets/committee/puneet-kumar-mishra.jpeg",
             "position": "General Chairs"
         }
@@ -347,9 +347,9 @@ export const COMMITTEE = {
     ],
     "Technical Track Chairs": [
         {
-            "name": "Dr. Jeevanand S",
-            "designation": "Indian Institute of Technology, Rookee",
-            "image_url": "/assets/committee/Dr. Jeevanand S.jpg",
+            "name": "Prof. Bhavesh Kumar R Bhalja",
+            "designation": "Indian Institute of Technology, Roorkee",
+            "image_url": "/assets/committee/Prof. Bhavesh Kumar R Bhalja.jpg",
             "position": "Technical Track 1"
         },
         {
