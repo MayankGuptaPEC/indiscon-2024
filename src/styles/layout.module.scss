@@ -2,9 +2,8 @@
 
 .layout {
     background: #fff;
-    margin: 0 10%;
-    // height: calc(100vh - 30px);
-    width: 80%;
+    margin: 0 auto;
+    width: 90%;
     display: flex;
     flex-direction: column;
     -ms-overflow-style: none; /* IE and Edge */
@@ -16,8 +15,7 @@
 }
 
 .top_bar {
-    height: 30px;
-    // background-color: #ddd;
+    height: 10px;
     width: 100%;
     border-top: 2px solid $acm-primary;
     padding: 0 10%;

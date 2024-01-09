@@ -1,34 +1,28 @@
 @import "./variables.scss";
 
 .main {
-    height: 80vh;
+    height: 900px;
     width: 100%;
 
     .hero_box {
-        height: 500px;
-        width: 500px;
-        max-height: 70%;
+        width: 100%;
         background-color: rgba($color: #fff, $alpha: 0.8);
-        // background-color: $acm-primary-bg;
-        border-radius: 50px;
 
         color: $acm-primary;
 
         backdrop-filter: blur(4px);
         -webkit-backdrop-filter: blur(4px);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
-        border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 0.18);
         z-index: 4;
-
-        margin-left: 5%;
-        margin-top: 10%;
+        margin-top: 30px;
 
         padding: 20px;
 
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        align-items: center;
 
         p {
             font-size: 14px;
@@ -46,31 +40,81 @@
         .sub_heading {
             font-size: 16px;
         }
+    }
+
+    .venue_details {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        gap: 20px;
+        margin-top: 200px;
+        width: 100%;
+        justify-content: space-evenly;
+        background-color: rgba($color: #fff, $alpha: 0.8);
+        font-weight: 400;
+        padding: 10px 30px;
+        border-radius: 0 20px 20px 0;
+
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        z-index: 4;
+
+        p {
+            font-weight: 500;
+
+            font-size: 20px;
+        }
+
+        .venue {
+            width: 60%;
+        }
+    }
+
+    .theme {
+        background-color: rgba($color: #fff, $alpha: 0.8);
+        text-align: center;
+        margin-top: 250px;
+        font-size: 48px;
+
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        z-index: 4;
+    }
+
+    @media screen and (max-width: $navbar-breakpoint) {
+        .theme {
+            font-size: 36px;
+        }
+    }
+
+    @media screen and (max-width: 850px) {
+        .theme {
+            font-size: 24px;
+        }
 
         .venue_details {
-            display: flex;
-            margin-top: 40px;
-            width: 100%;
-            justify-content: space-between;
-            font-weight: 400;
-
             p {
-                font-weight: 500;
+                font-size: 16px;
             }
 
-            .venue {
-                width: 60%;
+            h3 {
+                font-size: 18px;
             }
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        .venue_details {
+            max-width: 70%;
         }
     }
 
     @media screen and (max-width: 575px) {
         .hero_box {
-            height: 300px;
-            width: 300px;
-
-            margin-left: 5%;
-            margin-top: 30%;
 
             p {
                 font-size: 12px;
@@ -88,6 +132,16 @@
                 margin-top: 1.25rem;
                 text-shadow: #000 1px 0 1px;
             }
+        }
+
+        .venue_details {
+            max-width: 80%;
+        }
+
+        .theme {
+            margin-top: 150px;
+            font-size: 16px;
+            font-weight: 700;
         }
     }
 }
@@ -135,6 +189,14 @@
             align-items: center;
             gap: 20px;
         }
+    }
+
+    .paper_wrapper {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
     }
 
     .register {

@@ -63,7 +63,7 @@ function About() {
                         conference will be hosted by{" "}
                         <span className={styles.emphasize}>
                             {" "}
-                            Punjab Engineeing College (Deemed to be University),
+                            Punjab Engineering College (Deemed to be University),
                             Chandigarh
                         </span>
                         . The conference aims to provide an interdisciplinary

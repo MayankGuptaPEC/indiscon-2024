@@ -25,28 +25,36 @@ function Header() {
             <div className={styles.logo_wrapper}>
                 <div className={styles.logo_container}>
                     <img
-                        src={getAssetName("/assets/logos/indiscon-new-conf-logo.png")}
+                        src={getAssetName(
+                            "/assets/logos/1.png"
+                        )}
                         alt="indiscon 2024"
                         className={styles.logo}
                     />
                     <img
-                        src={getAssetName("/assets/logos/ieee-india.png")}
+                        src={getAssetName("/assets/logos/2.png")}
                         alt="indiscon 2024"
                         className={styles.logo}
                     />
                     <img
-                        src={getAssetName("/assets/logos/ieee-delhi-section.png")}
+                        src={getAssetName(
+                            "/assets/logos/3.png"
+                        )}
                         alt="indiscon 2024"
                         className={styles.logo}
                     />
                     <img
-                        src={getAssetName("/assets/logos/pec-logo2.jpg")}
+                        src={getAssetName("/assets/logos/4.png")}
+                        alt="indiscon 2024"
+                        className={styles.logo}
+                    />
+                    <img
+                        src={getAssetName("/assets/logos/5.png")}
                         alt="indiscon 2024"
                         className={styles.logo}
                     />
                 </div>
-                        </div>
-                        
+            </div>
 
             <nav className={styles.navbar}>
                 <div className={styles.list_items_wrapper}>
@@ -124,6 +132,10 @@ const headerItems = [
     {
         href: "/registration",
         name: "Registration",
+    },
+    {
+        href: "/authors",
+        name: "Authors",
     },
     {
         href: "/sponsorship",

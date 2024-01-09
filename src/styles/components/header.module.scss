@@ -10,19 +10,19 @@
 
 .logo_wrapper {
     display: flex;
-    justify-content: center; /* Optional: to center the row horizontally */
-    align-items: center; /* Optional: to center the row vertically */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .logo_container {
     display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .logo {
-    width: 100%; 
-    height: 100px; 
-    margin: 20px; /* Optional: Add margin between the images */
-    object-fit: cover; /* Optional: Maintain aspect ratio and cover the container */
+    height: 150px; 
 }
 
 .navbar {
@@ -174,7 +174,7 @@
 @media screen and (max-width: 1300px) {
     
     .logo_wrapper img {
-        height: 60px;
+        height: 100px;
     }
 }
 
@@ -186,22 +186,23 @@
     }
 
     .logo_wrapper img {
-        height: 40px;
+        height: 100px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .logo_wrapper {
-        flex-wrap: wrap;
         div {
             width: 100%;
-            justify-content: center;
+        }
+        img {
+            height: 60px;
         }
     }
 }
 
 @media screen and (max-width: 370px) {
     .logo_wrapper img {
-        height: 20px;
+        height: 40px;
     }
 }

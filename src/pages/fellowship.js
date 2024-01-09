@@ -4,7 +4,7 @@ import PageLayout from "@/components/layout/PageLayout";
 
 function fellowship() {
     return (
-        <PageLayout>
+        <PageLayout title={"Fellowship | Indiscon 2024"}>
             <h2 className={styles.heading}>Travel Grants</h2>
             <p
                 style={{
