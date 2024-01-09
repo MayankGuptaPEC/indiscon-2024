@@ -19,10 +19,17 @@ function Contact() {
                 ></iframe>
 
                 <div className={styles.contact_details}>
-                    <p>Secretary Indiscon 2024 </p>
-                    <p> Punjab Engineering College <br></br> (deemed to be university),</p>
+                    <p>General Chair (INDISCON 2024) </p>
+                    <p></p>
+                    <p>
+                        Department of Electronics and Communication Engineering,
+                    </p>
+                    <p> Punjab Engineering College, </p>
+                    <p>(Deemed to be University),</p>
                     <p>Sector 12, Chandigarh, India</p>
-                    <a href="mailto:ieeeindiscon2024@gmail.com">ieeeindiscon2024@gmail.com</a>
+                    <a href="mailto:ieeeindiscon2024@gmail.com">
+                        ieeeindiscon2024@gmail.com
+                    </a>
                 </div>
             </div>
         </PageLayout>

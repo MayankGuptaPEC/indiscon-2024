@@ -205,11 +205,9 @@ function Registration() {
                 </Table>
             </TableContainer>
 
-            <h3>* The registration fee does not include GST or any other taxes.</h3>
-            <p className={styles.note}>
-                Note : Every accepted paper can have up to 6 pages in the final
-                PDF.
-            </p>
+            <h5 style={{marginTop: "10px"}}>
+                * The registration fee does not include GST or any other taxes.
+            </h5>
 
             <div className={styles.rules}>
                 <div className={styles.section}>
@@ -247,10 +245,10 @@ function Registration() {
                         <li>
                             All participants need to be registered to attend the
                             INDISCON 2024 by paying the requisite registration
-                            fees.
+                            fee.
                         </li>
                         <li>
-                            The registration fees include the conference kit,
+                            The registration fee include the conference kit,
                             access/admission to tutorials &amp; technical
                             sessions, lunch on all conference days, morning and
                             evening refreshments, banquet dinner,
@@ -258,8 +256,9 @@ function Registration() {
                             conference.
                         </li>
                         <li>
-                            Please note that the fees shown above are exclusive of all taxes and levies.
-                            Any gateway charges along with applicable taxes or levies, if any, will have
+                            Please note that the fee shown above are exclusive
+                            of all taxes and levies. Any gateway charges along
+                            with applicable taxes or levies, if any, will have
                             to be borne by the registrant.
                         </li>
                         <li>
@@ -288,17 +287,17 @@ function Registration() {
                             Please note that INDISCON 2024, or the organizing
                             institute, represented by the Organizing Committee
                             as well as the IEEE India Council or IEEE Delhi
-                            Section or IEEE Chandigarh Subsection, will not be responsible for any loss,
-                            financial or otherwise, caused by improper
-                            transactions conducted online. While organizers have
-                            taken all reasonable precautions to ensure a safe
-                            online transaction, it is the registrant&apos;s
-                            responsibility, while paying the registration fee,
-                            to secure their user IDs, passwords, Paper ID, etc.{" "}
+                            Section or IEEE Chandigarh Subsection, will not be
+                            responsible for any loss, financial or otherwise,
+                            caused by improper transactions conducted online.
+                            While organizers have taken all reasonable
+                            precautions to ensure a safe online transaction, it
+                            is the registrant&apos;s responsibility, while
+                            paying the registration fee, to secure their user
+                            IDs, passwords, Paper ID, etc.{" "}
                         </li>
                     </ol>
                 </div>
-
                 <div className={styles.section}>
                     <h2 className={styles.section_heading}>No Show Policy</h2>
                     <p className={styles.section_details}>
@@ -309,6 +308,16 @@ function Registration() {
                         IEEE no-show policy.
                     </p>
                 </div>
+                Registration and fee payment for Indian Authors 
+                
+                Steps: Click on
+                the following link for paper registeration and fee payment:
+                To be provided soon
+
+                Note: Download the receipt and deposit a copy at conference
+                venue. For Foreign Authors only:- Deposit the registration fees
+                through NEFT/RTGS/IMPS/Bank Transfer to the below given bank
+                account and send transaction details to iicpe2023@gmail.com :-
             </div>
         </PageLayout>
     );
