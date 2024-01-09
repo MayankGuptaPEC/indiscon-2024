@@ -20,7 +20,7 @@ function Contact() {
 
                 <div className={styles.contact_details}>
                     <p>Secretary Indiscon 2024 </p>
-                    <p> Punjab Engineering College (deemed to be university),</p>
+                    <p> Punjab Engineering College <br></br> (deemed to be university),</p>
                     <p>Sector 12, Chandigarh, India</p>
                     <a href="mailto:ieeeindiscon2024@gmail.com">ieeeindiscon2024@gmail.com</a>
                 </div>

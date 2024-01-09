@@ -373,6 +373,6 @@ export const COMMITTEE = {
             "track": "Technical Track 13"
         }
     ],
-    "International Advisory Council": [],
-    "National Advisory Council": []
+    "International Advisory Committee": [],
+    "National Advisory Committee": []
 }

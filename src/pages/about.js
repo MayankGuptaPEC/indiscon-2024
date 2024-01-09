@@ -14,18 +14,11 @@ import { getAssetName } from "@/util/githubPagesImagesUtil";
 
 const prevEditionData = [
     {
-        name: "IEEE INDISCON 2020",
-        venue: "Gayatri Vidya Parishad College of Engineering, Visakhapatnam",
-        dates: "October 3-4, 2020",
-        theme: "Smart and Sustainable Systems - Decade Ahead",
-        link: "https://ieeexplore.ieee.org/xpl/conhome/9344449/proceeding",
-    },
-    {
-        name: "IEEE INDISCON 2021",
-        venue: "Visvesvaraya National Institute of Technology, Nagpur",
-        dates: "August 27-29, 2021",
-        link: "https://ieeexplore.ieee.org/xpl/conhome/9581282/proceeding",
-        theme: "Impactful innovations for the benefit of industry and society",
+        name: "IEEE INDISCON 2023",
+        venue: "GSSS Institute of Engineering & Technology for Women, Mysuru",
+        dates: "August 5-7, 2023",
+        theme: "Computational Intelligence and Learning Systems",
+        link: "https://ieeexplore.ieee.org/xpl/conhome/10269798/proceeding",
     },
     {
         name: "IEEE INDISCON 2022",
@@ -35,12 +28,20 @@ const prevEditionData = [
         link: "https://ieeexplore.ieee.org/xpl/conhome/9862528/proceeding",
     },
     {
-        name: "IEEE INDISCON 2023",
-        venue: "GSSS Institute of Engineering & Technology for Women, Mysuru",
-        dates: "August 5-7, 2023",
-        theme: "Computational Intelligence and Learning Systems",
-        link: "https://ieeexplore.ieee.org/xpl/conhome/10269798/proceeding",
+        name: "IEEE INDISCON 2021",
+        venue: "Visvesvaraya National Institute of Technology, Nagpur",
+        dates: "August 27-29, 2021",
+        link: "https://ieeexplore.ieee.org/xpl/conhome/9581282/proceeding",
+        theme: "Impactful innovations for the benefit of industry and society",
     },
+    {
+        name: "IEEE INDISCON 2020",
+        venue: "Gayatri Vidya Parishad College of Engineering, Visakhapatnam",
+        dates: "October 3-4, 2020",
+        theme: "Smart and Sustainable Systems - Decade Ahead",
+        link: "https://ieeexplore.ieee.org/xpl/conhome/9344449/proceeding",
+    },
+
 ];
 
 function About() {
@@ -76,13 +77,13 @@ function About() {
                     </a>
                 </div>
 
-                <div className={styles.img_wrapper}>
+                {/* <div className={styles.img_wrapper}> */}
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
+                    {/* <img
                         src={getAssetName("/assets/logos/indiscon-new-logo-withoutbg.png")}
                         alt="indiscon 2024"
                     />
-                </div>
+                </div> */}
             </div>
 
             <div className={styles.spacer} />
