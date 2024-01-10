@@ -189,11 +189,13 @@ export const COMMITTEE = {
             name: "Prof. Balwinder Raj",
             designation: "NIT Jalandhar",
             image_url: "/assets/committee/prof-balwinder-raj.jpg",
+            link: "https://v1.nitj.ac.in/index.php/nitj_cinfo/Faculty/42",
         },
         {
             name: "Prof. Jagdish Kumar",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/prof-jagdish-kumar.jpg",
+            link: 'https://pec.ac.in/ee/faculty/jagdish-kumar',
         },
     ],
     "Industry Track and Interfacing Chairs": [
@@ -201,11 +203,13 @@ export const COMMITTEE = {
             name: "Dr. John Jose",
             designation: "Indian Institute of Technology, Guwahati",
             image_url: "/assets/committee/dr-john-jose.jpg",
+            link: 'https://www.iitg.ac.in/johnjose/',
         },
         {
             name: "Mr. Preet Yadav",
             designation: "NXP Semiconductors Gurgaon, IEEE Delhi Section",
             image_url: "/assets/committee/mr-preet-yadav.jpg",
+            link: 'https://2023.ieee-apscon.org/organizers/preet-yadav/',
         },
     ],
     "Local Arrangement Chairs": [
@@ -213,16 +217,19 @@ export const COMMITTEE = {
             name: "Prof. Y. P. Verma",
             designation: "Punjab University, Chandigarh",
             image_url: "/assets/committee/prof-y.p.-verma.jpg",
+            link: 'https://uiet.puchd.ac.in/wp-content/uploads/FacultyCV/EEE/Y-P-Verma.pdf',
         },
         {
             name: "Dr. Birinderjit Singh",
             designation: "Chandigarh University",
             image_url: "/assets/committee/dr-birinderjit-singh.jpg",
+            link: 'https://www.linkedin.com/in/birinderjit-singh-801348173/?originalSubdomain=in',
         },
         {
             name: "Dr. Gourab Das",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/DR-Gourab-Das.jpg",
+            link: 'https://pec.ac.in/ece/faculty/gourab-das',
         },
     ],
     "Publicity Chairs": [
@@ -230,21 +237,25 @@ export const COMMITTEE = {
             name: "Dr. Nitin Kumar",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/dr-nitin-kumar.jpeg",
+            link: 'https://pec.ac.in/cse/faculty/nitin-kumar',
         },
         {
             name: "Dr. Ruchika Gupta",
             designation: "Chandigarh University",
             image_url: "/assets/committee/dr-ruchika-gupta.jpg",
+            link: 'https://www.linkedin.com/in/ruchika-gupta-55bbb764/?originalSubdomain=in',
         },
         {
             name: "Dr. Deepak Sharma",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/dr-deepak-kumar-sharma.jpeg",
+            link: 'https://pec.ac.in/ece/faculty/deepak-kumar-sharma',
         },
         {
             name: "Mr. Sabarinath Pillai",
             designation: "Secretary, IEEE India Council",
             image_url: "/assets/committee/Mr-Sabarinath-Pillai.webp",
+            link: 'https://www.linkedin.com/in/sabaripillai/?originalSubdomain=in',
         },
     ],
     "Internet and Web Chairs": [
@@ -252,11 +263,13 @@ export const COMMITTEE = {
             name: "Dr. Sudesh Rani",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/Dr-Sudesh-Rani.jpeg",
+            link: 'https://pec.ac.in/cse/faculty/sudesh-rani',
         },
         {
             name: "Dr. Thangaprakash Sengodan",
             designation: "ECIM, IEEE India Council",
             image_url: "/assets/committee/dr-thangaprakash-sengodan.jpg",
+            link: 'https://www.linkedin.com/in/thangaprakash-sengodan-a55b0340/',
         },
     ],
     "Registration Chairs": [
@@ -264,16 +277,19 @@ export const COMMITTEE = {
             name: "Dr. Divya Dhawan",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/dr-divya-dhawan.jpg",
+            link: 'https://pec.ac.in/ece/faculty/divya',
         },
         {
             name: "Dr. Jasbir Kaur",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/dr-jasbir-kaur.jpg",
+            link: 'https://pec.ac.in/ece/faculty/jasbir-kaur',
         },
         {
             name: "Dr. Jaskirat Kaur",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/dr-jaskirat-kaur.jpg",
+            link: 'https://pec.ac.in/ece/faculty/Jaskirat-kaur',
         },
     ],
     "Women in Engineering Chairs": [
@@ -281,16 +297,19 @@ export const COMMITTEE = {
             name: "Dr. Shimil SL",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/dr-Shimi-s-l.jpg",
+            link: 'https://pec.ac.in/ee/faculty/shimi-sl',
         },
         {
             name: "Ms. Yogita Sharma",
             designation: "ISRO, Ahmedabad",
             image_url: "/assets/committee/YogitaSharma.jpeg",
+            link: 'https://www.linkedin.com/in/yogita-sharma-isro/?originalSubdomain=in',
         },
         {
             name: "Dr. Aparna Akula",
             designation: "CSIO Chandigarh",
             image_url: "/assets/committee/dr-aparna-akula.jpg",
+            link: 'https://icsio.csio.res.in/csio.ems/emp_profile.aspx?id=1021',
         },
     ],
     "Technical Track Chairs": [
@@ -299,54 +318,63 @@ export const COMMITTEE = {
             designation: "Indian Institute of Technology, Roorkee",
             image_url: "/assets/committee/Prof. Bhavesh Kumar R Bhalja.jpg",
             track: "Technical Track 1",
+            link: 'https://dtu.irins.org/profile/66973',
         },
         {
             name: "Dr. Arun Kumar Verma",
             designation: "Indian Institute of Technology, Jammu",
             image_url: "/assets/committee/Dr. Arun Kumar Verma.jpg",
             track: "Technical Track 2",
+            link: 'https://www.juit.ac.in/faculty.php?id=155&dep=ece&page=0',
         },
         {
             name: "Dr. Nishant Kumar",
             designation: "Indian Institute of Technology, Jodhpur",
             image_url: "/assets/committee/Dr. Nishant Kumar.jpg",
             track: "Technical Track 3",
+            link: 'https://inst.ac.in/scientist/19-suvankar-chakraverty',
         },
         {
             name: "Dr. Anupam Yadav",
             designation: "NIT Jalandhar",
             image_url: "/assets/committee/Dr. Anupam Yadav.png",
             track: "Technical Track 4",
+            link: 'https://faculty.iitmandi.ac.in/~hitesh/'
         },
         {
             name: "Dr. Shyam Lal",
             designation: "NIT Surathkal",
             image_url: "/assets/committee/Dr. Shyam Lal.jpg",
             track: "Technical Track 5",
+            link: 'http://www.cense.iisc.ac.in/aditya-sadhanala',
         },
         {
             name: "Dr. Nitin Auluck",
             designation: "Indian Institute of Technology, Ropar",
             image_url: "/assets/committee/Dr. Nitin Auluck.jpg",
             track: "Technical Track 6",
+            link: 'https://iitism.irins.org/profile/97523',
         },
         {
             name: "Prof. R. K. Agrawal",
             designation: "Jawaharlal Nehru University, New Delhi",
             image_url: "/assets/committee/Prof. R. K. Agrawal.jpg",
             track: "Technical Track 7",
+            link: 'https://www.jnu.ac.in/content/rka',
         },
         {
             name: "Dr. Ravi Kumar Gangwar",
             designation: "Indian Institute of Technology, (ISM) Dhanbad",
             image_url: "/assets/committee/Dr. Ravi Kumar Gangwar.jpg",
             track: "Technical Track 8",
+            link: 'https://www.iitrpr.ac.in/sites/default/files/Nitin-Auluck-CV_0.pdf',
         },
         {
             name: "Dr. Aditya Sadhanala",
             designation: "IISC, Bangalore",
             image_url: "/assets/committee/Aditya Sadhanala_0.jpg",
             track: "Technical Track 9",
+            link: 'https://ece.nitk.ac.in/faculty/shyam-lal'
         },
         {
             name: "Dr. Hitesh Shrimali",
