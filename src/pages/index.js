@@ -3,7 +3,13 @@ import PageLayout from "@/components/layout/PageLayout";
 import Marquee from "react-fast-marquee";
 import { getAssetName } from "@/util/githubPagesImagesUtil";
 import { ANNOUNCEMENTS } from "@/data/marquee";
-import { Table, TableCell, TableContainer, TableRow } from "@mui/material";
+import {
+    Table,
+    TableBody,
+    TableCell,
+    TableContainer,
+    TableRow,
+} from "@mui/material";
 
 export default function Home() {
     return (
@@ -97,27 +103,34 @@ export default function Home() {
                         }}
                     >
                         <Table>
-                            <TableRow hover>
-                                <TableCell>
-                                    <b>
-                                        Last date of submission of regular
-                                        papers
-                                    </b>{" "}
-                                </TableCell>
-                                <TableCell>May 15, 2024</TableCell>
-                            </TableRow>
-                            <TableRow hover>
-                                <TableCell>
-                                    <b>Last date of Early Bird Registration</b>
-                                </TableCell>
-                                <TableCell> May 31, 2024</TableCell>
-                            </TableRow>
-                            <TableRow hover>
-                                <TableCell>
-                                    <b>Last Date for conference registration</b>{" "}
-                                </TableCell>
-                                <TableCell>June 15, 2024</TableCell>
-                            </TableRow>
+                            <TableBody>
+                                <TableRow hover>
+                                    <TableCell>
+                                        <b>
+                                            Last date of submission of regular
+                                            papers
+                                        </b>{" "}
+                                    </TableCell>
+                                    <TableCell>May 15, 2024</TableCell>
+                                </TableRow>
+                                <TableRow hover>
+                                    <TableCell>
+                                        <b>
+                                            Last date of Early Bird Registration
+                                        </b>
+                                    </TableCell>
+                                    <TableCell> May 31, 2024</TableCell>
+                                </TableRow>
+                                <TableRow hover>
+                                    <TableCell>
+                                        <b>
+                                            Last Date for conference
+                                            registration
+                                        </b>{" "}
+                                    </TableCell>
+                                    <TableCell>June 15, 2024</TableCell>
+                                </TableRow>
+                            </TableBody>
                         </Table>
                     </TableContainer>
 
