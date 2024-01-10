@@ -143,17 +143,17 @@ export const COMMITTEE = {
     "International Liaison Chairs": [
         {
             "name": "Dr. Ghanshyam Singh",
-            "designation": "MNIT Jaipur",
+            "designation": "MNIT, Jaipur",
             "image_url": "/assets/committee/dr-ghanshyam singh.png",
         },
         {
             "name": "Dr. Mohd Tariq",
-            "designation": "AMU Aligarh",
+            "designation": "AMU, Aligarh",
             "image_url": "/assets/committee/dr-mohd-tariq.jpg",
         },
         {
             "name": "Dr. Gaurav Mani Khanal",
-            "designation": "JKLU Jaipur",
+            "designation": "JKLU, Jaipur",
             "image_url": "/assets/committee/dr-gaurav-mani-khanal.jpg",
         }
     ],
@@ -175,11 +175,6 @@ export const COMMITTEE = {
         }
     ],
     "Publication Chairs": [
-        {
-            "name": "Prof. Jawar Singh",
-            "designation": "Indian Institute of Technology, Patna",
-            "image_url": "/assets/committee/prof-jawar-singh.jpg",
-        },
         {
             "name": "Prof. Jawar Singh",
             "designation": "Indian Institute of Technology, Patna",
@@ -211,7 +206,7 @@ export const COMMITTEE = {
     "Local Arrangement Chairs": [
         {
             "name": "Prof. Y. P. Verma",
-            "designation": "Punjab University Chandigarh",
+            "designation": "Punjab University, Chandigarh",
             "image_url": "/assets/committee/prof-y.p.-verma.jpg",
         },
         {
@@ -298,7 +293,7 @@ export const COMMITTEE = {
             "name": "Prof. Bhavesh Kumar R Bhalja",
             "designation": "Indian Institute of Technology, Roorkee",
             "image_url": "/assets/committee/Prof. Bhavesh Kumar R Bhalja.jpg",
-            "position": "Technical Track 1"
+            "track": "Technical Track 1"
         },
         {
             "name": "Dr. Arun Kumar Verma",
