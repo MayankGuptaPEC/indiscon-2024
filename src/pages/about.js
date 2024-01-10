@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PageLayout from "@/components/layout/PageLayout";
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
@@ -41,7 +42,6 @@ const prevEditionData = [
         theme: "Smart and Sustainable Systems - Decade Ahead",
         link: "https://ieeexplore.ieee.org/xpl/conhome/9344449/proceeding",
     },
-
 ];
 
 function About() {
@@ -63,8 +63,8 @@ function About() {
                         conference will be hosted by{" "}
                         <span className={styles.emphasize}>
                             {" "}
-                            Punjab Engineering College (Deemed to be University),
-                            Chandigarh
+                            Punjab Engineering College (Deemed to be
+                            University), Chandigarh
                         </span>
                         . The conference aims to provide an interdisciplinary
                         platform for the academicians, researchers, industry
@@ -72,14 +72,14 @@ function About() {
                         share their knowledge, experience & research.
                     </p>
                     <a href="https://ieeexplore.ieee.org/xpl/conhome/1839985/all-proceedings">
-                        Proceedings of previous versions of the conference are available here{" "}
-                        <FaExternalLinkAlt />{" "}
+                        Proceedings of previous versions of the conference are
+                        available here <FaExternalLinkAlt />{" "}
                     </a>
                 </div>
 
                 {/* <div className={styles.img_wrapper}> */}
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    {/* <img
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                {/* <img
                         src={getAssetName("/assets/logos/indiscon-new-logo-withoutbg.png")}
                     <img
                         src={getAssetName(
@@ -266,33 +266,33 @@ function About() {
                 Punjab Engineering College
             </h1>
             <div className={styles.college_description}>
-                Punjab Engineering College (Deemed to be University)
-                having its roots in Lahore as Mugalpura Engineering College
-                since 1921, moved to its present campus in 1953 as PEC
-                affiliated to Panjab University. The institute became Deemed
-                University in 2003 through a MHRD notification and rechristened
-                as PEC University of Technology in 2009. It is a Grant-in-Aid
-                institution under administration of Union Territory of
-                Chandigarh, Government of India. The institute has a 146 acres
-                sprawling and pious campus and is house of Chandigarh College of
-                Architecture also. The academic and administrative processes are
-                similar to IITs in the country. The institute governance is
-                through a vibrant Board of Governors, chaired by a renowned
-                industrialist, Sh. Rajinder Gupta. The institute offers 8
-                Undergraduate B. Tech. Programmes and 14 Post graduate M. Tech.
-                Programmes in various disciplines of engineering and technology.
-                After becoming University, the institute has also started PhD
-                programme in various disciplines of engineering, science,
-                management, humanities and social sciences.  There are 9 academic
-                departments and 2 centers of excellence. The faculty of academic
-                departments and centers is involved in cutting edge research and
-                development works. The institute collaborates very closely with
-                research organisations, industries, alumni and other academic
-                institutions both India and abroad, and has signed MoUs to
-                pursue joint research in niche areas. With a history of more
-                than 100 Years now, the institute has produced a number of
-                alumni who have earned name and fame both for themselves and the
-                institute. For more details, visit{" "}
+                Punjab Engineering College (Deemed to be University) having its
+                roots in Lahore as Mugalpura Engineering College since 1921,
+                moved to its present campus in 1953 as PEC affiliated to Panjab
+                University. The institute became Deemed University in 2003
+                through a MHRD notification and rechristened as PEC University
+                of Technology in 2009. It is a Grant-in-Aid institution under
+                administration of Union Territory of Chandigarh, Government of
+                India. The institute has a 146 acres sprawling and pious campus
+                and is house of Chandigarh College of Architecture also. The
+                academic and administrative processes are similar to IITs in the
+                country. The institute governance is through a vibrant Board of
+                Governors, chaired by a renowned industrialist, Sh. Rajinder
+                Gupta. The institute offers 8 Undergraduate B. Tech. Programmes
+                and 14 Post graduate M. Tech. Programmes in various disciplines
+                of engineering and technology. After becoming University, the
+                institute has also started PhD programme in various disciplines
+                of engineering, science, management, humanities and social
+                sciences. There are 9 academic departments and 2 centers of
+                excellence. The faculty of academic departments and centers is
+                involved in cutting edge research and development works. The
+                institute collaborates very closely with research organisations,
+                industries, alumni and other academic institutions both India
+                and abroad, and has signed MoUs to pursue joint research in
+                niche areas. With a history of more than 100 Years now, the
+                institute has produced a number of alumni who have earned name
+                and fame both for themselves and the institute. For more
+                details, visit{" "}
                 <a
                     href="https://pec.ac.in/"
                     target="_blank"
@@ -303,6 +303,28 @@ function About() {
                 of the institute.
             </div>
             <div className={styles.spacer} />
+
+            <div className={styles.college_photos}>
+                <img
+                    src={getAssetName("/assets/images/college/helicopter.jpeg")}
+                    alt="Helicopter PEC"
+                />
+                <img
+                    src={getAssetName("/assets/images/college/chowk.jpeg")}
+                    alt="Helicopter PEC"
+                />
+            </div>
+
+            <div className={styles.college_photos}>
+                <img
+                    src={getAssetName("/assets/images/college/century.jpeg")}
+                    alt="Helicopter PEC"
+                />
+                <img
+                    src={getAssetName("/assets/images/college/audi.jpeg")}
+                    alt="Helicopter PEC"
+                />
+            </div>
         </PageLayout>
     );
 }
