@@ -22,7 +22,7 @@
 }
 
 .logo {
-    height: 150px; 
+    height: 100px; 
 }
 
 .navbar {
@@ -186,7 +186,7 @@
     }
 
     .logo_wrapper img {
-        height: 100px;
+        height: 60px;
     }
 }
 
@@ -194,9 +194,10 @@
     .logo_wrapper {
         div {
             width: 100%;
+            flex-wrap: wrap;
         }
         img {
-            height: 60px;
+            height: 40px;
         }
     }
 }

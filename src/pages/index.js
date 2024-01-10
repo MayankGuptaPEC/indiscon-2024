@@ -31,7 +31,7 @@ export default function Home() {
                     className={styles.main}
                     style={{
                         backgroundImage: `url(${getAssetName(
-                            "/assets/images/pec_chowk.jpeg"
+                            "/assets/images/college/pec_chowk.png"
                         )})`,
                         // height: "80vh",
                         // width: "100%",
