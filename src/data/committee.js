@@ -4,24 +4,27 @@ export const COMMITTEE = {
             name: "Sh. Deepak Mathur",
             designation: "2024 IEEE Vice President-MGA",
             image_url: "/assets/committee/sh-deepak-mathur.jpg",
-            link: ":dummy",
+            link: "https://tsyp.ieee.tn/speakers/Deepak%20Mathur",
         },
         {
             name: "Prof. Preeti Bajaj",
             designation:
                 "Vice Chair Sustainable Activities, IEEE India Council",
             image_url: "/assets/committee/prof-preti-bajaj.jpg",
+            link: "https://attend.ieee.org/r10htc-2021/dr-preeti-bajaj/",
         },
         {
             name: "Dr. Suresh Nair",
             designation:
                 "Founder and Managing Director, Amara Raja Design Alpha",
             image_url: "/assets/committee/dr-suresh-nair.jpg",
+            link: "https://drsureshnair.com/",
         },
         {
             name: "Prof. M. N. Hoda",
             designation: "Executive Vice Chair, IEEE Delhi Section",
             image_url: "/assets/committee/prof-m-n-hoda.png",
+            link: "http://bvicam.in/director",
         },
     ],
     Patrons: [
@@ -29,11 +32,13 @@ export const COMMITTEE = {
             name: "Prof. Baldev Setia",
             designation: "Director, PEC, Chandigarh",
             image_url: "/assets/committee/prof-baldev-setia.jpeg",
+            link: "https://pec.ac.in/director",
         },
         {
             name: "Prof. Debabrata Das",
             designation: "Chair, IEEE India Council",
             image_url: "/assets/committee/prof-debbrata-das.jpg",
+            link: "https://www.iiitb.ac.in/faculty/debabrata-das/",
         },
     ],
     "Co-Patron": [
@@ -41,11 +46,13 @@ export const COMMITTEE = {
             name: "Prof. Prerna Gaur",
             designation: "Chair Elect, IEEE India Council",
             image_url: "/assets/committee/prof-prerna-gaur.jpeg",
+            link: "http://nsut.ac.in/en/node/547",
         },
         {
             name: "Prof. A. Q. Ansari",
             designation: "Chair, IEEE Delhi Section",
             image_url: "/assets/committee/prof-aq-ansari.jpeg",
+            link: "https://jmi.irins.org/profile/27474",
         },
     ],
     "Honorary Chair": [
@@ -53,28 +60,33 @@ export const COMMITTEE = {
             name: "Prof. Rudra Pratap",
             designation: "Vice Chancellor, Plaksha University, Mohali",
             image_url: "/assets/committee/prof-rudra-pratap.png",
+            link: "http://www.cense.iisc.ac.in/rudra-pratap",
         },
         {
             name: "Prof. Lalit Awasthi",
             designation:
                 "Director, National Institute of Technology, Uttarakhand",
             image_url: "/assets/committee/prof-lalit-kumar-awasthi.png",
+            link: "https://nituk.ac.in/index.php/director",
         },
         {
             name: "Prof. Anupam Shukla",
             designation: "Director, National Institute of Technology, Surat",
             image_url: "/assets/committee/Prof. (Dr.) Anupam Shukla.png",
+            link: "https://www.svnit.ac.in/web/brief-about-director.php",
         },
         {
             name: "Prof. B. K. Panigrahi",
             designation: "Head CART, Indian Institute of Technology, Delhi",
             image_url: "/assets/committee/bk-panigrahi.jpeg",
+            link: "https://ee.iitd.ac.in/faculty-profile/16",
         },
         {
             name: "Mr. B A Sawale",
             designation:
                 "Director General, Central Power Research Institute, Bengaluru",
             image_url: "/assets/committee/mr-b-a-sawale.jpg",
+            link: "https://cpri.res.in/en/director-general",
         },
     ],
     "General Chairs": [
@@ -82,16 +94,19 @@ export const COMMITTEE = {
             name: "Prof. Arun Kumar Singh",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/prof-arun-kumar-singh.jpg",
+            link: "https://pec.ac.in/ece/faculty/arun-kumar-singh",
         },
         {
             name: "Prof. Manish Hooda",
             designation: "Semi-Conductor Laboratory, Mohali",
             image_url: "/assets/committee/prof-manish-kumar-hooda.jpg",
+            link: "https://www.linkedin.com/in/dr-manish-kumar-hooda-10081a24/?originalSubdomain=in",
         },
         {
             name: "Dr. Puneet Mishra",
             designation: "Vice Chair, IEEE India Council Technical Activities",
             image_url: "/assets/committee/puneet-kumar-mishra.jpeg",
+            link: "https://ieee-aess.org/contact/puneet-kumar-mishra",
         },
     ],
     "TPC Chairs": [
@@ -99,16 +114,19 @@ export const COMMITTEE = {
             name: "Prof. Sudeb Das Gupta",
             designation: "Indian Institute of Technology, Roorkee",
             image_url: "/assets/committee/prof-sudeb-dasgupta.jpg",
+            link: "http://ece.iitr.ac.in/sudeb_dasgupta",
         },
         {
             name: "Prof. Narendra S. Chaudhari",
             designation: "Indian Institute of Technology, Indore",
             image_url: "/assets/committee/prof-narendra-chaudhari.jpg",
+            link: "https://iiti.ac.in/people/~narendra/",
         },
         {
             name: "Prof. S. V. Kulkarni",
             designation: "Indian Institute of Technology, Bombay",
             image_url: "/assets/committee/prof-sv-kulkarni.jpg",
+            link: "https://www.ee.iitb.ac.in/wiki/faculty/svk",
         },
     ],
     "TPC Co-Chairs": [
@@ -116,16 +134,19 @@ export const COMMITTEE = {
             name: "Dr. Jyoti Kedia",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/prof-jyoti-kedia.jpg",
+            link: "https://pec.ac.in/ece/faculty/jyoti-kedia",
         },
         {
             name: "Dr. Ajay Kumar",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/prof-ajay-kumar.jpg",
+            link: "https://pec.ac.in/ee/faculty/ajay_kumar",
         },
         {
             name: "Dr. Sandeep Harit",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/prof-sandeep-harit.jpg",
+            link: "https://pec.ac.in/cse/faculty/sandeep-kumar-harit",
         },
     ],
     "Organising Secretary": [
@@ -133,16 +154,19 @@ export const COMMITTEE = {
             name: "Dr. Manohar Singh",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/dr-manohar-singh.jpeg",
+            link: "https://pec.ac.in/ee/faculty/manohar_singh",
         },
         {
             name: "Dr. Simranjit Singh",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/prof-simranjit-singh.jpg",
+            link: "https://pec.ac.in/ece/faculty/simranjit-singh",
         },
         {
             name: "Dr. Padmavati",
             designation: "PEC, Chandigarh",
             image_url: "/assets/committee/dr-padmavati.jpg",
+            link: "https://pec.ac.in/cse/faculty/padmavati",
         },
     ],
     "International Liaison Chairs": [
@@ -150,16 +174,19 @@ export const COMMITTEE = {
             name: "Dr. Ghanshyam Singh",
             designation: "MNIT, Jaipur",
             image_url: "/assets/committee/dr-ghanshyam singh.png",
+            link: "https://mnit.ac.in/dept_ece/profile?fid=RKyJ",
         },
         {
             name: "Dr. Mohd Tariq",
             designation: "AMU, Aligarh",
             image_url: "/assets/committee/dr-mohd-tariq.jpg",
+            link: "https://ieeexplore.ieee.org/author/38030254500",
         },
         {
             name: "Dr. Gaurav Mani Khanal",
             designation: "JKLU, Jaipur",
             image_url: "/assets/committee/dr-gaurav-mani-khanal.jpg",
+            link: "https://www.linkedin.com/in/gauravmanikhanal/?originalSubdomain=in",
         },
     ],
     "Finance Chairs": [
@@ -167,16 +194,19 @@ export const COMMITTEE = {
             name: "Mr. Mayank Gupta",
             designation: "Treasurer, IEEE Chandigarh Subsection",
             image_url: "/assets/committee/mr-mayank-gupta.jpeg",
+            link: "https://pec.ac.in/cse/faculty/mayank-gupta",
         },
         {
             name: "Dr. Sneha Kabra",
             designation: "Joint Secretary, IEEE Delhi Section",
             image_url: "/assets/committee/SnehaKabra.jpeg",
+            link: "https://www.rajgurucollege.com/images/pdf/Departments/Instrumentation/Faculty_Performa_Sneha%20Kabra.pdf",
         },
         {
             name: "Dr. Vijayalata Yellasiri",
             designation: "Treasurer, IEEE India Council",
             image_url: "/assets/committee/VijayalataYellasiri.jpg",
+            link: "https://www.griet.ac.in/profiles/Faculty%20profile-YVL.pdf",
         },
     ],
     "Publication Chairs": [
@@ -184,6 +214,7 @@ export const COMMITTEE = {
             name: "Prof. Jawar Singh",
             designation: "Indian Institute of Technology, Patna",
             image_url: "/assets/committee/prof-jawar-singh.jpg",
+            link: "https://www.iitp.ac.in/index.php/2-uncategorised/191-view-profile-5",
         },
         {
             name: "Prof. Balwinder Raj",
@@ -377,23 +408,23 @@ export const COMMITTEE = {
         {
             name: "Prof. Sánchez Caballero, Samuel",
             designation: "Universitat Politècnica de València, Spain",
-            image_url: "",
+            image_url: "/assets/committee/Samuel S. C.jpeg",
         },
         {
             name: "Prof. Harish Cherukuri",
             designation:
                 "The University of North Carolina at Charlotte Charlotte, NC, USA",
-            image_url: "",
+            image_url: "/assets/committee/cherukuri_harish.jpg",
         },
         {
             name: "Prof. Maanak Gupta",
             designation: "Tennessee Technological University, TN, USA",
-            image_url: "",
+            image_url: "/assets/committee/maank_gupta.jpg",
         },
         {
             name: "Prof. Utkarsh Shrivastava",
             designation: "Western Michigan University, USA",
-            image_url: "",
+            image_url: "/assets/committee/Utkarsh Shrivastava.webp",
         },
         {
             name: "Mr. Edrin Gjoleka",
@@ -403,17 +434,17 @@ export const COMMITTEE = {
         {
             name: "Mr. Ankush Kapoor",
             designation: "Publicis Sapient, Canada",
-            image_url: "",
+            image_url: "/assets/committee/Ankush Kapoor.jpeg",
         },
         {
             name: "Prof. Amer Kotb",
             designation: "Associate Professor, Fayoum University, Egypt",
-            image_url: "",
+            image_url: "/assets/committee/DrAmer Kotb.jpg",
         },
         {
             name: "Prof. G. P. Agrawal",
             designation: "Professor, University of Rochetser, NY, USA",
-            image_url: "",
+            image_url: "/assets/committee/g.p. agrawal.jpg",
         },
         {
             name: "Dr. Gurmeet Singh",
@@ -423,12 +454,12 @@ export const COMMITTEE = {
         {
             name: "Dr. Subhash Singh",
             designation: "Research Scientist, University of Rochester, NY, USA",
-            image_url: "",
+            image_url: "/assets/committee/snigh-subhash-c.jpg",
         },
         {
             name: "Prof. Chanan Singh",
             designation: "Texas A&M, USA",
-            image_url: "",
+            image_url: "/assets/committee/Chanan Singh.jpg",
         },
         {
             name: "Prof Tarlochan Singh Sidhu",
@@ -438,34 +469,34 @@ export const COMMITTEE = {
         {
             name: "Prof Anurag Srivastava",
             designation: "Professor, West Virigina University, USA",
-            image_url: "",
+            image_url: "/assets/committee/AnuragSrivastava-290x290.jpg",
         },
         {
             name: "Sairaj Dhople",
             designation: "University of Minnesota, USA",
-            image_url: "",
+            image_url: "/assets/committee/Dhople Sairaj.jpg",
         },
         {
             name: "Prof. Sukumar Brahma",
             designation: "Clemson University",
-            image_url: "",
+            image_url: "/assets/committee/Brahma, Sukumar.jpg",
         },
         {
             name: "Prof. L. Chen",
             designation: "Professor, McMaster University, Canada",
-            image_url: "",
+            image_url: "/assets/committee/Prof L Chen .jpeg",
         },
     ],
     "National Advisory Committee": [
         {
             name: "Prof. L. K. Awasthi",
             designation: "Director, NIT Uttarakhand",
-            image_url: "",
+            image_url: "/assets/committee/LK Awasthi.png",
         },
         {
             name: "Prof. R. K. Agarwal",
             designation: "JNU New Delhi",
-            image_url: "",
+            image_url: "/assets/committee/rkaggarwal.jpg",
         },
         {
             name: "Prof. Ajay Jaiswal",
@@ -475,22 +506,22 @@ export const COMMITTEE = {
         {
             name: "Prof. Surya Prakash",
             designation: "IIT Indore",
-            image_url: "",
+            image_url: "/assets/committee/surya prakash.jpg",
         },
         {
             name: "Prof. Manish Kumar Goyal",
             designation: "IIT Indore",
-            image_url: "",
+            image_url: "/assets/committee/mkgoyal.jpg",
         },
         {
             name: "Prof. Gurinder Singh Brar",
             designation: "NIT Uttarakhand",
-            image_url: "",
+            image_url: "/assets/committee/gurinder singh brar.jpg",
         },
         {
             name: "Dr. Abhishek Gupta",
             designation: "CSIO Chandigarh",
-            image_url: "",
+            image_url: "/assets/committee/Abhishek Gupta.jpeg",
         },
         {
             name: "Mr. Gaurav Garg",
@@ -500,22 +531,22 @@ export const COMMITTEE = {
         {
             name: "Dr. Sachin Sharma",
             designation: "Software Factory Department, SBI, Chandigarh",
-            image_url: "",
+            image_url: "/assets/committee/Sachin Sharma.jpeg",
         },
         {
             name: "Prof Bhim Singh",
             designation: "IIT Delhi, India",
-            image_url: "",
+            image_url: "/assets/committee/Bhim Singh.jpg",
         },
         {
             name: "Prof Sukumar Misra",
             designation: "India",
-            image_url: "",
+            image_url: "/assets/committee/Sukumar Mishra.jpg",
         },
         {
             name: "Prof N P Phadi",
             designation: "Director NIT Jaipur, India",
-            image_url: "",
+            image_url: "/assets/committee/NP Padhy.jpg",
         },
         {
             name: "Prof Manoj Arora",
@@ -525,17 +556,17 @@ export const COMMITTEE = {
         {
             name: "Prof Laxmidhar Behera",
             designation: "Director, IIT Mandi, India",
-            image_url: "",
+            image_url: "/assets/committee/Laxmidhar Behera.png",
         },
         {
             name: "Prof S C Srivastava",
             designation: "IIT Kanpur, India",
-            image_url: "",
+            image_url: "/assets/committee/suresh-chandra-srivastava.jpg",
         },
         {
             name: "Prof A K Pradhan",
             designation: "IIT Kharagpur, India",
-            image_url: "",
+            image_url: "/assets/committee/Ashok Kumar Pradhan.png",
         },
     ],
 };
