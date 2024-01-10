@@ -20,21 +20,21 @@ export const SPEAKERS = [
     },
     {
         name: "Prof. Li Qian",
-        image: "",
+        image: "/assets/speakers/LiQian45.jpg",
         designation: "Professor, ECE, University of Toronto, Canada",
-        link: "",
+        link: "https://www.ece.utoronto.ca/people/qian-l/",
     },
     {
         name: "Prof. B K Panigrahi",
-        image: "",
+        image: "/assets/speakers/panigrahi.jpeg",
         designation: "Head CART- IIT Delhi, India",
-        link: "",
+        link: "https://ee.iitd.ac.in/faculty-profile/16",
     },
     {
         name: "R. Ahmad Atieh",
-        image: "",
+        image: "/assets/speakers/ahmad.jpeg",
         designation: "VP, Optiwave Pvt. Ltd., Ottawa, Canada",
-        link: "",
+        link: "https://www.linkedin.com/in/dr-ahmad-atieh-a9586a62/?originalSubdomain=ca",
     },
     {
         name: "Mr. Anant Dev Tyagi",
