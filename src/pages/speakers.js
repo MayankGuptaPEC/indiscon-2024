@@ -12,24 +12,32 @@ function Speakers() {
             <div className={styles.heads}>
                 <div className={styles.cards}>
                     {SPEAKERS.map((head, i) => {
+                        const image =
+                            head.image.length != 0
+                                ? getAssetName(head.image)
+                                : getAssetName("/assets/logos/ieee-logo.png");
                         return (
                             <div className={`${styles.card}`} key={i}>
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
                                     height={200}
                                     width={200}
-                                    src={getAssetName(head.image)}
+                                    src={getAssetName(image)}
                                     alt={head.name}
                                 />
                                 <p className={styles.name}>{head.name}</p>
-                                <p className={styles.designation}>{head.designation}</p>
-                                <a
-                                    href={head.link}
-                                    target="_blank"
-                                    referrerPolicy="no-referrer"
-                                >
-                                    More Info
-                                </a>
+                                <p className={styles.designation}>
+                                    {head.designation}
+                                </p>
+                                {head.link ? (
+                                    <a
+                                        href={head.link}
+                                        target="_blank"
+                                        referrerPolicy="no-referrer"
+                                    >
+                                        More Info
+                                    </a>
+                                ) : null}
                             </div>
                         );
                     })}
