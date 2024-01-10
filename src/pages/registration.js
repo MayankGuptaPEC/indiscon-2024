@@ -205,7 +205,7 @@ function Registration() {
                 </Table>
             </TableContainer>
 
-            <h5 style={{marginTop: "10px"}}>
+            <h5 style={{ marginTop: "10px" }}>
                 * The registration fee does not include GST or any other taxes.
             </h5>
 
@@ -308,16 +308,15 @@ function Registration() {
                         IEEE no-show policy.
                     </p>
                 </div>
-                Registration and fee payment for Indian Authors 
-                
-                Steps: Click on
-                the following link for paper registeration and fee payment:
-                To be provided soon
-
+                Registration and fee payment for Indian Authors Steps:
+                <br /> Click on the following link for paper registeration and
+                fee payment: To be provided soon
+                <br />
                 Note: Download the receipt and deposit a copy at conference
                 venue. For Foreign Authors only:- Deposit the registration fees
                 through NEFT/RTGS/IMPS/Bank Transfer to the below given bank
-                account and send transaction details to iicpe2023@gmail.com :-
+                account and send transaction details to
+                ieeeindiscon2024@gmail.com
             </div>
         </PageLayout>
     );
