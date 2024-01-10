@@ -41,7 +41,8 @@
         }
 
         .sub_heading {
-            font-size: 16px;
+            font-size: 20px;
+            text-align: center;
         }
     }
 
@@ -139,6 +140,7 @@
         }
 
         .venue_details {
+            margin-top: 50px;
             max-width: 80%;
         }
 
@@ -184,6 +186,9 @@
     }
 
     .important_dates {
+        h3 {
+            margin: 20px 0;
+        }
         div {
             margin: 20px 0;
             width: 100%;

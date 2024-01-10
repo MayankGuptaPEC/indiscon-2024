@@ -3,6 +3,7 @@ import PageLayout from "@/components/layout/PageLayout";
 import Marquee from "react-fast-marquee";
 import { getAssetName } from "@/util/githubPagesImagesUtil";
 import { ANNOUNCEMENTS } from "@/data/marquee";
+import { Table, TableCell, TableContainer, TableRow } from "@mui/material";
 
 export default function Home() {
     return (
@@ -85,16 +86,44 @@ export default function Home() {
                 </div>
 
                 <div className={styles.banner}>
+                    <div className={styles.important_dates}>
+                        <h3>Important Dates</h3>
+                    </div>
+                    <TableContainer
+                        sx={{
+                            maxWidth: "70%",
+                            margin: "0 auto",
+                            border: "1px solid #eee",
+                        }}
+                    >
+                        <Table>
+                            <TableRow hover>
+                                <TableCell>
+                                    <b>
+                                        Last date of submission of regular
+                                        papers
+                                    </b>{" "}
+                                </TableCell>
+                                <TableCell>May 15, 2024</TableCell>
+                            </TableRow>
+                            <TableRow hover>
+                                <TableCell>
+                                    <b>Last date of Early Bird Registration</b>
+                                </TableCell>
+                                <TableCell> May 31, 2024</TableCell>
+                            </TableRow>
+                            <TableRow hover>
+                                <TableCell>
+                                    <b>Last Date for conference registration</b>{" "}
+                                </TableCell>
+                                <TableCell>June 15, 2024</TableCell>
+                            </TableRow>
+                        </Table>
+                    </TableContainer>
+
+                    <hr className={styles.divider} />
+
                     <div className={styles.paper_wrapper}>
-                        <div className={styles.register}>
-                            <a
-                                href="https://cmt3.research.microsoft.com/INDISCON2024/"
-                                target="_blank"
-                                referrerPolicy="no-referrer"
-                            >
-                                <button>Submit your paper</button>
-                            </a>
-                        </div>
                         <div className={styles.register}>
                             <a
                                 href="/INDISCON.pdf"
@@ -104,21 +133,14 @@ export default function Home() {
                                 <button>Call for Papers</button>
                             </a>
                         </div>
-                    </div>
-                    <hr className={styles.divider} />
-                    <div className={styles.important_dates}>
-                        <h3>Important Dates</h3>
-                        <div>
-                            <li>
-                                <b>Early Bird Registration</b> May 31, 2024
-                            </li>
-                            <li>
-                                <b>Last Date for conference registration</b>{" "}
-                                June 15, 2024
-                            </li>
-                            <li>
-                                <b>Conference Dates</b> August 22-24, 2024
-                            </li>
+                        <div className={styles.register}>
+                            <a
+                                href="https://cmt3.research.microsoft.com/INDISCON2024/"
+                                target="_blank"
+                                referrerPolicy="no-referrer"
+                            >
+                                <button>Submit your paper</button>
+                            </a>
                         </div>
                     </div>
                 </div>
