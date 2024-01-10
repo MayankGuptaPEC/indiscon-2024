@@ -2,6 +2,7 @@ import PageLayout from "@/components/layout/PageLayout";
 import React from "react";
 import styles from "@/styles/pages/speakers.module.scss";
 import { SPEAKERS } from "@/data/speakers";
+import { getAssetName } from "@/util/githubPagesImagesUtil";
 
 function Speakers() {
     return (
@@ -17,7 +18,7 @@ function Speakers() {
                                 <img
                                     height={200}
                                     width={200}
-                                    src={head.image}
+                                    src={getAssetName(head.image)}
                                     alt={head.name}
                                 />
                                 <p className={styles.name}>{head.name}</p>
