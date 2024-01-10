@@ -47,6 +47,9 @@ export default function Home() {
                             }}
                         />
                     </div>
+                    <h2 className={styles.theme}>
+                        Theme- Science, Technology and Society
+                    </h2>
                     <div className={styles.venue_details}>
                         <div className={styles.dates}>
                             <h3>Conference Dates</h3>
@@ -60,9 +63,6 @@ export default function Home() {
                             </p>
                         </div>
                     </div>
-                    <h2 className={styles.theme}>
-                        Theme- Science, Technology and Society
-                    </h2>
                 </main>
 
                 <div className={styles.info}>
