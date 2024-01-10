@@ -516,7 +516,7 @@ export const COMMITTEE = {
         {
             name: "Prof. L. Chen",
             designation: "Professor, McMaster University, Canada",
-            image_url: "/assets/committee/Prof L Chen .jpeg",
+            image_url: "/assets/committee/lchen.png",
             link: "https://www.mcgill.ca/ece/lawrence-r-chen"
         },
     ],

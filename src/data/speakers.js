@@ -13,10 +13,10 @@ export const SPEAKERS = [
         link: "https://didattica.uniroma2.it/docenti/curriculum/3746-Gian-Carlo-Cardarilli/",
     },
     {
-        name: "Prof. Gourav Sharma",
-        image: "",
+        name: "Prof. Gaurav Sharma",
+        image: "/assets/speakers/gaurav.jpg",
         designation: "Professor, ECE, University of Rochester, NY, USA",
-        link: "",
+        link: "https://hajim.rochester.edu/ece/sites/gsharma/",
     },
     {
         name: "Prof. Li Qian",

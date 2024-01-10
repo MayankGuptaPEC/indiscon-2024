@@ -14,7 +14,7 @@ function Committees() {
             <div className={styles.core}>
                 {keys.map((key, i) => {
                     return (
-                        <>
+                        <div key={i}>
                             <h3>{key}</h3>
                             <div className={styles.cards} key={i}>
                                 {COMMITTEE[key].map((head, i) => {
@@ -57,7 +57,7 @@ function Committees() {
                                     );
                                 })}
                             </div>
-                        </>
+                        </div>
                     );
                 })}
             </div>
