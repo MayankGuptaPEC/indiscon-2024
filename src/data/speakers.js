@@ -6,6 +6,12 @@ export const SPEAKERS = [
         link: "https://research.manchester.ac.uk/en/persons/a.song",
     },
     {
+        name: "Mr. Anant Dev Tyagi",
+        designation: "Senior Specialist, R&D function, Ericsson LMI (Ireland)",
+        image: "/assets/speakers/anant.jpg",
+        link: "",
+    },
+    {
         name: "Gian Carlo Cardarilli",
         image: "/assets/speakers/gian.jpeg",
         designation:

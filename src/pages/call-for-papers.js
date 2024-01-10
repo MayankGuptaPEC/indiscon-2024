@@ -1,6 +1,7 @@
 import PageLayout from "@/components/layout/PageLayout";
 import React from "react";
 import styles from "@/styles/pages/call_for_papers.module.scss";
+import { TRACKS } from "@/data/tracks";
 
 function CallForPapers() {
     return (
@@ -60,6 +61,21 @@ function CallForPapers() {
                     Track 13 : Women in Engineering
                 </p>
             </div>
+
+            <h2 className={styles.subheading}>Track Details</h2>
+
+            {TRACKS.map(({ track, topics }, i) => {
+                return (
+                    <div key={i} className={styles.tracks}>
+                        <h3><u>{track}</u></h3>
+                        <ul>
+                            {topics.map((topic, j) => {
+                                return <li key={j}>{topic}</li>;
+                            })}
+                        </ul>
+                    </div>
+                );
+            })}
         </PageLayout>
     );
 }

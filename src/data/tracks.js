@@ -1,6 +1,6 @@
 export const TRACKS = [
     {
-        track: "Track 1: Power and Energy Systems (Modified Title for Track-1)",
+        track: "Track 1: Power and Energy Systems",
         topics: [
             "Power System Protection, Operation & Control",
             "Power Systems Planning",
