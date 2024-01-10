@@ -49,7 +49,7 @@ function Header() {
                         className={styles.logo}
                     />
                     <img
-                        src={getAssetName("/assets/images/pec-logo-new.jpeg")}
+                        src={getAssetName("/assets/logos/5.png")}
                         alt="indiscon 2024"
                         className={styles.logo}
                     />

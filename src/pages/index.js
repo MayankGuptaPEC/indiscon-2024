@@ -10,6 +10,40 @@ import {
     TableContainer,
     TableRow,
 } from "@mui/material";
+import {
+    VerticalTimeline,
+    VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import { LaptopMac } from "@mui/icons-material";
+import { BiTrophy } from "react-icons/bi";
+import "react-vertical-timeline-component/style.min.css";
+
+const events = [
+    {
+        title: "Last date of submission for regular papers",
+        date: "March 31, 2024",
+        description: "",
+        icon: <LaptopMac />,
+    },
+    {
+        title: "Last date for early bird registration",
+        date: "May 31, 2024",
+        description: "",
+        icon: <BiTrophy />,
+    },
+    {
+        title: "Last date for conference registration",
+        date: "June 15, 2024",
+        description: "",
+        icon: <BiTrophy />,
+    },
+    {
+        title: "Conference dates",
+        date: "August 22-24, 2024",
+        description: "",
+        icon: <BiTrophy />,
+    },
+];
 
 export default function Home() {
     return (
@@ -93,9 +127,9 @@ export default function Home() {
 
                 <div className={styles.banner}>
                     <div className={styles.important_dates}>
-                        <h3>Important Dates</h3>
+                        {/* <h3>Important Dates</h3> */}
                     </div>
-                    <TableContainer
+                    {/* <TableContainer
                         sx={{
                             maxWidth: "70%",
                             margin: "0 auto",
@@ -132,7 +166,49 @@ export default function Home() {
                                 </TableRow>
                             </TableBody>
                         </Table>
-                    </TableContainer>
+                    </TableContainer> */}
+
+                    {/* Coz why not a new timeline */}
+
+                    <VerticalTimeline
+                        lineColor="rgb(48, 111, 160)"
+                        animate={false}
+                    >
+                        {events.map((event, i) => {
+                            return (
+                                <VerticalTimelineElement
+                                    key={i}
+                                    className="vertical-timeline-element--work"
+                                    contentStyle={{
+                                        background: "rgba(48, 111, 160, 0.2)",
+                                        backdropFilter: "blur( 8px )",
+                                        boxShadow:
+                                            "0 8px 32px 0 rgba( 0, 0, 0, 0.18 )",
+                                        borderRadius: "10px",
+                                        border: "1px solid rgba( 255, 255, 255, 0.18 )",
+                                        position: "relative",
+                                        zIndex: "0",
+                                    }}
+                                    contentArrowStyle={{
+                                        borderRight:
+                                            "7px solid  rgb(33, 150, 243)",
+                                    }}
+                                    date={event.date}
+                                    dateClassName={styles.date}
+                                    iconStyle={{
+                                        background: "rgb(2,36,61,0.3)",
+                                        color: "#fff",
+                                        backdropFilter: "blur(8px)",
+                                    }}
+                                    icon={event.icon}
+                                >
+                                    <p className={styles.description}>
+                                        {event.title}
+                                    </p>
+                                </VerticalTimelineElement>
+                            );
+                        })}
+                    </VerticalTimeline>
 
                     <hr className={styles.divider} />
 
