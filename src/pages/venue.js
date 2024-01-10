@@ -20,6 +20,20 @@ function Venue() {
                 ease.
             </p>
 
+            <div style={{display: "flex", flexWrap: "wrap"}}>
+                <img
+                    className={styles.image}
+                    src={getAssetName("/assets/images/college/audi.png")}
+                    alt=""
+                />
+
+                <img
+                    className={styles.image}
+                    src={getAssetName("/assets/images/college/nab.jpg")}
+                    alt=""
+                />
+            </div>
+
             <h3 className={styles.subheading}>Ways to reach Chandigarh</h3>
 
             <ol className={styles.routes}>
