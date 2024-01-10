@@ -21,7 +21,9 @@ function Committees() {
                                     const image =
                                         head.image_url.length != 0
                                             ? getAssetName(head.image_url)
-                                            : getAssetName("/assets/logos/ieee-logo.png");
+                                            : getAssetName(
+                                                  "/assets/logos/ieee-logo.png"
+                                              );
                                     return (
                                         <div className={styles.card} key={i}>
                                             {/*  eslint-disable-next-line @next/next/no-img-element */}
@@ -41,6 +43,15 @@ function Committees() {
                                                 <p className={styles.track}>
                                                     {head.track}
                                                 </p>
+                                                {head.link ? (
+                                                    <a href={head.link} style={{
+                                                        color: "rgb(48, 111, 160)",
+                                                        fontSize: "12px",
+                                                        textDecoration: "underline"
+                                                    }}>
+                                                        More Info
+                                                    </a>
+                                                ) : null}
                                             </div>
                                         </div>
                                     );

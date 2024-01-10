@@ -4,6 +4,7 @@ export const COMMITTEE = {
             name: "Sh. Deepak Mathur",
             designation: "2024 IEEE Vice President-MGA",
             image_url: "/assets/committee/sh-deepak-mathur.jpg",
+            link: ":dummy",
         },
         {
             name: "Prof. Preeti Bajaj",
