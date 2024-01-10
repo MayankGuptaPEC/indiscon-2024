@@ -18,6 +18,10 @@ function CallForPapers() {
                 and/or experimental research results in the following tracks:
             </p>
 
+            <a href="/Indiscon.pdf" download className={styles.download_button}>
+                {" "}
+                <button>Click here to download</button>
+            </a>
             <h2 className={styles.subheading}>Technical Tracks</h2>
 
             <div className={styles.technical_tracks}>
@@ -67,7 +71,9 @@ function CallForPapers() {
             {TRACKS.map(({ track, topics }, i) => {
                 return (
                     <div key={i} className={styles.tracks}>
-                        <h3><u>{track}</u></h3>
+                        <h3>
+                            <u>{track}</u>
+                        </h3>
                         <ul>
                             {topics.map((topic, j) => {
                                 return <li key={j}>{topic}</li>;
