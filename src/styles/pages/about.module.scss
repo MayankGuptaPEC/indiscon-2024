@@ -24,18 +24,9 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    .img_wrapper {
-        width: 40%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        img {
-            width: 80%;
-        }
-    }
 }
 .description {
-    width: 60%;
+    // width: 60%;
 
     .about_text {
         text-align: justify;
