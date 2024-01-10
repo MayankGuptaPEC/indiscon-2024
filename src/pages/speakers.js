@@ -22,7 +22,7 @@ function Speakers() {
                                     alt={head.name}
                                 />
                                 <p className={styles.name}>{head.name}</p>
-                                <p>{head.designation}</p>
+                                <p className={styles.designation}>{head.designation}</p>
                                 <a
                                     href={head.link}
                                     target="_blank"
