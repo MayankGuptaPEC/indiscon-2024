@@ -4,6 +4,5 @@ export const BANK_DETAILS = {
     "RTGS/NEFT Code": "HDFC0000674",
     "SWIFT Code": "HDFCINBB",
     "Bank Name": "HDFC Bank Ltd",
-    "Bank Address": "PLOT # 46, DOOR # 23 1st MAIN ROAD, NANGANALLUR CHENNAI 600061 TAMILNADU (INDIA)" 
-
+    "Bank Address": "PLOT # 46, DOOR # 23, 1st MAIN ROAD, NANGANALLUR CHENNAI 600061 TAMILNADU (INDIA)" 
 }

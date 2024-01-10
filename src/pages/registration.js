@@ -7,6 +7,7 @@ import TableCell from "@mui/material/TableCell";
 import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
+import { BANK_DETAILS } from "@/data/bank";
 
 const ieeeColumns = [
     {
@@ -309,14 +310,43 @@ function Registration() {
                     </p>
                 </div>
                 Registration and fee payment for Indian Authors Steps:
-                <br /> Click on the following link for paper registeration and
-                fee payment: To be provided soon
-                <br />
-                Note: Download the receipt and deposit a copy at conference
-                venue. For Foreign Authors only:- Deposit the registration fees
-                through NEFT/RTGS/IMPS/Bank Transfer to the below given bank
-                account and send transaction details to
-                ieeeindiscon2024@gmail.com
+                <p>
+                    Click on the following link for paper registeration and fee
+                    payment: To be provided soon
+                </p>
+                <p style={{ margin: "20px 0", fontWeight: "600" }}>
+                    Note: Download the receipt and deposit a copy at conference
+                    venue.
+                </p>
+                <p>
+                    For Foreign Authors only:- Deposit the registration fees
+                    through NEFT/RTGS/IMPS/Bank Transfer to the below given bank
+                    account and send transaction details to {" "}
+                    <b
+                        style={{
+                            color: "rgb(48, 111, 160)",
+                            textDecoration: "underline",
+                        }}
+                    >
+                        ieeeindiscon2024@gmail.com
+                    </b>
+                </p>
+                <TableContainer sx={{ marginTop: "20px" }}>
+                    <Table>
+                        <TableBody>
+                            {Object.keys(BANK_DETAILS).map((key, i) => {
+                                return (
+                                    <TableRow key={i} hover>
+                                        <TableCell>{key}</TableCell>
+                                        <TableCell>
+                                            {BANK_DETAILS[key]}
+                                        </TableCell>
+                                    </TableRow>
+                                );
+                            })}
+                        </TableBody>
+                    </Table>
+                </TableContainer>
             </div>
         </PageLayout>
     );
