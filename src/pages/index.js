@@ -98,10 +98,9 @@ export default function Home() {
                         </div>
                         <div className={styles.venue}>
                             <h3>Venue</h3>
-                            <p>
-                                Punjab Engineering College (Deemed to be
-                                University), Sector 12, Chandigarh, India
-                            </p>
+                            <p>Punjab Engineering College</p>
+                            <p>(Deemed to be University)</p>
+                            <p> Sector 12, Chandigarh, India</p>
                         </div>
                     </div>
                 </main>

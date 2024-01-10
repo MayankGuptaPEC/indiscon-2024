@@ -34,6 +34,12 @@ function Venue() {
                 />
             </div>
 
+            <img
+                    className={styles.image}
+                    src={getAssetName("/assets/images/college/senate.png")}
+                    alt=""
+                />
+
             <h3 className={styles.subheading}>Ways to reach Chandigarh</h3>
 
             <ol className={styles.routes}>
