@@ -221,7 +221,7 @@ function About() {
                         of Chandigarh, Jammu & Kashmir, Ladakh.
                     </p>{" "}
                     <a
-                        href="https://ieeedelhisac.in/"
+                        href="https://ewh.ieee.org/r10/delhi/"
                         target="_blank"
                         referrerPolicy="no-referrer"
                     >
@@ -251,7 +251,7 @@ function About() {
                         participation of more than 1700 delegates.
                     </p>{" "}
                     <a
-                        href="https://ieeedelhisac.in/"
+                        href="https://ewh.ieee.org/r10/delhi/chandi.html#:~:text=The%20Chandigarh%20Subsection%20of%20IEEE,Committee%20of%20Subsection%20was%20constituted"
                         target="_blank"
                         referrerPolicy="no-referrer"
                     >

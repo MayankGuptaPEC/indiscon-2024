@@ -240,7 +240,7 @@ export const COMMITTEE = {
             name: "Mr. Preet Yadav",
             designation: "NXP Semiconductors Gurgaon, IEEE Delhi Section",
             image_url: "/assets/committee/mr-preet-yadav.jpg",
-            link: "https://2023.ieee-apscon.org/organizers/preet-yadav/",
+            link: "https://www.linkedin.com/in/preet-yadav/?originalSubdomain=in",
         },
     ],
     "Local Arrangement Chairs": [
@@ -370,7 +370,7 @@ export const COMMITTEE = {
             designation: "NIT Jalandhar",
             image_url: "/assets/committee/Dr. Anupam Yadav.png",
             track: "Artificial Intelligence and Data Science",
-            link: "https://faculty.iitmandi.ac.in/~hitesh/",
+            link: "https://v1.nitj.ac.in/index.php/nitj_cinfo/Faculty/186",
         },
         {
             name: "Dr. Shyam Lal",
