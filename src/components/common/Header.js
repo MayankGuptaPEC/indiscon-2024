@@ -147,7 +147,7 @@ const headerItems = [
     },
     {
         href: "/venue",
-        name: "Venue",
+        name: "Venue/Travel",
     },
     {
         href: "/fellowship",

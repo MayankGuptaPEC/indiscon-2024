@@ -2,7 +2,7 @@ export const SPEAKERS = [
     {
         name: "Prof. Aimin Song",
         image: "/assets/speakers/aimin.png",
-        designation: "Professor of Nanoelectronics, EEE - Academic & Research",
+        designation: "Professor of Nanoelectronics, EEE, University of Manchester, Manchester, UK",
         link: "https://research.manchester.ac.uk/en/persons/a.song",
     },
     {
