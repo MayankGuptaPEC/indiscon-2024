@@ -32,7 +32,7 @@ function fellowship() {
                     marginBottom: "20px",
                 }}
             >
-                Best Paper/Poster Award: Best Paper/Poster Awards will be
+                Best Paper/Poster Awards will be
                 presented to author&apos;s whose work represents groundbreaking
                 research. The chairs of each track nominated a set of top papers
                 for the award, and these nominations were reviewed by a
