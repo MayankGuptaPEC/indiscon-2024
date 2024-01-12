@@ -68,6 +68,10 @@ function CallForPapers() {
 
             <h2 className={styles.subheading}>Track Details</h2>
 
+            <p className={styles.paper_track}>
+                    Following are the selected sub-topics &#40;not limited to&#41; under different tracks:
+                </p>
+
             {TRACKS.map(({ track, topics }, i) => {
                 return (
                     <div key={i} className={styles.tracks}>
