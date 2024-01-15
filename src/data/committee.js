@@ -193,6 +193,88 @@ export const COMMITTEE = {
             link: "https://www.mcgill.ca/ece/lawrence-r-chen",
         },
     ],
+    "National Advisory Committee": [
+        {
+            name: "Prof. L. K. Awasthi",
+            designation: "Director, NIT Uttarakhand",
+            image_url: "/assets/committee/LK Awasthi.png",
+        },
+        {
+            name: "Prof. R. K. Agarwal",
+            designation: "JNU New Delhi",
+            image_url: "/assets/committee/rkaggarwal.jpg",
+        },
+        {
+            name: "Prof. Ajay Jaiswal",
+            designation: "Principal, SOL, University of Delhi",
+            image_url: "",
+        },
+        {
+            name: "Prof. Surya Prakash",
+            designation: "IIT Indore",
+            image_url: "/assets/committee/surya prakash.jpg",
+        },
+        {
+            name: "Prof. Manish Kumar Goyal",
+            designation: "IIT Indore",
+            image_url: "/assets/committee/mkgoyal.jpg",
+        },
+        {
+            name: "Prof. Gurinder Singh Brar",
+            designation: "NIT Uttarakhand",
+            image_url: "/assets/committee/gurinder singh brar.jpg",
+        },
+        {
+            name: "Dr. Abhishek Gupta",
+            designation: "CSIO Chandigarh",
+            image_url: "/assets/committee/Abhishek Gupta.jpeg",
+        },
+        {
+            name: "Mr. Gaurav Garg",
+            designation: "H&M Retail, Bangluru",
+            image_url: "",
+        },
+        {
+            name: "Dr. Sachin Sharma",
+            designation: "Software Factory Department, SBI, Chandigarh",
+            image_url: "/assets/committee/Sachin Sharma.jpeg",
+        },
+        {
+            name: "Prof Bhim Singh",
+            designation: "IIT Delhi, India",
+            image_url: "/assets/committee/Bhim Singh.jpg",
+        },
+        {
+            name: "Prof Sukumar Misra",
+            designation: "India",
+            image_url: "/assets/committee/Sukumar Mishra.jpg",
+        },
+        {
+            name: "Prof N P Phadi",
+            designation: "Director NIT Jaipur, India",
+            image_url: "/assets/committee/NP Padhy.jpg",
+        },
+        {
+            name: "Prof Manoj Arora",
+            designation: "Director IIT Jammu, India",
+            image_url: "",
+        },
+        {
+            name: "Prof Laxmidhar Behera",
+            designation: "Director, IIT Mandi, India",
+            image_url: "/assets/committee/Laxmidhar Behera.png",
+        },
+        {
+            name: "Prof S C Srivastava",
+            designation: "IIT Kanpur, India",
+            image_url: "/assets/committee/suresh-chandra-srivastava.jpg",
+        },
+        {
+            name: "Prof A K Pradhan",
+            designation: "IIT Kharagpur, India",
+            image_url: "/assets/committee/Ashok Kumar Pradhan.png",
+        },
+    ],
     "TPC Chairs": [
         {
             name: "Prof. Sudeb Das Gupta",
@@ -520,87 +602,4 @@ export const COMMITTEE = {
             link: "https://dtu.irins.org/profile/66973",
         },
     ],
-    
-    // "National Advisory Committee": [
-    //     {
-    //         name: "Prof. L. K. Awasthi",
-    //         designation: "Director, NIT Uttarakhand",
-    //         image_url: "/assets/committee/LK Awasthi.png",
-    //     },
-    //     {
-    //         name: "Prof. R. K. Agarwal",
-    //         designation: "JNU New Delhi",
-    //         image_url: "/assets/committee/rkaggarwal.jpg",
-    //     },
-    //     {
-    //         name: "Prof. Ajay Jaiswal",
-    //         designation: "Principal, SOL, University of Delhi",
-    //         image_url: "",
-    //     },
-    //     {
-    //         name: "Prof. Surya Prakash",
-    //         designation: "IIT Indore",
-    //         image_url: "/assets/committee/surya prakash.jpg",
-    //     },
-    //     {
-    //         name: "Prof. Manish Kumar Goyal",
-    //         designation: "IIT Indore",
-    //         image_url: "/assets/committee/mkgoyal.jpg",
-    //     },
-    //     {
-    //         name: "Prof. Gurinder Singh Brar",
-    //         designation: "NIT Uttarakhand",
-    //         image_url: "/assets/committee/gurinder singh brar.jpg",
-    //     },
-    //     {
-    //         name: "Dr. Abhishek Gupta",
-    //         designation: "CSIO Chandigarh",
-    //         image_url: "/assets/committee/Abhishek Gupta.jpeg",
-    //     },
-    //     {
-    //         name: "Mr. Gaurav Garg",
-    //         designation: "H&M Retail, Bangluru",
-    //         image_url: "",
-    //     },
-    //     {
-    //         name: "Dr. Sachin Sharma",
-    //         designation: "Software Factory Department, SBI, Chandigarh",
-    //         image_url: "/assets/committee/Sachin Sharma.jpeg",
-    //     },
-    //     {
-    //         name: "Prof Bhim Singh",
-    //         designation: "IIT Delhi, India",
-    //         image_url: "/assets/committee/Bhim Singh.jpg",
-    //     },
-    //     {
-    //         name: "Prof Sukumar Misra",
-    //         designation: "India",
-    //         image_url: "/assets/committee/Sukumar Mishra.jpg",
-    //     },
-    //     {
-    //         name: "Prof N P Phadi",
-    //         designation: "Director NIT Jaipur, India",
-    //         image_url: "/assets/committee/NP Padhy.jpg",
-    //     },
-    //     {
-    //         name: "Prof Manoj Arora",
-    //         designation: "Director IIT Jammu, India",
-    //         image_url: "",
-    //     },
-    //     {
-    //         name: "Prof Laxmidhar Behera",
-    //         designation: "Director, IIT Mandi, India",
-    //         image_url: "/assets/committee/Laxmidhar Behera.png",
-    //     },
-    //     {
-    //         name: "Prof S C Srivastava",
-    //         designation: "IIT Kanpur, India",
-    //         image_url: "/assets/committee/suresh-chandra-srivastava.jpg",
-    //     },
-    //     {
-    //         name: "Prof A K Pradhan",
-    //         designation: "IIT Kharagpur, India",
-    //         image_url: "/assets/committee/Ashok Kumar Pradhan.png",
-    //     },
-    // ],
 };
