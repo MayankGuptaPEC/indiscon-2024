@@ -109,6 +109,90 @@ export const COMMITTEE = {
             link: "https://ieee-aess.org/contact/puneet-kumar-mishra",
         },
     ],
+    "International Advisory Committee": [
+        {
+            name: "Prof. Sánchez Caballero, Samuel",
+            designation: "Universitat Politècnica de València, Spain",
+            image_url: "/assets/committee/Samuel S. C.jpeg",
+        },
+        {
+            name: "Prof. Harish Cherukuri",
+            designation:
+                "The University of North Carolina at Charlotte Charlotte, NC, USA",
+            image_url: "/assets/committee/cherukuri_harish.jpg",
+        },
+        {
+            name: "Prof. Maanak Gupta",
+            designation: "Tennessee Technological University, TN, USA",
+            image_url: "/assets/committee/maank_gupta.jpg",
+        },
+        {
+            name: "Prof. Utkarsh Shrivastava",
+            designation: "Western Michigan University, USA",
+            image_url: "/assets/committee/Utkarsh Shrivastava.webp",
+        },
+        {
+            name: "Mr. Edrin Gjoleka",
+            designation: "H&M Retail, Sweden",
+            image_url: "",
+        },
+        {
+            name: "Mr. Ankush Kapoor",
+            designation: "Publicis Sapient, Canada",
+            image_url: "/assets/committee/Ankush Kapoor.jpeg",
+        },
+        {
+            name: "Prof. Amer Kotb",
+            designation: "Associate Professor, Fayoum University, Egypt",
+            image_url: "/assets/committee/DrAmer Kotb.jpg",
+        },
+        {
+            name: "Prof. G. P. Agrawal",
+            designation: "Professor, University of Rochetser, NY, USA",
+            image_url: "/assets/committee/g.p. agrawal.jpg",
+        },
+        {
+            name: "Dr. Gurmeet Singh",
+            designation: "Assistant Professor, University of Texas, USA",
+            image_url: "",
+        },
+        {
+            name: "Dr. Subhash Singh",
+            designation: "Research Scientist, University of Rochester, NY, USA",
+            image_url: "/assets/committee/snigh-subhash-c.jpg",
+        },
+        {
+            name: "Prof. Chanan Singh",
+            designation: "Texas A&M, USA",
+            image_url: "/assets/committee/Chanan Singh.jpg",
+        },
+        {
+            name: "Prof Tarlochan Singh Sidhu",
+            designation: "Ontario Tech University, Canada",
+            image_url: "",
+        },
+        {
+            name: "Prof Anurag Srivastava",
+            designation: "Professor, West Virigina University, USA",
+            image_url: "/assets/committee/AnuragSrivastava-290x290.jpg",
+        },
+        {
+            name: "Sairaj Dhople",
+            designation: "University of Minnesota, USA",
+            image_url: "/assets/committee/Dhople Sairaj.jpg",
+        },
+        {
+            name: "Prof. Sukumar Brahma",
+            designation: "Clemson University",
+            image_url: "/assets/committee/Brahma, Sukumar.jpg",
+        },
+        {
+            name: "Prof. L. Chen",
+            designation: "Professor, McMaster University, Canada",
+            image_url: "/assets/committee/lchen.png",
+            link: "https://www.mcgill.ca/ece/lawrence-r-chen",
+        },
+    ],
     "TPC Chairs": [
         {
             name: "Prof. Sudeb Das Gupta",
@@ -436,90 +520,7 @@ export const COMMITTEE = {
             link: "https://dtu.irins.org/profile/66973",
         },
     ],
-    "International Advisory Committee": [
-        {
-            name: "Prof. Sánchez Caballero, Samuel",
-            designation: "Universitat Politècnica de València, Spain",
-            image_url: "/assets/committee/Samuel S. C.jpeg",
-        },
-        {
-            name: "Prof. Harish Cherukuri",
-            designation:
-                "The University of North Carolina at Charlotte Charlotte, NC, USA",
-            image_url: "/assets/committee/cherukuri_harish.jpg",
-        },
-        {
-            name: "Prof. Maanak Gupta",
-            designation: "Tennessee Technological University, TN, USA",
-            image_url: "/assets/committee/maank_gupta.jpg",
-        },
-        {
-            name: "Prof. Utkarsh Shrivastava",
-            designation: "Western Michigan University, USA",
-            image_url: "/assets/committee/Utkarsh Shrivastava.webp",
-        },
-        {
-            name: "Mr. Edrin Gjoleka",
-            designation: "H&M Retail, Sweden",
-            image_url: "",
-        },
-        {
-            name: "Mr. Ankush Kapoor",
-            designation: "Publicis Sapient, Canada",
-            image_url: "/assets/committee/Ankush Kapoor.jpeg",
-        },
-        {
-            name: "Prof. Amer Kotb",
-            designation: "Associate Professor, Fayoum University, Egypt",
-            image_url: "/assets/committee/DrAmer Kotb.jpg",
-        },
-        {
-            name: "Prof. G. P. Agrawal",
-            designation: "Professor, University of Rochetser, NY, USA",
-            image_url: "/assets/committee/g.p. agrawal.jpg",
-        },
-        {
-            name: "Dr. Gurmeet Singh",
-            designation: "Assistant Professor, University of Texas, USA",
-            image_url: "",
-        },
-        {
-            name: "Dr. Subhash Singh",
-            designation: "Research Scientist, University of Rochester, NY, USA",
-            image_url: "/assets/committee/snigh-subhash-c.jpg",
-        },
-        {
-            name: "Prof. Chanan Singh",
-            designation: "Texas A&M, USA",
-            image_url: "/assets/committee/Chanan Singh.jpg",
-        },
-        {
-            name: "Prof Tarlochan Singh Sidhu",
-            designation: "Ontario Tech University, Canada",
-            image_url: "",
-        },
-        {
-            name: "Prof Anurag Srivastava",
-            designation: "Professor, West Virigina University, USA",
-            image_url: "/assets/committee/AnuragSrivastava-290x290.jpg",
-        },
-        {
-            name: "Sairaj Dhople",
-            designation: "University of Minnesota, USA",
-            image_url: "/assets/committee/Dhople Sairaj.jpg",
-        },
-        {
-            name: "Prof. Sukumar Brahma",
-            designation: "Clemson University",
-            image_url: "/assets/committee/Brahma, Sukumar.jpg",
-        },
-        {
-            name: "Prof. L. Chen",
-            designation: "Professor, McMaster University, Canada",
-            image_url: "/assets/committee/lchen.png",
-            link: "https://www.mcgill.ca/ece/lawrence-r-chen",
-        },
-    ],
+    
     // "National Advisory Committee": [
     //     {
     //         name: "Prof. L. K. Awasthi",
