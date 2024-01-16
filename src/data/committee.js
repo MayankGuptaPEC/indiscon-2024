@@ -246,7 +246,7 @@ export const COMMITTEE = {
         },
         {
             name: "Prof Sukumar Misra",
-            designation: "India",
+            designation: "IIT Delhi, India",
             image_url: "/assets/committee/Sukumar Mishra.jpg",
         },
         {
