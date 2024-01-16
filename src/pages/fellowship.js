@@ -32,13 +32,39 @@ function fellowship() {
                     marginBottom: "20px",
                 }}
             >
-                Best Paper/Poster Awards will be
-                presented to author&apos;s whose work represents groundbreaking
-                research. The chairs of each track nominated a set of top papers
-                for the award, and these nominations were reviewed by a
-                committee. The committee considered each nominated paper, its
-                reviewer comments, and a nomination statement by the chairs.
+                Best Paper/Poster Awards will be presented to author&apos;s
+                whose work represents groundbreaking research. The chairs of
+                each track nominated a set of top papers for the award, and
+                these nominations were reviewed by a committee. The committee
+                considered each nominated paper, its reviewer comments, and a
+                nomination statement by the chairs.
             </p>
+
+            <div>
+                <h4>
+                    The interested student authors can email at{" "}
+                    <span
+                        style={{
+                            textDecoration: "underline",
+                            color: "rgb(48, 111, 160)",
+                        }}
+                    >
+                        ieeeindiscon2024@gmail.com
+                    </span>{" "}
+                    with the following details:
+                </h4>
+                Paper ID:
+                <br />
+                Paper Title:
+                <br />
+                Authors Names and Affiliations (with country name):
+                <br />
+                Abstract:
+                <br />
+                Email :<br />
+                Contact Number:
+                <br />
+            </div>
         </PageLayout>
     );
 }

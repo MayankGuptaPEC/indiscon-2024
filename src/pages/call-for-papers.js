@@ -12,10 +12,12 @@ function CallForPapers() {
                 scientists, engineers, and practitioners throughout the world to
                 present their latest research findings, ideas, and applications
                 in the fields of interest which fall under the scope of INDISCON
-                2024. Prospective authors are invited to submit original
-                research papers (not being considered for publication elsewhere)
-                in standard IEEE conference template describing new theoretical
-                and/or experimental research results in the following tracks:
+                2024. Papers (upto 6 pages in .pdf) presented in the Conference, duly
+                accepted after peer review, will be eligible for submission for
+                further consideration of publishing in the IEEE Xplore, subject
+                to maintenance of quality, and post-conference scrutiny of
+                response of Conference Organizers to Technical Program of
+                Questionnaire (TPQ) on the Conference.
             </p>
 
             <a href="/INDISCON.pdf" download className={styles.download_button}>
@@ -69,8 +71,9 @@ function CallForPapers() {
             <h2 className={styles.subheading}>Track Details</h2>
 
             <p className={styles.paper_track}>
-                    Following are the selected sub-topics &#40;not limited to&#41; under different tracks:
-                </p>
+                Following are the selected sub-topics &#40;not limited to&#41;
+                under different tracks:
+            </p>
 
             {TRACKS.map(({ track, topics }, i) => {
                 return (
