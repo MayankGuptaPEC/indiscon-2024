@@ -214,7 +214,7 @@ export default function Home() {
                     <div className={styles.paper_wrapper}>
                         <div className={styles.register}>
                             <a
-                                href="/INDISCON.pdf"
+                                href="/INDISCON 2024 CFP New.pdf"
                                 target="_blank"
                                 referrerPolicy="no-referrer"
                             >
