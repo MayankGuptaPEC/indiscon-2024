@@ -20,7 +20,7 @@ function CallForPapers() {
                 Questionnaire (TPQ) on the Conference.
             </p>
 
-            <a href="/INDISCON.pdf" download className={styles.download_button}>
+            <a href="/INDISCON 2024 CFP.pdf" download className={styles.download_button}>
                 {" "}
                 <button>Click here to download</button>
             </a>

@@ -194,16 +194,16 @@ export const COMMITTEE = {
         },
     ],
     "National Advisory Committee": [
-        {
-            name: "Prof. L. K. Awasthi",
-            designation: "Director, NIT Uttarakhand",
-            image_url: "/assets/committee/LK Awasthi.png",
-        },
-        {
-            name: "Prof. R. K. Agarwal",
-            designation: "JNU New Delhi",
-            image_url: "/assets/committee/rkaggarwal.jpg",
-        },
+        // {
+        //     name: "Prof. L. K. Awasthi",
+        //     designation: "Director, NIT Uttarakhand",
+        //     image_url: "/assets/committee/LK Awasthi.png",
+        // },
+        // {
+        //     name: "Prof. R. K. Agarwal",
+        //     designation: "JNU New Delhi",
+        //     image_url: "/assets/committee/rkaggarwal.jpg",
+        // },
         {
             name: "Prof. Ajay Jaiswal",
             designation: "Principal, SOL, University of Delhi",
@@ -246,7 +246,7 @@ export const COMMITTEE = {
         },
         {
             name: "Prof Sukumar Misra",
-            designation: "India",
+            designation: "IIT Delhi, India",
             image_url: "/assets/committee/Sukumar Mishra.jpg",
         },
         {
@@ -255,7 +255,7 @@ export const COMMITTEE = {
             image_url: "/assets/committee/NP Padhy.jpg",
         },
         {
-            name: "Prof Manoj Arora",
+            name: "Prof Manoj Gaur",
             designation: "Director IIT Jammu, India",
             image_url: "",
         },
