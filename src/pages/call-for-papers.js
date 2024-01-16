@@ -18,7 +18,7 @@ function CallForPapers() {
                 and/or experimental research results in the following tracks:
             </p>
 
-            <a href="/INDISCON 2024 CFP New.pdf" download className={styles.download_button}>
+            <a href="/INDISCON 2024 CFP.pdf" download className={styles.download_button}>
                 {" "}
                 <button>Click here to download</button>
             </a>
