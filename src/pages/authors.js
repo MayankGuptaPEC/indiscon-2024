@@ -170,6 +170,13 @@ function authors() {
                     <br /> Nothing is to be done on reference section. Anyhow,
                     full sentences or paragraphs highlighted in the plagiarism
                     report is to be removed or rewritten using new sentences.
+                    <br/>
+                    Papers (upto 6 pages in .pdf) presented in the Conference, 
+                    duly accepted after peer review, will be eligible for submission 
+                    for further consideration of publishing in the IEEE Xplore, 
+                    subject to maintenance of quality, and post-conference scrutiny 
+                    of response of Conference Organizers to 
+                    Technical Program of Questionnaire (TPQ) on the Conference.
                 </div>
             </div>
         </PageLayout>
