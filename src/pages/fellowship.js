@@ -23,23 +23,6 @@ function fellowship() {
                 Fellowship Committee.
             </p>
 
-            <h2 className={styles.heading}>Awards</h2>
-
-            <p
-                style={{
-                    textAlign: "justify",
-                    lineHeight: "20px",
-                    marginBottom: "20px",
-                }}
-            >
-                Best Paper/Poster Awards will be presented to author&apos;s
-                whose work represents groundbreaking research. The chairs of
-                each track nominated a set of top papers for the award, and
-                these nominations were reviewed by a committee. The committee
-                considered each nominated paper, its reviewer comments, and a
-                nomination statement by the chairs.
-            </p>
-
             <div>
                 <h4>
                     The interested student authors can email at{" "}
@@ -65,6 +48,25 @@ function fellowship() {
                 Contact Number:
                 <br />
             </div>
+
+            <h2 className={styles.heading}>Awards</h2>
+
+            <p
+                style={{
+                    textAlign: "justify",
+                    lineHeight: "20px",
+                    marginBottom: "20px",
+                }}
+            >
+                Best Paper/Poster Awards will be presented to author&apos;s
+                whose work represents groundbreaking research. The chairs of
+                each track nominated a set of top papers for the award, and
+                these nominations were reviewed by a committee. The committee
+                considered each nominated paper, its reviewer comments, and a
+                nomination statement by the chairs.
+            </p>
+
+            
         </PageLayout>
     );
 }
