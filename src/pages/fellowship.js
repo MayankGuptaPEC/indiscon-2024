@@ -21,6 +21,15 @@ function fellowship() {
                 partial travel of the authors for attending the Conference. The
                 decision regarding this grant will be taken by the Conference
                 Fellowship Committee.
+            
+
+            The interested student authors can email at ieeeindiscon2024@gmail.com with the following details:
+            Paper ID:
+            Paper Title:
+            Authors Names and Affiliations (with country name):
+            Abstract:
+            Email :
+            Contact Number:
             </p>
 
             <h2 className={styles.heading}>Awards</h2>
