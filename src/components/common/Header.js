@@ -37,13 +37,6 @@ function Header() {
                         className={styles.logo}
                     />
                     <img
-                        src={getAssetName(
-                            "/assets/logos/3.png"
-                        )}
-                        alt="indiscon 2024"
-                        className={styles.logo}
-                    />
-                    <img
                         src={getAssetName("/assets/logos/4.png")}
                         alt="indiscon 2024"
                         className={styles.logo}
