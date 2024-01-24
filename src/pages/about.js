@@ -59,7 +59,7 @@ function About() {
                             August 22-24, 2024
                         </span>
                         , is being organized by IEEE Chandigarh Subsection along
-                        with IEEE India Council and IEEE Delhi Section. The
+                        with IEEE India Council. The
                         conference will be hosted by{" "}
                         <span className={styles.emphasize}>
                             {" "}
@@ -207,28 +207,6 @@ function About() {
             </div>
 
             <div className={styles.spacer} />
-
-            <div className={styles.section}>
-                <h1 className={styles.section_heading}>IEEE Delhi Section</h1>
-                <div className={styles.section_details}>
-                    <p className={styles.text}>
-                        IEEE Delhi Section is one of the 13 Sections in IEEE
-                        India Council coming under Asia-Pacific Region, the
-                        Region-10 of IEEE. At present it covers entire northern
-                        part of the country consisting of the four states of
-                        Rajasthan, Haryana, Punjab, Himachal Pradesh, and the
-                        National Capital Territory of Delhi, Union Territories
-                        of Chandigarh, Jammu & Kashmir, Ladakh.
-                    </p>{" "}
-                    <a
-                        href="https://ewh.ieee.org/r10/delhi/"
-                        target="_blank"
-                        referrerPolicy="no-referrer"
-                    >
-                        Details <FaExternalLinkAlt />{" "}
-                    </a>
-                </div>
-            </div>
 
             <div className={styles.spacer} />
 

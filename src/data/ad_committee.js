@@ -73,7 +73,7 @@ export const AD_COMMITTEE = {
         },
         {
             name: "Prof. Sukumar Brahma",
-            designation: "Clemson University",
+            designation: "Clemson University, USA",
             image_url: "/assets/committee/Brahma, Sukumar.jpg",
         },
         {
