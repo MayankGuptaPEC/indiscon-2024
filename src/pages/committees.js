@@ -11,6 +11,7 @@ function Committees() {
     console.log(keys);
     return (
         <PageLayout title={"Committees | Indiscon 2024"}>
+            {/* 
             <h1 className={styles.heading}>Advisory Committee</h1>    
             <div className={styles.core}>
                 {ad_keys.map((key, i) => {
@@ -27,7 +28,6 @@ function Committees() {
                                               );
                                     return (
                                         <div className={styles.card} key={i}>
-                                            {/*  eslint-disable-next-line @next/next/no-img-element */}
                                             <img
                                                 height={70}
                                                 width={70}
@@ -61,7 +61,8 @@ function Committees() {
                         </div>
                     );
                 })}
-            </div>
+            </div> 
+        */}
                     
             <h1 className={styles.heading}>Organizing Committee</h1>
 
