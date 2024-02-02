@@ -297,10 +297,10 @@ export const COMMITTEE = {
     ],
     "TPC Co-Chairs": [
         {
-            name: "Dr. Jyoti Kedia",
+            name: "Dr. Deepak Sharma",
             designation: "PEC, Chandigarh",
-            image_url: "/assets/committee/prof-jyoti-kedia.jpg",
-            link: "https://pec.ac.in/ece/faculty/jyoti-kedia",
+            image_url: "/assets/committee/dr-deepak-kumar-sharma.jpeg",
+            link: "https://pec.ac.in/ece/faculty/deepak-kumar-sharma",
         },
         {
             name: "Dr. Ajay Kumar",
@@ -397,6 +397,12 @@ export const COMMITTEE = {
     ],
     "Industry Track and Interfacing Chairs": [
         {
+            name: "Dr. Jyoti Kedia",
+            designation: "PEC, Chandigarh",
+            image_url: "/assets/committee/prof-jyoti-kedia.jpg",
+            link: "https://pec.ac.in/ece/faculty/jyoti-kedia",
+        },
+        {
             name: "Dr. John Jose",
             designation: "Indian Institute of Technology, Guwahati",
             image_url: "/assets/committee/dr-john-jose.jpg",
@@ -416,6 +422,20 @@ export const COMMITTEE = {
             image_url: "/assets/committee/prof-y.p.-verma.jpg",
             link: "https://uiet.puchd.ac.in/wp-content/uploads/FacultyCV/EEE/Y-P-Verma.pdf",
         },
+        {
+            name: "Prof. R. S. Walia",
+            designation: "Punjab Engineering College, Chandigarh",
+            image_url: "/assets/committee/rswalia.jpg",
+            link: "https://pec.ac.in/pie/faculty/ravinderjit-singh-walia",
+        },
+        {
+            name: "Prof. Sanjeev Kumar",
+            designation: "Punjab Engineering College, Chandigarh",
+            image_url: "/assets/committee/sanjeev_0.jpg",
+            link: "https://uiet.puchd.ac.in/wp-content/uploads/FacultyCV/EEE/Y-P-Verma.pdf",
+        }
+    ],
+    "Local Arrangement Co-Chairs": [
         {
             name: "Dr. Birinderjit Singh",
             designation: "Chandigarh University",
@@ -441,12 +461,6 @@ export const COMMITTEE = {
             designation: "Chandigarh University",
             image_url: "/assets/committee/dr-ruchika-gupta.jpg",
             link: "https://www.linkedin.com/in/ruchika-gupta-55bbb764/?originalSubdomain=in",
-        },
-        {
-            name: "Dr. Deepak Sharma",
-            designation: "PEC, Chandigarh",
-            image_url: "/assets/committee/dr-deepak-kumar-sharma.jpeg",
-            link: "https://pec.ac.in/ece/faculty/deepak-kumar-sharma",
         },
         {
             name: "Mr. Sabarinath Pillai",

@@ -20,10 +20,27 @@ function CallForPapers() {
                 Questionnaire (TPQ) on the Conference.
             </p>
 
-            <a href="/CFP INDISCON 2024.pdf" download className={styles.download_button}>
-                {" "}
-                <button>Click here to download</button>
-            </a>
+            <div className={styles.paper_wrapper}>
+                <div className={styles.register}>
+                    <a
+                        href="/CFP INDISCON 2024.pdf"
+                        target="_blank"
+                        referrerPolicy="no-referrer"
+                    >
+                        <button>Click here to download</button>
+                    </a>
+                </div>
+                <div className={styles.register}>
+                    <a
+                        href="https://cmt3.research.microsoft.com/INDISCON2024/"
+                        target="_blank"
+                        referrerPolicy="no-referrer"
+                    >
+                        <button>Submit your paper</button>
+                    </a>
+                </div>
+            </div>
+            
             <h2 className={styles.subheading}>Technical Tracks</h2>
 
             <div className={styles.technical_tracks}>
