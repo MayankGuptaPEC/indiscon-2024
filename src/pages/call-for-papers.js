@@ -51,7 +51,7 @@ function CallForPapers() {
                     Track 2 : Power Electronics, Drives and Intelligent Control{" "}
                 </p>
                 <p className={styles.paper_track}>
-                    Track 3 : Instrumentation, Control and Signal processing
+                    Track 3 : Instrumentation, Control and Signal Processing
                 </p>
                 <p className={styles.paper_track}>
                     Track 4 : Artificial Intelligence and Data Science
@@ -60,7 +60,7 @@ function CallForPapers() {
                     Track 5 : Communication, Network & IOT
                 </p>
                 <p className={styles.paper_track}>
-                    Track 6 : Next Generation Computing and applications
+                    Track 6 : Next Generation Computing and Applications
                 </p>
                 <p className={styles.paper_track}>
                     Track 7 : Security & Privacy{" "}
