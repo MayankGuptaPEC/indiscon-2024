@@ -288,12 +288,12 @@ export const COMMITTEE = {
             image_url: "/assets/committee/prof-narendra-chaudhari.jpg",
             link: "https://iiti.ac.in/people/~narendra/",
         },
-        {
-            name: "Prof. S. V. Kulkarni",
-            designation: "Indian Institute of Technology, Bombay",
-            image_url: "/assets/committee/prof-sv-kulkarni.jpg",
-            link: "https://www.ee.iitb.ac.in/wiki/faculty/svk",
-        },
+        // {
+        //     name: "Prof. S. V. Kulkarni",
+        //     designation: "Indian Institute of Technology, Bombay",
+        //     image_url: "/assets/committee/prof-sv-kulkarni.jpg",
+        //     link: "https://www.ee.iitb.ac.in/wiki/faculty/svk",
+        // },
     ],
     "TPC Co-Chairs": [
         {
