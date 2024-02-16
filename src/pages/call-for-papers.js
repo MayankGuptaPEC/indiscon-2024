@@ -23,7 +23,7 @@ function CallForPapers() {
             <div className={styles.paper_wrapper}>
                 <div className={styles.register}>
                     <a
-                        href="/INDISCON2024CFP v1.pdf"
+                        href="/INDISCON2024CFP v2.pdf"
                         target="_blank"
                         referrerPolicy="no-referrer"
                     >
