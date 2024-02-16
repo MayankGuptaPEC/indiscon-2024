@@ -288,6 +288,15 @@ export const COMMITTEE = {
             image_url: "/assets/committee/prof-narendra-chaudhari.jpg",
             link: "https://iiti.ac.in/people/~narendra/",
         },
+
+        {
+            name: "Prof. G. Bhuvaneswari",
+            designation: "Mahindra University, Hyderabad",
+            image_url: "/assets/committee/prof-G-Bhuvaneswari.jpg",
+            link: "https://www.mahindrauniversity.edu.in/faculty/bhuvaneswari-gurumoorthy/",
+        },
+
+        
         // {
         //     name: "Prof. S. V. Kulkarni",
         //     designation: "Indian Institute of Technology, Bombay",
