@@ -57,7 +57,7 @@ function CallForPapers() {
                     Track 4 : Artificial Intelligence and Data Science
                 </p>
                 <p className={styles.paper_track}>
-                    Track 5 : Communication, Network & IOT
+                    Track 5 : Communication, Networks & IoT
                 </p>
                 <p className={styles.paper_track}>
                     Track 6 : Next Generation Computing and Applications
