@@ -62,7 +62,7 @@ export const TRACKS = [
             "Antenna Technologies",
             "Communication and Network Protocols",
             "Modulation and Coding",
-            "Results from Simulation, Proof-Of-Concepts, Test Beds and Trials",
+            "Results from Simulation, Proof-of-Concepts, Test Beds and Trials",
             "Advanced Wireless Communication and Networks",
             "Green IoT: Sustainable Design and Technologies",
             "Devices and Product Development, Application Areas",
