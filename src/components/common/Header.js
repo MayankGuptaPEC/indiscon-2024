@@ -123,6 +123,10 @@ const headerItems = [
         name: "Call for papers",
     },
     {
+        href: "/call-for-sessions",
+        name: "Call for sessions",
+    },
+    {
         href: "/registration",
         name: "Registration",
     },

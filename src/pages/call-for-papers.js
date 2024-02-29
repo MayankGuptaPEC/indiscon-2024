@@ -5,8 +5,8 @@ import { TRACKS } from "@/data/tracks";
 
 function CallForPapers() {
     return (
-        <PageLayout title={"Call For Papers | Indiscon 2024"}>
-            <h1 className={styles.heading}>Call For Papers</h1>
+        <PageLayout title={"Call for Papers | Indiscon 2024"}>
+            <h1 className={styles.heading}>Call for Papers</h1>
             <p className={styles.subheading}>
                 The Conference aims to provide an active platform for research
                 scientists, engineers, and practitioners throughout the world to
