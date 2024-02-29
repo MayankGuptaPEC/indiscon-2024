@@ -71,7 +71,7 @@ function CallForSessions() {
                 <ul>
                     <li> Title of the Special Session </li>
                     <li> Significance of the topic </li>
-                    <li> Special Session organizer's name, affiliation, and a brief biodata </li>
+                    <li> Special Session organizer&apos;s name, affiliation, and a brief biodata </li>
                 </ul>
             </p>
 
