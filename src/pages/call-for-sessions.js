@@ -6,7 +6,7 @@ import styles from "@/styles/pages/call_for_papers.module.scss";
 function CallForSessions() {
     return (
         <PageLayout title={"Call for Special Session Proposals | Indiscon 2024"}>
-            <h1 className={styles.heading}>Call for Special Session Proposals and Tutorials</h1>
+            <h1 className={styles.heading}>Call for Special Session Proposals</h1>
             <p className={styles.subheading}>
             INDISCON 2024 will provide an excellent forum for the dissemination 
             of the latest research and ideas in a wide range of Science, 
@@ -14,11 +14,11 @@ function CallForSessions() {
             state-of-the-art knowledge on specialist and latest topics related 
             to the theme of the conference through dedicated Special Sessions.
             </p>
-
+            <br/>
             <p className={styles.subheading}>
                 Submission of proposals for such Special Sessions 
                 for the INDISCON 2024 are welcome.</p>
-            
+                <br/><br/>
             <h2 className={styles.subheading}>Guidelines for Special Session Proposers</h2>
             <p className={styles.subheading}>
             The Special Sessions should provide the conference attendees with 
@@ -60,6 +60,9 @@ function CallForSessions() {
             <br/>
             Note: No financial assistance is available from the conference to support the participation of the presenter of an invited paper/presentation. The Special Session Organizer and all presenters in the session are required to register and pay for the conference. 
             </p>
+            <br/>
+            <br/>
+            <br/>
 
             <h2 className={styles.subheading}>Special Session Proposal Contents</h2>
             <p className={styles.subheading}>
@@ -91,19 +94,54 @@ function CallForSessions() {
             A suitable list of willing reviewers (name, affiliation, e-mail) 
             will be required and should be provided by the Special Session organizer 
             before the start of the review process. 
-            <br/>
+            <br/><br/>
             List of reviewers in the Special Session proposal is optional at the time of submission.
 
             </p>
-
+            <br/>
+            <br/>
+            <br/>
             <h2 className={styles.subheading}>Special Session Proposal Timelines and Process</h2>
-                <ul>
+            <br/>
+                <ul style={{ paddingLeft: '20px' }}>
                     <li> Proposal Submission Date: March 15, 2024 </li>
                     <li> To submit a proposal for a Special Session, the Special Session Organizer 
                         should send their proposal by e-mail at ieeeindiscon2024@gmail.com. </li>
                 </ul>
-            
-        </PageLayout>
+
+            <h1 className={styles.heading}>Call for Tutorial/Workshop Proposals</h1>
+            <p className={styles.subheading}>
+            INDISCON 2024 solicits proposals for Tutorials/Workshops of 90 minutes 
+            (one session) that complement the regular program with clear and focused 
+            coverage of new and emerging topics within the scope of the conference. 
+            Tutorials/Workshops are an opportunity for researchers from academia and industry
+             to learn about state-of-the-art research. 
+            </p>
+
+            <h2 className={styles.subheading}>Tutorial Proposal Format</h2>
+            <p className={styles.subheading}>
+            Tutorial/Workshop proposals should have a maximum of 4 pages. 
+            Proposals should address all of the sub-headings below:
+            <ol>
+                <li> Title of the tutorial/workshop </li>
+                <li> Abstract (200 words maximum) to publicize the tutorial on the website</li>
+                <li> Length of the tutorial/workshop: maximum up to 90 minutes</li>
+                <li> Names, addresses, and a short biography (up to 200 words) of each instructor(s)</li>
+                <li> Novelty, that the tutorial/workshop will address, emphasizing its 
+                    significance and timeliness</li>
+                <li> An outline of the tutorial/workshop content</li>
+                <li> Intended audience:</li>
+            </ol>
+            </p>
+
+            <h2 className={styles.subheading}>Tutorial Proposal Submissions</h2>
+            <p className={styles.subheading}>           
+                The Proposals for tutorial/workshop should be submitted by e-mail to 
+                ieeeindiscon2024@gmail.com by  March 31, 2024. 
+            </p> 
+
+      </PageLayout>
+        
     );
 }
 
