@@ -130,7 +130,7 @@ function CallForSessions() {
                 <li> Novelty, that the tutorial/workshop will address, emphasizing its 
                     significance and timeliness</li>
                 <li> An outline of the tutorial/workshop content</li>
-                <li> Intended audience:</li>
+                <li> Intended audience</li>
             </ol>
             </p>
             
