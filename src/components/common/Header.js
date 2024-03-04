@@ -120,11 +120,11 @@ const headerItems = [
     },
     {
         href: "/call-for-papers",
-        name: "Call for papers",
+        name: "Call for Papers",
     },
     {
-        href: "/call-for-sessions",
-        name: "Call for sessions",
+        href: "/call-for-sessions-tutorials",
+        name: "Call for Special Sessions/Tutorials",
     },
     {
         href: "/registration",
