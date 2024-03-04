@@ -512,6 +512,29 @@ export const COMMITTEE = {
             link: "https://pec.ac.in/ece/faculty/Jaskirat-kaur",
         },
     ],
+
+    "Sponsorship Committee": [
+        {
+            name: "Dr. Shilpa",
+            designation: "PEC, Chandigarh",
+            image_url: "/assets/committee/Shilpa.png",
+            link: "https://pec.ac.in/cse/faculty/shilpa",
+        },
+        {
+            name: "Dr. Satnam Kaur",
+            designation: "PEC, Chandigarh",
+            image_url: "/assets/committee/Satnam-Kaur.png",
+            link: "https://pec.ac.in/cse/faculty/satnam_kaur",
+        },
+        {
+            name: "Dr. B. Adinarayana",
+            designation: "PEC, Chandigarh",
+            image_url: "/assets/committee/Adi-Narayan.jpg",
+            link: "https://pec.ac.in/faculty/civil/b-adinarayana",
+        },
+
+    ],
+
     "Women in Engineering Chairs": [
         {
             name: "Dr. Shimil SL",
@@ -623,6 +646,27 @@ export const COMMITTEE = {
             image_url: "/assets/committee/rachnagarg.jpg",
             track: "Women in Engineering",
             link: "https://dtu.irins.org/profile/66973",
+        },
+    ],
+
+    "Tutorial and Special Session Chairs": [
+        {
+            name: "Prof. Santosh Vishvakarma",
+            designation: "Indian Institute of Technology, Indore",
+            image_url: "/assets/committee/Prof-Santosh-Vishvakarma.jpg",
+            link: "http://people.iiti.ac.in/~skvishvakarma/",
+        },
+        {
+            name: "Prof. Bharat Singh Rajpurohit​​",
+            designation: "Indian Institute of Technology, Jodhpur",
+            image_url: "/assets/committee/Prof-Bharatraj-Purohit.jpg",
+            link: "https://bharatsrajpurohit.weebly.com/",
+        },
+        {
+            name: "Puyam S. Singh",
+            designation: "Scientist-SF, NESAC, Department of Space, Shillong",
+            image_url: "/assets/committee/Puyam.jpg",
+            // link: "http://people.iiti.ac.in/~skvishvakarma/",
         },
     ],
 };
