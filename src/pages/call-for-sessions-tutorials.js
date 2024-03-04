@@ -118,7 +118,7 @@ function CallForSessions() {
             </p>
             
             <br/>
-            <h2 className={styles.subheading}>Tutorial Proposal Format</h2>
+            <h2 className={styles.subheading}>Tutorial/Workshop Proposal Format</h2>
             <p className={styles.subheading}>
             Tutorial/Workshop proposals should have a maximum of 4 pages. 
             Proposals should address all of the sub-headings below:
@@ -135,7 +135,7 @@ function CallForSessions() {
             </p>
             
             <br/>
-            <h2 className={styles.subheading}>Tutorial Proposal Submissions</h2>
+            <h2 className={styles.subheading}>Tutorial/Workshop Proposal Submissions</h2>
             <p className={styles.subheading}>           
                 The Proposals for tutorial/workshop should be submitted by e-mail to 
                 ieeeindiscon2024@gmail.com by  March 31, 2024. 
