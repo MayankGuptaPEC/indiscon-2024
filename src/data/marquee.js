@@ -1,3 +1,3 @@
 export const ANNOUNCEMENTS = [
-    "Important announcements will be shown here!",
+    'Regular "Full" Paper Submission Deadline is Extended!!  [Extended Deadline: April 15, 2023]',
 ];
