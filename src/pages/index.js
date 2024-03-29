@@ -173,6 +173,11 @@ export default function Home() {
                         animate={false}
                     >
                         {events.map((event, i) => {
+                            const updatedDate = event.date === "March 31, 2024" ? (
+                                <span>
+                                    <del>{event.date}</del> <span style={{ color: 'red' }}>[Extended]: April 15, 2024</span>
+                                </span>
+                            ) : event.date;
                             return (
                                 <VerticalTimelineElement
                                     key={i}
@@ -191,7 +196,7 @@ export default function Home() {
                                         borderRight:
                                             "7px solid  rgb(33, 150, 243)",
                                     }}
-                                    date={event.date}
+                                    date={updatedDate}
                                     dateClassName={styles.date}
                                     iconStyle={{
                                         background: "rgb(2,36,61,0.3)",

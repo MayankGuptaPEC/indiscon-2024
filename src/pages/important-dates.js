@@ -27,7 +27,7 @@ const events = [
     },
     {
         title: "Last date of submission for regular papers",
-        date: <span style={{ color: 'red' }}>[Extended]: April 15, 2024</span>,
+        date: "March 31, 2024",
         description: "",
         icon: <LaptopMac />,
     },
