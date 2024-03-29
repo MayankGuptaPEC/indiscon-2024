@@ -213,7 +213,7 @@ export default function Home() {
                     <div className={styles.paper_wrapper}>
                         <div className={styles.register}>
                             <a
-                                href="/INDISCON2024CFP v2.pdf"
+                                href="/CFP INDISCON 2024 Extended Deadline.pdf"
                                 target="_blank"
                                 referrerPolicy="no-referrer"
                             >
