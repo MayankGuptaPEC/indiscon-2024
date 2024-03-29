@@ -10,6 +10,7 @@ import { Handshake, LaptopMac } from "@mui/icons-material";
 import { MdChecklist } from "react-icons/md";
 import { BiTrophy } from "react-icons/bi";
 import styles from "@/styles/pages/importantdates.module.scss";
+import {useState} from 'react';
 
 const events = [
     {
@@ -75,12 +76,26 @@ const events = [
 ];
 
 function ImportantDates() {
+    const [updatedEvents, setUpdatedEvents] = useState(events.map(event => {
+        if (event.date === "March 31, 2024") {
+            return {
+                ...event,
+                date: (
+                    <>
+                        <del>{event.date}</del> <span style={{ color: 'red' }}>[Extended]: April 15, 2024</span>
+                    </>
+                )
+            };
+        }
+        return event;
+    }));
+
     return (
         <PageLayout title={"Important Dates | Indiscon 2024 "}>
             <div>
                 <h1 className={styles.heading}>Timeline</h1>
                 <VerticalTimeline lineColor="rgb(48, 111, 160)">
-                    {events.map((event, i) => {
+                    {updatedEvents.map((event, i) => {
                         return (
                             <VerticalTimelineElement
                                 key={i}
