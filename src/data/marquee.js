@@ -1,3 +1,3 @@
 export const ANNOUNCEMENTS = [
-    'Regular "Full" Paper Submission Deadline is Extended!!  [Extended Deadline: April 15, 2024]',
+    '🚨 Attention: Deadline Extension! 🚨 The deadline for Regular "Full" Paper Submission, Special Session Proposals, and Tutorial/Workshop Proposals has been extended to April 15, 2024. [Extended Deadline]',
 ];
