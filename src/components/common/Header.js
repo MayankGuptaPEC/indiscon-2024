@@ -108,7 +108,7 @@ const headerItems = [
     },
     {
         href: "/about",
-        name: "About us",
+        name: "About",
     },
     {
         href: "/important-dates",
