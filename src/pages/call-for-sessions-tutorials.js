@@ -102,7 +102,7 @@ function CallForSessions() {
             <h2 className={styles.subheading}>Special Session Proposal Timelines and Process</h2>
             <br/>
                 <ul style={{ paddingLeft: '20px' }}>
-                    <li> Proposal Submission Date: March 15, 2024 </li>
+                    <li> Proposal Submission Date: <span style="text-decoration: line-through;">March 15, 2024</span> <span style="color: red;">[Extended]: April 15, 2024 </span></li>
                     <li> To submit a proposal for a Special Session, the Special Session Organizer 
                         should send their proposal by e-mail at ieeeindiscon2024@gmail.com. </li>
                 </ul>
@@ -138,7 +138,7 @@ function CallForSessions() {
             <h2 className={styles.subheading}>Tutorial/Workshop Proposal Submissions</h2>
             <p className={styles.subheading}>           
                 The Proposals for tutorial/workshop should be submitted by e-mail to 
-                ieeeindiscon2024@gmail.com by  March 31, 2024. 
+                ieeeindiscon2024@gmail.com by  <span style="text-decoration: line-through;">March 31, 2024</span> <span style="color: red;"> April 15, 2024 </span>. 
             </p> 
             <br/>
             <br/>
