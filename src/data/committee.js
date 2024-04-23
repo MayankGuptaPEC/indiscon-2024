@@ -387,7 +387,7 @@ export const COMMITTEE = {
         {
             name: "Prof. Sarabjit Singh",
             designation: "PEC, Chandigarh",
-            image_url: "/assets/committee/SarabjitSingh.jpg",
+            image_url: "/assets/committee/SarabjitSingh.jpeg",
             link: "https://pec.ac.in/me/faculty/sarabjit-singh",
         },
     ],
@@ -413,7 +413,7 @@ export const COMMITTEE = {
         {
             name: "Prof. Rintu Khanna",
             designation: "PEC, Chandigarh",
-            image_url: "/assets/committee/RintuKhanna.jpg",
+            image_url: "/assets/committee/RintuKhanna.jpeg",
             link: "https://pec.ac.in/ee/faculty/rintu-khanna",
         },
     ],
