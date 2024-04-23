@@ -383,6 +383,13 @@ export const COMMITTEE = {
             image_url: "/assets/committee/VijayalataYellasiri.jpg",
             link: "https://www.griet.ac.in/profiles/Faculty%20profile-YVL.pdf",
         },
+
+        {
+            name: "Prof. Sarabjit Singh",
+            designation: "PEC, Chandigarh",
+            image_url: "/assets/committee/SarabjitSingh.jpg",
+            link: "https://pec.ac.in/me/faculty/sarabjit-singh",
+        },
     ],
     "Publication Chairs": [
         {
@@ -397,11 +404,17 @@ export const COMMITTEE = {
             image_url: "/assets/committee/prof-balwinder-raj.jpg",
             link: "https://v1.nitj.ac.in/index.php/nitj_cinfo/Faculty/42",
         },
+        // {
+        //     name: "Prof. Jagdish Kumar",
+        //     designation: "PEC, Chandigarh",
+        //     image_url: "/assets/committee/prof-jagdish-kumar.jpg",
+        //     link: "https://pec.ac.in/ee/faculty/jagdish-kumar",
+        // },
         {
-            name: "Prof. Jagdish Kumar",
+            name: "Prof. Rintu Khanna",
             designation: "PEC, Chandigarh",
-            image_url: "/assets/committee/prof-jagdish-kumar.jpg",
-            link: "https://pec.ac.in/ee/faculty/jagdish-kumar",
+            image_url: "/assets/committee/RintuKhanna.jpg",
+            link: "https://pec.ac.in/ee/faculty/rintu-khanna",
         },
     ],
     "Industry Track and Interfacing Chairs": [
@@ -513,6 +526,27 @@ export const COMMITTEE = {
         },
     ],
 
+    "Women in Engineering Chairs": [
+        {
+            name: "Dr. Shimil SL",
+            designation: "PEC, Chandigarh",
+            image_url: "/assets/committee/dr-Shimi-s-l.jpg",
+            link: "https://pec.ac.in/ee/faculty/shimi-sl",
+        },
+        {
+            name: "Ms. Yogita Sharma",
+            designation: "ISRO, Ahmedabad",
+            image_url: "/assets/committee/YogitaSharma.jpeg",
+            link: "https://www.linkedin.com/in/yogita-sharma-isro/?originalSubdomain=in",
+        },
+        {
+            name: "Dr. Aparna Akula",
+            designation: "CSIO Chandigarh",
+            image_url: "/assets/committee/dr-aparna-akula.jpg",
+            link: "https://icsio.csio.res.in/csio.ems/emp_profile.aspx?id=1021",
+        },
+    ],
+
     "Sponsorship Committee": [
         {
             name: "Dr. Shilpa",
@@ -535,26 +569,6 @@ export const COMMITTEE = {
 
     ],
 
-    "Women in Engineering Chairs": [
-        {
-            name: "Dr. Shimil SL",
-            designation: "PEC, Chandigarh",
-            image_url: "/assets/committee/dr-Shimi-s-l.jpg",
-            link: "https://pec.ac.in/ee/faculty/shimi-sl",
-        },
-        {
-            name: "Ms. Yogita Sharma",
-            designation: "ISRO, Ahmedabad",
-            image_url: "/assets/committee/YogitaSharma.jpeg",
-            link: "https://www.linkedin.com/in/yogita-sharma-isro/?originalSubdomain=in",
-        },
-        {
-            name: "Dr. Aparna Akula",
-            designation: "CSIO Chandigarh",
-            image_url: "/assets/committee/dr-aparna-akula.jpg",
-            link: "https://icsio.csio.res.in/csio.ems/emp_profile.aspx?id=1021",
-        },
-    ],
     "Technical Track Chairs": [
         {
             name: "Prof. Bhavesh Kumar R Bhalja",
@@ -669,4 +683,9 @@ export const COMMITTEE = {
             // link: "http://people.iiti.ac.in/~skvishvakarma/",
         },
     ],
+
+    // "TPC Committee Members": [
+
+    // ],
+
 };
