@@ -87,6 +87,16 @@ function ImportantDates() {
                 )
             };
         }
+        if (event.date === "March 15, 2024") {
+            return {
+                ...event,
+                date: (
+                    <>
+                        <del>{event.date}</del> <span style={{ color: 'red' }}>May 30, 2024</span>
+                    </>
+                )
+            };
+        }
         return event;
     }));
 
