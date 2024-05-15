@@ -87,7 +87,7 @@ function ImportantDates() {
                 )
             };
         }
-        if (event.date === "March 15, 2024") {
+        if (event.date === "May 15, 2024") {
             return {
                 ...event,
                 date: (
