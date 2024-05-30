@@ -173,11 +173,38 @@ export default function Home() {
                         animate={false}
                     >
                         {events.map((event, i) => {
-                            const updatedDate = event.date === "March 31, 2024" ? (
-                                <span>
-                                    <del>{event.date}</del> <span style={{ color: 'red' }}>[Extended]: April 15, 2024</span>
-                                </span>
-                            ) : event.date;
+                            const updatedDate = (() => {
+                                if (event.title === "Last date of submission for regular papers") {
+                                    return (
+                                        <span>
+                                            <del>{event.date}</del> <span style={{ color: 'red' }}>[Extended]: April 15, 2024</span>
+                                        </span>
+                                    );
+                                }
+                                if (event.title === "Last date for early bird registration") {
+                                    return (
+                                        <span>
+                                            <del>{event.date}</del> <span style={{ color: 'red' }}>June 30, 2024</span>
+                                        </span>
+                                    );
+                                }
+                                if (event.title === "Last date for camera ready paper submission") {
+                                    return (
+                                        <span>
+                                            <del>{event.date}</del> <span style={{ color: 'red' }}>June 30, 2024</span>
+                                        </span>
+                                    );
+                                }
+                                if (event.title === "Last date for conference registration") {
+                                    return (
+                                        <span>
+                                            <del>{event.date}</del> <span style={{ color: 'red' }}>July 15, 2024</span>
+                                        </span>
+                                    );
+                                }
+                                return event.date;
+                            })();
+
                             return (
                                 <VerticalTimelineElement
                                     key={i}
