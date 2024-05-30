@@ -97,6 +97,36 @@ function ImportantDates() {
                 )
             };
         }
+        if (event.title === "Last date for early bird registration") {
+            return {
+                ...event,
+                date: (
+                    <>
+                        <del>{event.date}</del> <span style={{ color: 'red' }}>June 30, 2024</span>
+                    </>
+                )
+            };
+        }
+        if (event.title === "Last date for camera ready paper submission") {
+            return {
+                ...event,
+                date: (
+                    <>
+                        <del>{event.date}</del> <span style={{ color: 'red' }}>June 30, 2024</span>
+                    </>
+                )
+            };
+        }
+        if (event.title === "Last date for conference registration") {
+            return {
+                ...event,
+                date: (
+                    <>
+                        <del>{event.date}</del> <span style={{ color: 'red' }}>July 15, 2024</span>
+                    </>
+                )
+            };
+        }
         return event;
     }));
 
