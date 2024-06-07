@@ -243,7 +243,7 @@ export default function Home() {
                     <hr className={styles.divider} />
 
                     <div className={styles.paper_wrapper}>
-                        <div className={styles.register}>
+                        {/* <div className={styles.register}>
                             <a
                                 href="/CFP INDISCON 2024 Extended Deadline.pdf"
                                 target="_blank"
@@ -251,14 +251,16 @@ export default function Home() {
                             >
                                 <button>Call for Papers</button>
                             </a>
-                        </div>
+                        </div> */}
                         <div className={styles.register}>
                             <a
-                                href="https://cmt3.research.microsoft.com/INDISCON2024/"
+                                // href="https://cmt3.research.microsoft.com/INDISCON2024/"
+                                href="/List of Oral and Posters.pdf"
                                 target="_blank"
                                 referrerPolicy="no-referrer"
                             >
-                                <button>Submit your paper</button>
+                                {/* <button>Submit your paper</button> */}
+                                <button>List of accepted papers</button>
                             </a>
                         </div>
                     </div>
