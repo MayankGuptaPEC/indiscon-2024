@@ -315,14 +315,14 @@ function Registration() {
                         Registration and fee payment for Indian Authors Steps:
                     </h3>
                     <p>
-                        <br/>Click on the following link for paper registeration and
+                        <br/>Click on the following link for paper registration and
                         fee payment: To be provided soon
                     </p>
                     <p style={{ margin: "20px 0", fontWeight: "600" }}>
                         Note: Download the receipt and deposit a copy at
                         conference venue.
                     </p>
-                    <p>
+                    {/* <p>
                         For Foreign Authors only:- Deposit the registration fees
                         through NEFT/RTGS/IMPS/Bank Transfer to the below given
                         bank account and send transaction details to{" "}
@@ -350,7 +350,7 @@ function Registration() {
                                 })}
                             </TableBody>
                         </Table>
-                    </TableContainer>
+                    </TableContainer> */}
                 </div>
             </div>
         </PageLayout>
