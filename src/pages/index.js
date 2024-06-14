@@ -254,13 +254,13 @@ export default function Home() {
                         </div> */}
                         <div className={styles.register}>
                             <a
-                                // href="https://cmt3.research.microsoft.com/INDISCON2024/"
-                                href="/List of Oral and Posters.pdf"
+                                href="https://cmt3.research.microsoft.com/INDISCON2024/"
+                                //href="/List of Oral and Posters.pdf"
                                 target="_blank"
                                 referrerPolicy="no-referrer"
                             >
-                                {/* <button>Submit your paper</button> */}
-                                <button>List of accepted papers</button>
+                                {<button>Submit Camera Ready Paper</button>}
+                               // <button>List of accepted papers</button>
                             </a>
                         </div>
                     </div>
