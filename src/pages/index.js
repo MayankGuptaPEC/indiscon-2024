@@ -260,7 +260,7 @@ export default function Home() {
                                 referrerPolicy="no-referrer"
                             >
                                 <button>Submit Camera Ready Paper</button>
-                               // <button>List of accepted papers</button>
+                                {// <button>List of accepted papers</button>}
                             </a>
                         </div>
                     </div>
