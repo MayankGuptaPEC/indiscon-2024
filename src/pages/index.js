@@ -259,7 +259,7 @@ export default function Home() {
                                 target="_blank"
                                 referrerPolicy="no-referrer"
                             >
-                                {<button>Submit Camera Ready Paper</button>}
+                                <button>Submit Camera Ready Paper</button>
                                // <button>List of accepted papers</button>
                             </a>
                         </div>
