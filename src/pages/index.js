@@ -252,6 +252,20 @@ export default function Home() {
                                 <button>Call for Papers</button>
                             </a>
                         </div> */}
+                         <div className={styles.register}>
+                            <a
+                                //href="https://cmt3.research.microsoft.com/INDISCON2024/"
+                                href="/List of Oral and Posters.pdf"
+                                target="_blank"
+                                referrerPolicy="no-referrer"
+                            >
+                                    {/*<button>Submit Camera Ready Paper</button>*/}
+                                <button>List of accepted papers</button>
+                            </a>
+                        </div>
+
+
+                        
                         <div className={styles.register}>
                             <a
                                 href="https://cmt3.research.microsoft.com/INDISCON2024/"
@@ -263,6 +277,9 @@ export default function Home() {
                                 {/* <button>List of accepted papers</button>*/}
                             </a>
                         </div>
+
+
+                                
                     </div>
                 </div>
             </PageLayout>
