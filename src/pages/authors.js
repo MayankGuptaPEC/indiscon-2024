@@ -144,7 +144,7 @@ function authors() {
                         target="_blank"
                         referrerPolicy="no-referrer"
                     >
-                        <button>Submit your paper</button>
+                        <button>Submit your Camera Ready paper</button>
                     </a>
                 </div>
             </div>
