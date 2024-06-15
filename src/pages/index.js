@@ -285,7 +285,7 @@ export default function Home() {
                
                 <div>
                  <p style={{ color: 'red', textAlign: 'center', fontSize: '16px' }}>
-                   Click <a href="/Instructions for Camera Ready Submission Guidelines.pdf" target="_blank">here</a> for Camera ready paper guidelines.
+                   Click <a href="/Instructions for Camera Ready Submission Guidelines.pdf" target="_blank" style={{ color: 'blue' }}>here</a> for Camera ready paper guidelines.
                  </p>
                  </div>
 
