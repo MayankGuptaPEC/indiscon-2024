@@ -282,6 +282,13 @@ export default function Home() {
                                 
                     </div>
                 </div>
+               
+                <div>
+                 <p>
+                   Click <a href="/Instructions for Camera Ready Submission Guidelines.pdf">here</a> for Camera ready paper guidelines.
+                 </p>
+                 </div>
+
             </PageLayout>
         </>
     );
