@@ -285,7 +285,7 @@ export default function Home() {
                
                 <div>
                  <p className={styles.red-text}>
-                   Click <a href="/Instructions for Camera Ready Submission Guidelines.pdf">here</a> for Camera ready paper guidelines.
+                   Click <a href="/Instructions for Camera Ready Submission Guidelines.pdf" target="_blank">here</a> for Camera ready paper guidelines.
                  </p>
                  </div>
 
