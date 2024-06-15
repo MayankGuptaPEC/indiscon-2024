@@ -137,6 +137,21 @@ function authors() {
                     <b>Note</b>: Papers presented in the Conference, duly accepted after peer review, will be eligible for submission for further consideration of publishing in the IEEE Xplore, subject to maintenance of quality, and post-conference scrutiny of response of Conference Organizers to Technical Program of Questionnaire (TPQ) on the Conference.
                 </div>
             </div>
+            <div className={styles.submission}>
+                <h2>Camera Ready Paper Guidelines</h2>
+                <div className={styles.submission_details}>
+                    Authors are requested to carefully read the guidelines before submitting
+                        Camera ready paper. Click {" "}
+                    <a
+                        href="/Instructions for Camera Ready Submission Guidelines.pdf"
+                        target="_blank"
+                    >
+                        here
+                    </a>{" "}
+                    for the guidelines.
+                </div>
+            </div>
+                            
             <div className={styles.paper_wrapper}>
                 <div className={styles.register}>
                     <a
