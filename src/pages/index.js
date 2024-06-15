@@ -284,7 +284,7 @@ export default function Home() {
                 </div>
                
                 <div>
-                 <p style="color: red; text-align: center; font-size: 16px;">
+                 <p style={{ color: 'red', textAlign: 'center', fontSize: '16px' }}>
                    Click <a href="/Instructions for Camera Ready Submission Guidelines.pdf" target="_blank">here</a> for Camera ready paper guidelines.
                  </p>
                  </div>
