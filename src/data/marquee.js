@@ -9,7 +9,7 @@ export const ANNOUNCEMENTS = [
     // 'Thanks for the overwhelming response for paper submissions in INDISCON 2024. The submission was closed on 15th April 2024. The decisions on submitted papers through given CMT portal will be given in the Month of June 2024.',
     // '<a href="/List of Oral and Posters.pdf" target="_blank">Click here to see list of accepted papers</a>',
     // 'Check bottom of this page for List of accepted papers'
-    'The link to submit camera-ready paper is active now. Carefully read instructions for Camera Ready Paper before final submission.'
+    'The link to submit camera-ready paper is active now. Carefully read instructions for Camera Ready Paper before final submission. The registration link will be provided soon.'
 ];
 
 // React component to render the announcements
