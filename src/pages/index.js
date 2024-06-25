@@ -184,7 +184,8 @@ export default function Home() {
                                 if (event.title === "Last date for early bird registration") {
                                     return (
                                         <span>
-                                            <del>{event.date}</del> <span style={{ color: 'red' }}>June 30, 2024</span>
+                                            {/* <del>{event.date}</del> <span style={{ color: 'red' }}>June 30, 2024</span> */}
+                                            <del>{event.date}</del> <span style={{ color: 'red' }}>July 05, 2024</span>
                                         </span>
                                     );
                                 }
@@ -285,7 +286,8 @@ export default function Home() {
                
                 <div>
                  <p style={{ color: 'red', textAlign: 'center', fontSize: '22px' }}>
-                   Click <a href="/Instructions for Camera Ready Submission Guidelines.pdf" target="_blank" style={{ color: 'blue' }}>here</a> for Camera ready paper submission guidelines.
+                   Click <a href="/Instructions for Camera Ready Submission Guidelines.pdf" target="_blank" style={{ color: 'blue' }}>here</a> for Camera ready paper submission guidelines. 
+                   Click <a href="https://web.ticketdude.app/e/72" target="_blank" style={{ color: 'blue' }}>here</a> for registration. 
                  </p>
                  </div>
 

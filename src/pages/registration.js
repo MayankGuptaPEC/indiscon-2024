@@ -210,6 +210,11 @@ function Registration() {
                 * The registration fee does not include GST or any other taxes.
             </h5>
 
+            <p style={{ color: 'red', textAlign: 'center', fontSize: '22px' }}>
+                <br/>Click <a href="https://web.ticketdude.app/e/72" target="_blank" style={{ color: 'blue' }}>here</a> for paper registration and fee payment. 
+            </p>
+
+
             <div className={styles.rules}>
                 <div className={styles.section}>
                     <h2 className={styles.section_heading}>FOR AUTHORS</h2>
@@ -309,15 +314,22 @@ function Registration() {
                         IEEE no-show policy.
                     </p>
                 </div>
-                <div className={styles.section}>
-                    <h2 className={styles.section_heading}>Fee details</h2>
-                    <h3>
+                {/* <div className={styles.section}> */}
+                    {/* <h2 className={styles.section_heading}>Fee details</h2> */}
+                    {/* <h3>
                         Registration and fee payment for Indian Authors Steps:
-                    </h3>
-                    <p>
+                    </h3> */}
+                    
+                    <br/><br/><br/><br/>
+                    <p style={{ color: 'red', textAlign: 'center', fontSize: '22px' }}>
+                        <br/>Click <a href="https://web.ticketdude.app/e/72" target="_blank" style={{ color: 'blue' }}>here</a> for paper registration and fee payment. 
+                    </p>
+
+
+                    {/* <p>
                         <br/>Click on the following link for paper registration and
                         fee payment: To be provided soon
-                    </p>
+                    </p> */}
                     <p style={{ margin: "20px 0", fontWeight: "600" }}>
                         Note: Download the receipt and deposit a copy at
                         conference venue.
@@ -351,7 +363,7 @@ function Registration() {
                             </TableBody>
                         </Table>
                     </TableContainer> */}
-                </div>
+                {/* </div> */}
             </div>
         </PageLayout>
     );
