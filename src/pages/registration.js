@@ -216,7 +216,7 @@ function Registration() {
                     target="_blank"
                     referrerPolicy="no-referrer"
                 >
-                    <button>Paper Registartion</button>
+                    <button>Conference Registration</button>
                 </a>
             </div>
             <p style={{ margin: "20px 0", textAlign: 'center', fontWeight: "600" }}>

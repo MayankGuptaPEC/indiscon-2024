@@ -273,7 +273,7 @@ export default function Home() {
                                 target="_blank"
                                 referrerPolicy="no-referrer"
                             >
-                                <button>Paper Registartion</button>
+                                <button>Conference Registration</button>
                             </a>
                         </div>
 

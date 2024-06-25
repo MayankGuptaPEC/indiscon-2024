@@ -170,7 +170,7 @@ function authors() {
                         target="_blank"
                         referrerPolicy="no-referrer"
                     >
-                        <button>Paper Registartion</button>
+                        <button>Conference Registration</button>
                     </a>
                 </div>
             </div>
