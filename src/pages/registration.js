@@ -219,7 +219,7 @@ function Registration() {
                     <button>Paper Registartion</button>
                 </a>
             </div>
-            <p style={{ margin: "20px 0", fontWeight: "600" }}>
+            <p style={{ margin: "20px 0", textAlign: 'center', fontWeight: "600" }}>
                         Note: Download the receipt and deposit a copy at
                         conference venue.
                     </p>

@@ -164,6 +164,15 @@ function authors() {
                         <button>Submit your Camera Ready paper</button>
                     </a>
                 </div>
+                <div className={styles.register}>
+                    <a
+                        href="https://web.ticketdude.app/e/72"
+                        target="_blank"
+                        referrerPolicy="no-referrer"
+                    >
+                        <button>Paper Registartion</button>
+                    </a>
+                </div>
             </div>
         </PageLayout>
     );
