@@ -210,9 +210,19 @@ function Registration() {
                 * The registration fee does not include GST or any other taxes.
             </h5>
 
-            <p style={{ color: 'red', textAlign: 'center', fontSize: '22px' }}>
-                <br/>Click <a href="https://web.ticketdude.app/e/72" target="_blank" style={{ color: 'blue' }}>here</a> for paper registration and fee payment. 
-            </p>
+            <div className={styles.register}>
+                <a
+                    href="https://web.ticketdude.app/e/72"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    <button>Paper Registartion</button>
+                </a>
+            </div>
+            <p style={{ margin: "20px 0", fontWeight: "600" }}>
+                        Note: Download the receipt and deposit a copy at
+                        conference venue.
+                    </p>
 
 
             <div className={styles.rules}>
@@ -320,20 +330,20 @@ function Registration() {
                         Registration and fee payment for Indian Authors Steps:
                     </h3> */}
                     
-                    <br/><br/><br/>
+                    {/* <br/><br/><br/>
                     <p style={{ color: 'red', textAlign: 'left', fontSize: '22px' }}>
                         <br/>Click <a href="https://web.ticketdude.app/e/72" target="_blank" style={{ color: 'blue' }}>here</a> for paper registration and fee payment. 
-                    </p>
+                    </p> */}
 
 
                     {/* <p>
                         <br/>Click on the following link for paper registration and
                         fee payment: To be provided soon
                     </p> */}
-                    <p style={{ margin: "20px 0", fontWeight: "600" }}>
+                    {/* <p style={{ margin: "20px 0", fontWeight: "600" }}>
                         Note: Download the receipt and deposit a copy at
                         conference venue.
-                    </p>
+                    </p> */}
                     {/* <p>
                         For Foreign Authors only:- Deposit the registration fees
                         through NEFT/RTGS/IMPS/Bank Transfer to the below given

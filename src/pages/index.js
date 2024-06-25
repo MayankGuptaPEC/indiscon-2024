@@ -269,6 +269,16 @@ export default function Home() {
                         
                         <div className={styles.register}>
                             <a
+                                href="https://web.ticketdude.app/e/72"
+                                target="_blank"
+                                referrerPolicy="no-referrer"
+                            >
+                                <button>Paper Registartion</button>
+                            </a>
+                        </div>
+
+                        <div className={styles.register}>
+                            <a
                                 href="https://cmt3.research.microsoft.com/INDISCON2024/"
                                 //href="/List of Oral and Posters.pdf"
                                 target="_blank"
@@ -276,16 +286,6 @@ export default function Home() {
                             >
                                 <button>Submit Camera Ready Paper</button>
                                 {/* <button>List of accepted papers</button>*/}
-                            </a>
-                        </div>
-
-                        <div className={styles.register}>
-                            <a
-                                href="https://web.ticketdude.app/e/72"
-                                target="_blank"
-                                referrerPolicy="no-referrer"
-                            >
-                                <button>Click here for Paper Registartion</button>
                             </a>
                         </div>
                                 
