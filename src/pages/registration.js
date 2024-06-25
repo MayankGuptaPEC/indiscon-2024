@@ -321,7 +321,7 @@ function Registration() {
                     </h3> */}
                     
                     <br/><br/><br/><br/>
-                    <p style={{ color: 'red', textAlign: 'center', fontSize: '22px' }}>
+                    <p style={{ color: 'red', textAlign: 'left', fontSize: '22px' }}>
                         <br/>Click <a href="https://web.ticketdude.app/e/72" target="_blank" style={{ color: 'blue' }}>here</a> for paper registration and fee payment. 
                     </p>
 
