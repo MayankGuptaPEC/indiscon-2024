@@ -279,15 +279,23 @@ export default function Home() {
                             </a>
                         </div>
 
-
+                        <div className={styles.register}>
+                            <a
+                                href="https://web.ticketdude.app/e/72"
+                                target="_blank"
+                                referrerPolicy="no-referrer"
+                            >
+                                <button>Click here for Paper Registartion</button>
+                            </a>
+                        </div>
                                 
                     </div>
                 </div>
                
                 <div>
                  <p style={{ color: 'red', textAlign: 'center', fontSize: '22px' }}>
-                   Click <a href="/Instructions for Camera Ready Submission Guidelines.pdf" target="_blank" style={{ color: 'blue' }}>here</a> for Camera ready paper submission guidelines
-                   and click <a href="https://web.ticketdude.app/e/72" target="_blank" style={{ color: 'blue' }}>here</a> for registration. 
+                   Click <a href="/Instructions for Camera Ready Submission Guidelines.pdf" target="_blank" style={{ color: 'blue' }}>here</a> for Camera ready paper submission guidelines.
+                   {/* and click <a href="https://web.ticketdude.app/e/72" target="_blank" style={{ color: 'blue' }}>here</a> for registration.  */}
                  </p>
                  </div>
 
