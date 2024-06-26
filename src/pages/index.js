@@ -253,7 +253,7 @@ export default function Home() {
                                 <button>Call for Papers</button>
                             </a>
                         </div> */}
-                         <div className={styles.register}>
+                         <div className={styles.register_alt}>
                             <a
                                 //href="https://cmt3.research.microsoft.com/INDISCON2024/"
                                 href="/List of Oral and Posters.pdf"
@@ -267,7 +267,7 @@ export default function Home() {
 
 
                         
-                        <div className={styles.register}>
+                        <div className={styles.register_alt}>
                             <a
                                 href="https://web.ticketdude.app/e/72"
                                 target="_blank"
@@ -277,7 +277,7 @@ export default function Home() {
                             </a>
                         </div>
 
-                        <div className={styles.register}>
+                        <div className={styles.register_alt}>
                             <a
                                 href="https://cmt3.research.microsoft.com/INDISCON2024/"
                                 //href="/List of Oral and Posters.pdf"
