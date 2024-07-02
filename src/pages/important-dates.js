@@ -92,7 +92,7 @@ function ImportantDates() {
                 ...event,
                 date: (
                     <>
-                        <del>{event.date}</del> <del style={{ color: 'red' }}><span style={{ color: 'red' }}>May 30, 2024</span></del><span style={{ color: 'red' }}> June 7, 2024</span>
+                        <del>{event.date}</del> <del style={{ color: 'red' }}><span style={{ color: 'red' }}>May 30, 2024</span></del><span style={{ color: 'red' }}> June 07, 2024</span>
                     </>
                 )
             };
@@ -103,7 +103,7 @@ function ImportantDates() {
                 date: (
                     <>
                         {/* <del>{event.date}</del> <span style={{ color: 'red' }}>June 30, 2024</span> */}
-                        <del>{event.date}</del> <span style={{ color: 'red' }}>July 05, 2024</span>
+                        <del>{event.date}</del> <span style={{ color: 'red' }}>July 07, 2024</span>
                     </>
                 )
             };
@@ -113,7 +113,7 @@ function ImportantDates() {
                 ...event,
                 date: (
                     <>
-                        <del>{event.date}</del> <span style={{ color: 'red' }}>June 30, 2024</span>
+                        <del>{event.date}</del> <span style={{ color: 'red' }}>July 07, 2024</span>
                     </>
                 )
             };
