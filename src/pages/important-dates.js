@@ -113,7 +113,7 @@ function ImportantDates() {
                 ...event,
                 date: (
                     <>
-                        <del>{event.date}</del> <span style={{ color: 'red' }}>July 07, 2024</span>
+                        <del>{event.date}</del> <span style={{ color: 'red' }}>July 15, 2024</span>
                     </>
                 )
             };
