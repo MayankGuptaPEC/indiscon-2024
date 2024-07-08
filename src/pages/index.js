@@ -185,21 +185,21 @@ export default function Home() {
                                     return (
                                         <span>
                                             {/* <del>{event.date}</del> <span style={{ color: 'red' }}>June 30, 2024</span> */}
-                                            <del>{event.date}</del> <span style={{ color: 'red' }}>July 07, 2024</span>
+                                            <del>{event.date}</del> <span style={{ color: 'red' }}>July 15, 2024</span>
                                         </span>
                                     );
                                 }
                                 if (event.title === "Last date for camera ready paper submission") {
                                     return (
                                         <span>
-                                            <del>{event.date}</del> <span style={{ color: 'red' }}>July 07, 2024</span>
+                                            <del>{event.date}</del> <span style={{ color: 'red' }}>July 15, 2024</span>
                                         </span>
                                     );
                                 }
                                 if (event.title === "Last date for conference registration") {
                                     return (
                                         <span>
-                                            <del>{event.date}</del> <span style={{ color: 'red' }}>July 15, 2024</span>
+                                            <del>{event.date}</del> <span style={{ color: 'red' }}>July 31, 2024</span>
                                         </span>
                                     );
                                 }
