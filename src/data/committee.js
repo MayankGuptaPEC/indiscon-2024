@@ -29,9 +29,9 @@ export const COMMITTEE = {
     ],
     Patrons: [
         {
-            name: "Prof. Baldev Setia",
+            name: "Prof. Rajesh Kumar Bhatia",
             designation: "Director, PEC, Chandigarh",
-            image_url: "/assets/committee/prof-baldev-setia.jpeg",
+            image_url: "/assets/committee/rajesh-bhatia.jpg",
             link: "https://pec.ac.in/director",
         },
         {
