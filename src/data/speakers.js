@@ -44,7 +44,7 @@ export const SPEAKERS = [
     // },
     {
         name: "Prof. B K Panigrahi",
-        image: "/assets/speakers/Dr Chinmoy Saha.jpg",
+        image: "/assets/speakers/panigrahi.jpg",
         designation: "Professor, Department of Avionics, Indian Institute of Space Science and Technology, Kerala, India",
         link: "https://www.iist.ac.in/avionics/chinmoysaha",
     },
