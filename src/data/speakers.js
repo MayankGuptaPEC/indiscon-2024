@@ -27,7 +27,7 @@ export const SPEAKERS = [
     {
         name: "Prof. B K Panigrahi",
         image: "/assets/committee/bk-panigrahi.jpeg",
-        designation: "Head CART- IIT Delhi, India",
+        designation: "Head CART, IIT Delhi",
         link: "https://ee.iitd.ac.in/faculty-profile/16",
     },
     // {
@@ -43,7 +43,7 @@ export const SPEAKERS = [
     //     link: "",
     // },
     {
-        name: "Dr. Chinmoy Saha",
+        name: "Prof. Chinmoy Saha",
         image: "/assets/speakers/Dr Chinmoy Saha.jpg",
         designation: "IIST Thiruvananthapuram",
         link: "https://www.iist.ac.in/avionics/chinmoysaha",
@@ -70,7 +70,7 @@ export const SPEAKERS = [
     },
 
     {
-        name: "Prof. Surender Reddy Salkuti",
+        name: "Dr. Surender Reddy Salkuti",
         image: "/assets/speakers/Salkuti.jpg",
         designation: "Woosong University, South Korea",
         link: "https://scholar.google.co.in/citations?user=yZze_g4AAAAJ&hl=en",
@@ -111,7 +111,7 @@ export const SPEAKERS = [
 {
         name: "Dr. Ramesh Gupta",
         image: "/assets/speakers/Ramesh gupta.jpg",
-        designation: "VP, Ligado Networks",
+        designation: "VP, Ligado Networks, USA",
         link: "https://www.linkedin.com/in/rameshgupta",
     },
 
@@ -119,19 +119,19 @@ export const SPEAKERS = [
         name: "Dr. Shahrir Kasjoo",
         image: "/assets/speakers/Shahrir Kasjoo.jpg",
         designation: "Universiti Malaysia Perlis, Malaysia",
-        link: "https://research.manchester.ac.uk/en/persons/a.song",
+        link: "https://scholar.google.com.my/citations?user=8FXQY2kAAAAJ&hl=en",
     },
 {
         name: "Prof. V. Ramgopal Rao",
         image: "/assets/speakers/prof-vrao.jpg",
-        designation: "BITS Pilani",
+        designation: "VC, BITS Pilani",
         link: "https://www.bits-pilani.ac.in/pilani/v-ramgopal-rao",
     },
 {
         name: "Prof. Rudra Pratap",
         image: "/assets/speakers/Dr Rudra Pratap.png",
-        designation: "Plaksha University, SAS Nagar",
-        link: "https://plaksha.edu.in/faculty-details/dr-rudra-pratap",
+        designation: "Founding VC, Plaksha University, SAS Nagar",
+        link: "https://plaksha.edu.in/faculty-details/dr-rudra-pratap/",
     },
 {
         name: "Prof. Sudeb Dasgupta",
@@ -189,7 +189,7 @@ export const SPEAKERS = [
     },
 {
         name: "Dr. Anil Yadav",
-        image: "/assets/committee/prof-sudeb-dasgupta.jpg",
+        image: "/assets/speakers/anil yadav.jpg",
         designation: "Samsung R&D Institute, Noida",
         link: "https://www.linkedin.com/in/anyadav/?originalSubdomain=in",
     },
