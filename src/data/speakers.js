@@ -63,7 +63,7 @@ export const SPEAKERS = [
     },
 
     {
-        name: "Dr. Sukumar Mishra",
+        name: "Prof. Sukumar Mishra",
         image: "/assets/committee/Sukumar Mishra.jpg",
         designation: "Director, IIT(ISM) Dhanbad",
         link: "https://www.iitism.ac.in/director",
@@ -77,7 +77,7 @@ export const SPEAKERS = [
     },
 
     {
-        name: "MR. R. K. Tyagi",
+        name: "Mr. R. K. Tyagi",
         image: "/assets/speakers/RKTyagi.png",
         designation: "CMD, PGCIL",
         link: "https://www.powergrid.in/en/cmd-powergrid",
@@ -111,20 +111,35 @@ export const SPEAKERS = [
 {
         name: "Dr. Ramesh Gupta",
         image: "/assets/speakers/Ramesh gupta.jpg",
-        designation: "IIT Delhi",
+        designation: "VP, Ligado Networks",
         link: "https://www.linkedin.com/in/rameshgupta",
     },
 
     {
         name: "Dr. Shahrir Kasjoo",
         image: "/assets/speakers/Shahrir Kasjoo.jpg",
-        designation: "Universiti Perlis Malaysia",
+        designation: "Universiti Malaysia Perlis, Malaysia",
         link: "https://research.manchester.ac.uk/en/persons/a.song",
     },
+{
+        name: "Prof. V. Ramgopal Rao",
+        image: "/assets/speakers/Shahrir Kasjoo.jpg",
+        designation: "BITS Pilani",
+        link: "https://www.bits-pilani.ac.in/pilani/v-ramgopal-rao",
+    },
+{
+        name: "Prof. Rudra Pratap",
+        image: "/assets/speakers/Shahrir Kasjoo.jpg",
+        designation: "Plaksha University, SAS Nagar",
+        link: "https://plaksha.edu.in/faculty-details/dr-rudra-pratap",
+    },
+{
+        name: "Prof. Sudeb Dasgupta",
+        image: "/assets/committee/prof-sudeb-dasgupta.jpg",
+        designation: "IIT Roorkee",
+        link: "http://ece.iitr.ac.in/sudeb_dasgupta",
+    }
 
-
-
-
-        
+    
 
 ];
