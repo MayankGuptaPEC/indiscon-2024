@@ -71,10 +71,31 @@ export const SPEAKERS = [
 
     {
         name: "Prof. Surender Reddy Salkuti",
-        image: "/assets/committee/Salkuti.jpg",
+        image: "/assets/speakers/Salkuti.jpg",
         designation: "Woosong University, South Korea",
         link: "https://scholar.google.co.in/citations?user=yZze_g4AAAAJ&hl=en",
     },
+
+    {
+        name: "Shri R. K. Tyagi",
+        image: "/assets/speakers/RKTyagi.png",
+        designation: "Chairman & Managing Director, PGCIL",
+        link: "https://www.powergrid.in/en/cmd-powergrid",
+    },
+
+    {
+        name: "Prof. C. C. Reddy",
+        image: "/assets/speakers/Dr. C C Reddy.jpg",
+        designation: "IIT Ropar",
+        link: "https://www.iitrpr.ac.in/electrical/reddy",
+    },
+    {
+        name: "Prof. G. Bhuvneswari",
+        image: "/assets/committee/prof-G-Bhuvaneswari.jpg",
+        designation: "Mahindra University, Hyderabad",
+        link: "https://www.mahindrauniversity.edu.in/faculty/bhuvaneswari-gurumoorthy/",
+    },
+
         
 
 ];
