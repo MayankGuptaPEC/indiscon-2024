@@ -43,12 +43,6 @@ export const SPEAKERS = [
     //     link: "",
     // },
     {
-        name: "Prof. B K Panigrahi",
-        image: "/assets/speakers/panigrahi.jpg",
-        designation: "Professor, Department of Avionics, Indian Institute of Space Science and Technology, Kerala, India",
-        link: "https://www.iist.ac.in/avionics/chinmoysaha",
-    },
-    {
         name: "Dr. Chinmoy Saha",
         image: "/assets/speakers/Dr Chinmoy Saha.jpg",
         designation: "Professor, Department of Avionics, Indian Institute of Space Science and Technology, Kerala, India",
@@ -60,6 +54,14 @@ export const SPEAKERS = [
         designation: "Senior Scientist, NASA-Jet Propulsion Laboratory, California Institute of Technology",
         link: "https://scienceandtechnology.jpl.nasa.gov/people/g_chattopadhyay",
     },
+
+    {
+        name: "Prof. N. P. Padhy",
+        image: "/assets/committee/NP Padhy.jpg",
+        designation: "Director, MNIT Jaipur",
+        link: "https://mnit.ac.in/admin/director",
+    },
+    
 
 
     
