@@ -61,9 +61,13 @@ export const SPEAKERS = [
         designation: "Director, MNIT Jaipur",
         link: "https://mnit.ac.in/admin/director",
     },
-    
 
-
-    
+    {
+        name: "Dr. Sukumar Mishra",
+        image: "/assets/committee/Sukumar Mishra.jpg",
+        designation: "Director, IIT(ISM) Dhanbad",
+        link: "https://www.iitism.ac.in/director",
+    },
+        
 
 ];
