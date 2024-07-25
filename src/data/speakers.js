@@ -123,13 +123,13 @@ export const SPEAKERS = [
     },
 {
         name: "Prof. V. Ramgopal Rao",
-        image: "/assets/speakers/Shahrir Kasjoo.jpg",
+        image: "/assets/speakers/prof-vrao.jpg",
         designation: "BITS Pilani",
         link: "https://www.bits-pilani.ac.in/pilani/v-ramgopal-rao",
     },
 {
         name: "Prof. Rudra Pratap",
-        image: "/assets/speakers/Shahrir Kasjoo.jpg",
+        image: "/assets/speakers/Dr Rudra Pratap.png",
         designation: "Plaksha University, SAS Nagar",
         link: "https://plaksha.edu.in/faculty-details/dr-rudra-pratap",
     },
@@ -207,7 +207,7 @@ export const SPEAKERS = [
     },
 {
         name: "Dr. Gurjit Singh Walia",
-        image: "/assets/committee/prof-sudeb-dasgupta.jpg",
+        image: "/assets/speakers/GSWalia.gif",
         designation: "DRDO, Delhi",
         link: "https://ieeexplore.ieee.org/author/38667438100",
     },
