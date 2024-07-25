@@ -2,7 +2,7 @@ export const SPEAKERS = [
     {
         name: "Prof. Aimin Song",
         image: "/assets/speakers/aimin.png",
-        designation: "Professor of Nanoelectronics, EEE, University of Manchester, Manchester, UK",
+        designation: "University of Manchester, Manchester, UK",
         link: "https://research.manchester.ac.uk/en/persons/a.song",
     },
     // {
@@ -21,7 +21,7 @@ export const SPEAKERS = [
     {
         name: "Prof. Li Qian",
         image: "/assets/speakers/LiQian45.jpg",
-        designation: "Professor, ECE, University of Toronto, Canada",
+        designation: "University of Toronto, Canada",
         link: "https://www.ece.utoronto.ca/people/qian-l/",
     },
     {
@@ -45,13 +45,13 @@ export const SPEAKERS = [
     {
         name: "Dr. Chinmoy Saha",
         image: "/assets/speakers/Dr Chinmoy Saha.jpg",
-        designation: "Professor, Department of Avionics, Indian Institute of Space Science and Technology, Kerala, India",
+        designation: "IIST Thiruvananthapuram",
         link: "https://www.iist.ac.in/avionics/chinmoysaha",
     },
     {
-        name: "Goutam Chattopadhyay",
+        name: "Dr. Goutam Chattopadhyay",
         image: "/assets/speakers/DrGoutam.jpg",
-        designation: "Senior Scientist, NASA-Jet Propulsion Laboratory, California Institute of Technology",
+        designation: "Jet Propulsion Laboratory, NASA",
         link: "https://scienceandtechnology.jpl.nasa.gov/people/g_chattopadhyay",
     },
 
@@ -77,16 +77,16 @@ export const SPEAKERS = [
     },
 
     {
-        name: "Shri R. K. Tyagi",
+        name: "MR. R. K. Tyagi",
         image: "/assets/speakers/RKTyagi.png",
-        designation: "Chairman & Managing Director, PGCIL",
+        designation: "CMD, PGCIL",
         link: "https://www.powergrid.in/en/cmd-powergrid",
     },
 
     {
         name: "Prof. C. C. Reddy",
         image: "/assets/speakers/Dr. C C Reddy.jpg",
-        designation: "IIT Ropar",
+        designation: "Dean IRAA, IIT Ropar",
         link: "https://www.iitrpr.ac.in/electrical/reddy",
     },
     {
