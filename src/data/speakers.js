@@ -26,7 +26,7 @@ export const SPEAKERS = [
     },
     {
         name: "Prof. B K Panigrahi",
-        image: "/assets/speakers/panigrahi.jpeg",
+        image: "/assets/committee/bk-panigrahi.jpeg",
         designation: "Head CART- IIT Delhi, India",
         link: "https://ee.iitd.ac.in/faculty-profile/16",
     },
@@ -121,6 +121,8 @@ export const SPEAKERS = [
         designation: "Universiti Perlis Malaysia",
         link: "https://research.manchester.ac.uk/en/persons/a.song",
     },
+
+
 
 
         
