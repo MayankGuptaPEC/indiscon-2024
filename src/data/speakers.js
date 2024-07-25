@@ -68,6 +68,13 @@ export const SPEAKERS = [
         designation: "Director, IIT(ISM) Dhanbad",
         link: "https://www.iitism.ac.in/director",
     },
+
+    {
+        name: "Prof. Surender Reddy Salkuti",
+        image: "/assets/committee/Salkuti.jpg",
+        designation: "Woosong University, South Korea",
+        link: "https://scholar.google.co.in/citations?user=yZze_g4AAAAJ&hl=en",
+    },
         
 
 ];
