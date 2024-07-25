@@ -96,6 +96,25 @@ export const SPEAKERS = [
         link: "https://www.mahindrauniversity.edu.in/faculty/bhuvaneswari-gurumoorthy/",
     },
 
+    {
+        name: "Prof. Jaleel Akhtar",
+        image: "/assets/speakers/jaleel akhtar.jpg",
+        designation: "IIT Kanpur",
+        link: "https://home.iitk.ac.in/~mjakhtar",
+    },
+{
+        name: "Prof. Shiban Koul",
+        image: "/assets/speakers/shiban koul.jpg",
+        designation: "IIT Delhi",
+        link: "https://iitd.irins.org/profile/60674",
+    },
+{
+        name: "Dr. Ramesh Gupta",
+        image: "/assets/speakers/Ramesh gupta.jpg",
+        designation: "IIT Delhi",
+        link: "https://www.linkedin.com/in/rameshgupta",
+    },
+
         
 
 ];
