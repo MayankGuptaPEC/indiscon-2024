@@ -54,7 +54,14 @@ export const SPEAKERS = [
         designation: "Professor, Department of Avionics, Indian Institute of Space Science and Technology, Kerala, India",
         link: "https://www.iist.ac.in/avionics/chinmoysaha",
     },
+    {
+        name: "Goutam Chattopadhyay",
+        image: "/assets/speakers/DrGoutam.jpg",
+        designation: "Senior Scientist, NASA-Jet Propulsion Laboratory, California Institute of Technology",
+        link: "https://scienceandtechnology.jpl.nasa.gov/people/g_chattopadhyay",
+    },
 
 
+    
 
 ];
