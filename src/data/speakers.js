@@ -189,7 +189,7 @@ export const SPEAKERS = [
     },
 {
         name: "Dr. Anil Yadav",
-        image: "/assets/speakers/anil yadav.jpg",
+        image: "/assets/speakers/anil yadav.jpeg",
         designation: "Samsung R&D Institute, Noida",
         link: "https://www.linkedin.com/in/anyadav/?originalSubdomain=in",
     },
