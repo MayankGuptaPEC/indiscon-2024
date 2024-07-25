@@ -98,7 +98,7 @@ export const SPEAKERS = [
 
     {
         name: "Prof. Jaleel Akhtar",
-        image: "/assets/speakers/jaleel akhtar.jpg",
+        image: "/assets/speakers/jaleel akhtar.png",
         designation: "IIT Kanpur",
         link: "https://home.iitk.ac.in/~mjakhtar",
     },
@@ -114,6 +114,14 @@ export const SPEAKERS = [
         designation: "IIT Delhi",
         link: "https://www.linkedin.com/in/rameshgupta",
     },
+
+    {
+        name: "Dr. Shahrir Kasjoo",
+        image: "/assets/speakers/Shahrir Kasjoo.jpg",
+        designation: "Universiti Perlis Malaysia",
+        link: "https://research.manchester.ac.uk/en/persons/a.song",
+    },
+
 
         
 
