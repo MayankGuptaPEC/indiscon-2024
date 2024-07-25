@@ -138,7 +138,70 @@ export const SPEAKERS = [
         image: "/assets/committee/prof-sudeb-dasgupta.jpg",
         designation: "IIT Roorkee",
         link: "http://ece.iitr.ac.in/sudeb_dasgupta",
-    }
+    },
+
+
+    {
+        name: "Prof. D. K. Lobiyal",
+        image: "/assets/committee/prof-sudeb-dasgupta.jpg",
+        designation: "JNU, Delhi",
+        link: "https://www.jnu.ac.in/content/dkl",
+    },
+{
+        name: "2.	Prof. Bob Gill",
+        image: "/assets/committee/prof-sudeb-dasgupta.jpg",
+        designation: "BCIT, Canada",
+        link: "https://www.linkedin.com/in/bob-gill-p-190a1117/?originalSubdomain=ca",
+    },
+{
+        name: "Prof. Debabrata Das",
+        image: "/assets/committee/prof-sudeb-dasgupta.jpg",
+        designation: "Director, IIIT Bangalore",
+        link: "https://www.iiitb.ac.in/faculty/debabrata-das/",
+    },
+{
+        name: "Prof. Parag Kulkarni",
+        image: "/assets/committee/prof-sudeb-dasgupta.jpg",
+        designation: "Tokyo International University, Japan",
+        link: "https://www.tiu.ac.jp/etrack/faculty/kulkarni/",
+    },
+{
+        name: "Dr. Saptarshi Das",
+        image: "/assets/committee/prof-sudeb-dasgupta.jpg",
+        designation: "Pennsylvania State University, USA",
+        link: "https://www.matse.psu.edu/directory/saptarshi-das",
+    },
+{
+        name: "Prof. Jawar Singh",
+        image: "/assets/committee/prof-sudeb-dasgupta.jpg",
+        designation: "IIT Patna",
+        link: "https://www.iitp.ac.in/?view=article&id=191&catid=2",
+    },
+{
+        name: "Prof. Sudeb Dasgupta",
+        image: "/assets/committee/prof-sudeb-dasgupta.jpg",
+        designation: "IIT Roorkee",
+        link: "http://ece.iitr.ac.in/sudeb_dasgupta",
+    },
+{
+        name: "Prof. Sudeb Dasgupta",
+        image: "/assets/committee/prof-sudeb-dasgupta.jpg",
+        designation: "IIT Roorkee",
+        link: "http://ece.iitr.ac.in/sudeb_dasgupta",
+    },
+{
+        name: "Prof. Sudeb Dasgupta",
+        image: "/assets/committee/prof-sudeb-dasgupta.jpg",
+        designation: "IIT Roorkee",
+        link: "http://ece.iitr.ac.in/sudeb_dasgupta",
+    },
+{
+        name: "Prof. Sudeb Dasgupta",
+        image: "/assets/committee/prof-sudeb-dasgupta.jpg",
+        designation: "IIT Roorkee",
+        link: "http://ece.iitr.ac.in/sudeb_dasgupta",
+    },
+
 
     
 
