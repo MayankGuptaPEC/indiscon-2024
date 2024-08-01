@@ -8,9 +8,9 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 function Venue() {
     return (
         <PageLayout title={"Venue | Indiscon 2024"}>
-            <h1 className={styles.heading}>Venue</h1>
+            <h1 className={styles.heading}>Conference Venue</h1>
             <p className={styles.description}>
-                Punjab Engineering College is located in Chandigarh, Sector-12.
+                {/* Punjab Engineering College is located in Chandigarh, Sector-12.
                 Chandigarh, also known as The City Beautiful, is a city and a
                 union territory in the northern part of India that serves as the
                 capital of the states of Punjab and Haryana. Chandigarh is
@@ -18,11 +18,41 @@ function Venue() {
                 transport, including flight, train and bus. The city is served
                 by an international airport as well as well-planned rail and
                 road network, using which travellers can enter the city with
-                ease.
+                ease. */}
+                Hotel Shivalikview, located within city's hub of business, 
+                shopping and entertainment in Sector 17, offers a stylish, 
+                intimate base for business experience as well as exploring the 
+                attractions & tourist spots of the "City Beautiful". 
+                The hotel is a 25 minutes drive from the Airport and 
+                15 minutes from the Railway Station and is a walking 
+                distance from Inter-state bus terminus. 
+                The participants will be having opportunity to 
+                visit nearby research institutes and Universities 
+                like Punjab University, CSIR-CSIO, INST Mohali, ISB, IISER Mohali etc. 
+                There are many tourists points nearby hotel: 
+                Zakir Hussain Rose Garden, a botanical garden with fountains and paths, 
+                which is less than 2 km from the hotel and a major shopping area, 
+                Sector 22 Market, is 1 km away. 
+                For more information, please visit: 
+                <a
+                    target="_blank"
+                    href="https://citcochandigarh.com/portfolio/hotel-shivalikview/"
+                >
+                    CITCO, Chandigarh
+                </a>.
+
+
             </p>
 
             <div style={{ display: "flex", flexWrap: "wrap" }}>
+            
                 <img
+                    className={styles.image}
+                    src={getAssetName("/assets/images/shivalikview-hotel.jpg")}
+                    alt=""
+                />
+
+                {/* <img
                     className={styles.image}
                     src={getAssetName("/assets/images/college/audi.png")}
                     alt=""
@@ -39,7 +69,8 @@ function Venue() {
                 className={styles.image}
                 src={getAssetName("/assets/images/college/senate.png")}
                 alt=""
-            />
+            /> */}
+            </div>
 
             <h3 className={styles.subheading}>Ways to reach Chandigarh</h3>
 

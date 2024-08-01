@@ -97,10 +97,10 @@ export default function Home() {
                             <p>August 22-24, 2024</p>
                         </div>
                         <div className={styles.venue}>
-                            <h3>Venue</h3>
-                            <p>Punjab Engineering College</p>
-                            <p>(Deemed to be University)</p>
-                            <p> Sector 12, Chandigarh, India</p>
+                            <h3>Conference Venue</h3>
+                            <p>Hotel Shivalikview</p>
+                            <p>Sector-17, Chandigarh</p>
+                            {/* <p> Sector 12, Chandigarh, India</p> */}
                         </div>
                     </div>
                 </main>
