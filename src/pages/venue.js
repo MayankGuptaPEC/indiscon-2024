@@ -75,7 +75,7 @@ function Venue() {
                 
             <p className={styles.description} style={{ marginLeft: '20px' }}>
                 Participants may book hotels in Chandigarh. Here are some recommendations:
-                <ul style={{ marginTop: '30px' }}>
+                <ul style={{ marginLeft: '30px' }}>
                     <li><a href="https://citcochandigarh.com/portfolio/hotel-shivalikview/" target="_blank" rel="noopener noreferrer" className={styles.link}>Hotel Shivalikview, Sector-17</a></li>
                     <li><a href="https://citcochandigarh.com/portfolio/hotel-mountview/" target="_blank" rel="noopener noreferrer" className={styles.link}>Hotel Mountview, Sector-10</a></li>
                     <li><a href="https://www.nitttrchd.ac.in/guesthouse/index.php" target="_blank" rel="noopener noreferrer" className={styles.link}>NITTTR Guest House, Sector-26</a></li>
