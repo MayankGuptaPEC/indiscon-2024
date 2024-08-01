@@ -10,7 +10,8 @@ export const ANNOUNCEMENTS = [
     // '<a href="/List of Oral and Posters.pdf" target="_blank">Click here to see list of accepted papers</a>',
     // 'Check bottom of this page for List of accepted papers'
     // 'The link to submit camera-ready paper is active now. Carefully read instructions for Camera Ready Paper before final submission. The registration link will be provided soon.'
-    'The registration link is active now!!'
+    // 'The registration link is active now!!'
+    'Conference Venue: Hotel Shivalikview, Sector-17, Chandigarh'
 ];
 
 // React component to render the announcements
