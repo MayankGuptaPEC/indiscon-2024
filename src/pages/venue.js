@@ -38,7 +38,7 @@ function Venue() {
                     href="https://citcochandigarh.com/portfolio/hotel-shivalikview/"
                     target="_blank"
                     referrerPolicy="no-referrer"
-                    style="color: blue; text-decoration: underline;"
+                    style={{ color: 'blue', textDecoration: 'underline' }}
                 >
                     CITCO, Chandigarh <FaExternalLinkAlt />
                 </a>
