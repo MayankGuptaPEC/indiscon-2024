@@ -35,16 +35,13 @@ function Venue() {
                 Sector 22 Market, is 1 km away. 
                 For more information, please visit: 
                 <a
-                        href="https://citcochandigarh.com/portfolio/hotel-shivalikview/"
-                        target="_blank"
-                        referrerPolicy="no-referrer"
-                    >
-                        <p>
-                            CITCO, Chandigarh.{" "}
-                            <FaExternalLinkAlt />
-                        </p>
-                    </a>
-
+                    href="https://citcochandigarh.com/portfolio/hotel-shivalikview/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                    style="color: blue; text-decoration: underline;"
+                >
+                    CITCO, Chandigarh <FaExternalLinkAlt />
+                </a>
                 
             </p>
 
@@ -75,6 +72,20 @@ function Venue() {
                 alt=""
             /> */}
             </div>
+                
+            <p className={styles.description}>
+                Participants may book hotels in Chandigarh. Here are some recommendations:
+                <ul>
+                    <li><a href="https://citcochandigarh.com/portfolio/hotel-shivalikview/" target="_blank" rel="noopener noreferrer">Hotel Shivalikview, </a></li>
+                    <li><a href="https://citcochandigarh.com/portfolio/hotel-mountview/" target="_blank" rel="noopener noreferrer">Hotel Mountview, Sector-10</a></li>
+                    <li><a href="https://www.nitttrchd.ac.in/guesthouse/index.php" target="_blank" rel="noopener noreferrer">NITTTR Guest House, Sector-26</a></li>
+                    <li><a href="https://forms.puchd.ac.in/forms.php" target="_blank" rel="noopener noreferrer">Panjab University Guest House, Sector-14</a></li>
+                    <li><a href="http://admser.chd.nic.in/booking/webpages/booking1.aspx" target="_blank" rel="noopener noreferrer">UT Guest House, Sector-6</a></li>
+                    <li><a href="https://www.csio.res.in/CommonNew.php?ds=168&page=1" target="_blank" rel="noopener noreferrer">CSIR-CSIO Guest House, Sector-30</a></li>
+                    <li><a href="https://www.tajhotels.com/en-in/taj/taj-chandigarh/" target="_blank" rel="noopener noreferrer">Hotel Taj, Sector-17</a></li>
+                </ul>
+            </p>
+
 
             <h3 className={styles.subheading}>Ways to reach Chandigarh</h3>
 
