@@ -35,13 +35,17 @@ function Venue() {
                 Sector 22 Market, is 1 km away. 
                 For more information, please visit: 
                 <a
-                    target="_blank"
-                    href="https://citcochandigarh.com/portfolio/hotel-shivalikview/"
-                >
-                    CITCO, Chandigarh
-                </a>.
+                        href="https://citcochandigarh.com/portfolio/hotel-shivalikview/"
+                        target="_blank"
+                        referrerPolicy="no-referrer"
+                    >
+                        <p>
+                            CITCO, Chandigarh.{" "}
+                            <FaExternalLinkAlt />
+                        </p>
+                    </a>
 
-
+                
             </p>
 
             <div style={{ display: "flex", flexWrap: "wrap" }}>
