@@ -19,10 +19,10 @@ function Venue() {
                 by an international airport as well as well-planned rail and
                 road network, using which travellers can enter the city with
                 ease. */}
-                Hotel Shivalikview, located within city's hub of business, 
+                Hotel Shivalikview, located within city&apos;s hub of business, 
                 shopping and entertainment in Sector 17, offers a stylish, 
                 intimate base for business experience as well as exploring the 
-                attractions & tourist spots of the "City Beautiful". 
+                attractions & tourist spots of the &ldquo;City Beautiful&rdquo;. 
                 The hotel is a 25 minutes drive from the Airport and 
                 15 minutes from the Railway Station and is a walking 
                 distance from Inter-state bus terminus. 
