@@ -11,7 +11,7 @@ export const ANNOUNCEMENTS = [
     // 'Check bottom of this page for List of accepted papers'
     // 'The link to submit camera-ready paper is active now. Carefully read instructions for Camera Ready Paper before final submission. The registration link will be provided soon.'
     // 'The registration link is active now!!'
-    'Conference Venue: Hotel Shivalikview, Sector-17, Chandigarh.       Check bottom of this page for the tentative Schedule of the Conference.'
+    'Conference Venue: Hotel Shivalikview, Sector-17, Chandigarh. <br/><br/> Check bottom of this page for the tentative Schedule of the Conference.'
 ];
 
 // React component to render the announcements
@@ -19,7 +19,11 @@ const AnnouncementsComponent = () => {
     return (
         <div>
             {ANNOUNCEMENTS.map((announcement, index) => (
-                <div key={index} dangerouslySetInnerHTML={{ __html: announcement }} />
+            <div
+                key={index}
+                dangerouslySetInnerHTML={{ __html: announcement }}
+                style={{ marginBottom: '20px' }} // Add margin here to create space between announcements
+            />
             ))}
         </div>
     );
