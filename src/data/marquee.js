@@ -11,7 +11,8 @@ export const ANNOUNCEMENTS = [
     // 'Check bottom of this page for List of accepted papers'
     // 'The link to submit camera-ready paper is active now. Carefully read instructions for Camera Ready Paper before final submission. The registration link will be provided soon.'
     // 'The registration link is active now!!'
-    'Conference Venue: Hotel Shivalikview, Sector-17, Chandigarh'
+    // 'Conference Venue: Hotel Shivalikview, Sector-17, Chandigarh'
+    'Check bottom of this page for the tentative Schedule of the Conference.'
 ];
 
 // React component to render the announcements
