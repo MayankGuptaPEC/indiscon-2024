@@ -86,7 +86,7 @@ function Venue() {
                 </ul>
             </p>
 
-            <p className={styles.popular}> Click <a href="/5th IEEE_0001.pdf" target="_blank" rel="noopener noreferrer" className={styles.link}>here</a> 
+            <p className={styles.popular}> Click <a href="/5th IEEE_0001.pdf" target="_blank" rel="noopener noreferrer" className={styles.link}>here </a> 
               for the notice for participation of foreign nationals in the INDISCON 2024 conference. </p>
 
 
