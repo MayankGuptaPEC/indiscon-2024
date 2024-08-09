@@ -87,7 +87,7 @@ function Venue() {
             </p>
 
             <p className={styles.popular}> Click <a href="/5th IEEE_0001.pdf" target="_blank" rel="noopener noreferrer" className={styles.link}>here</a> 
-            for the notice for participation of foreign nationals in the INDISCON 2024 conference. </p>
+              for the notice for participation of foreign nationals in the INDISCON 2024 conference. </p>
 
 
             <h3 className={styles.subheading}>Ways to reach Chandigarh</h3>
