@@ -282,7 +282,7 @@ export default function Home() {
                         <div className={styles.register_alt}>
                             <a
                                 // href="https://cmt3.research.microsoft.com/INDISCON2024/"
-                                href="/Oral and Poster presentation guidelines.pdf"
+                                href="/INDISOCN Oral and Poster presentation guidelines.pdf"
                                 //href="/List of Oral and Posters.pdf"
                                 target="_blank"
                                 referrerPolicy="no-referrer"
