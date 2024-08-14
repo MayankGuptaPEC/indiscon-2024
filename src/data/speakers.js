@@ -1,4 +1,26 @@
 export const SPEAKERS = [
+    // {
+    //     name: "Dr. Arvind",
+    //     image: "/assets/committee/Arvind.jpeg",
+    //     designation: "Professor (Physics) & Dean (R&D), Indian Institute of Science Education & Research (IISER) Mohali",
+    //     link: "https://www.iisermohali.ac.in/faculty/dps/arvind",
+    // },
+
+    {
+        name: "Prof. Sukumar Mishra",
+        image: "/assets/committee/Sukumar Mishra.jpg",
+        designation: "Director, IIT(ISM) Dhanbad",
+        link: "https://www.iitism.ac.in/director",
+    },
+
+    {
+        name: "Dr. Goutam Chattopadhyay",
+        image: "/assets/speakers/DrGoutam.jpg",
+        designation: "Jet Propulsion Laboratory, NASA",
+        link: "https://scienceandtechnology.jpl.nasa.gov/people/g_chattopadhyay",
+    },
+
+    
     {
         name: "Prof. Aimin Song",
         image: "/assets/speakers/aimin.png",
@@ -49,25 +71,12 @@ export const SPEAKERS = [
         link: "https://www.iist.ac.in/avionics/chinmoysaha",
     },
     {
-        name: "Dr. Goutam Chattopadhyay",
-        image: "/assets/speakers/DrGoutam.jpg",
-        designation: "Jet Propulsion Laboratory, NASA",
-        link: "https://scienceandtechnology.jpl.nasa.gov/people/g_chattopadhyay",
-    },
-
-    {
         name: "Prof. N. P. Padhy",
         image: "/assets/committee/NP Padhy.jpg",
         designation: "Director, MNIT Jaipur",
         link: "https://mnit.ac.in/admin/director",
     },
 
-    {
-        name: "Prof. Sukumar Mishra",
-        image: "/assets/committee/Sukumar Mishra.jpg",
-        designation: "Director, IIT(ISM) Dhanbad",
-        link: "https://www.iitism.ac.in/director",
-    },
 
     {
         name: "Dr. Surender Reddy Salkuti",
