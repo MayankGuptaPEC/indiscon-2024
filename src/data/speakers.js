@@ -222,6 +222,30 @@ export const SPEAKERS = [
         designation: "Chief Scientist, CSIO Chandigarh",
         link: "https://icsio.csio.res.in/CSIO.EMS/HoD.aspx?id=746",
     },
+{
+        name: "Prof. Shiban Koul",
+        image: "/assets/speakers/shiban koul.jpg",
+        designation: "IIT Delhi",
+        link: "https://iitd.irins.org/profile/60674",
+    },
+    {
+        name: "Prof. Chinmoy Saha",
+        image: "/assets/speakers/Dr Chinmoy Saha.jpg",
+        designation: "IIST Thiruvananthapuram",
+        link: "https://www.iist.ac.in/avionics/chinmoysaha",
+    },
+    {
+        name: "Dr. Ramesh Gupta",
+        image: "/assets/speakers/Ramesh gupta.jpg",
+        designation: "VP, Ligado Networks, USA",
+        link: "https://www.linkedin.com/in/rameshgupta",
+    },
+    {
+        name: "Prof. Jaleel Akhtar",
+        image: "/assets/speakers/jaleel akhtar.png",
+        designation: "IIT Kanpur",
+        link: "https://home.iitk.ac.in/~mjakhtar",
+    },
     {
         name: "Dr. Arun K. Verma",
         image: "/assets/committee/Dr. Arun Kumar Verma.jpg",
@@ -254,12 +278,6 @@ export const SPEAKERS = [
     },
 
 //     {
-//         name: "Prof. Chinmoy Saha",
-//         image: "/assets/speakers/Dr Chinmoy Saha.jpg",
-//         designation: "IIST Thiruvananthapuram",
-//         link: "https://www.iist.ac.in/avionics/chinmoysaha",
-//     },
-//     {
 //         name: "Prof. N. P. Padhy",
 //         image: "/assets/committee/NP Padhy.jpg",
 //         designation: "Director, MNIT Jaipur",
@@ -280,24 +298,6 @@ export const SPEAKERS = [
 //         link: "https://www.mahindrauniversity.edu.in/faculty/bhuvaneswari-gurumoorthy/",
 //     },
 
-//     {
-//         name: "Prof. Jaleel Akhtar",
-//         image: "/assets/speakers/jaleel akhtar.png",
-//         designation: "IIT Kanpur",
-//         link: "https://home.iitk.ac.in/~mjakhtar",
-//     },
-// {
-//         name: "Prof. Shiban Koul",
-//         image: "/assets/speakers/shiban koul.jpg",
-//         designation: "IIT Delhi",
-//         link: "https://iitd.irins.org/profile/60674",
-//     },
-// {
-//         name: "Dr. Ramesh Gupta",
-//         image: "/assets/speakers/Ramesh gupta.jpg",
-//         designation: "VP, Ligado Networks, USA",
-//         link: "https://www.linkedin.com/in/rameshgupta",
-//     },
 
 // {
 //         name: "Prof. V. Ramgopal Rao",
