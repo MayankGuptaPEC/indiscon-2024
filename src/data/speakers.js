@@ -1,7 +1,7 @@
 export const SPEAKERS = [
     {
         name: "Dr. Arvind",
-        image: "/assets/speaker/arvind_IISER.jpg",
+        image: "/assets/speakers/arvind_IISER.jpg",
         designation: "Professor (Physics) & Dean (R&D), Indian Institute of Science Education & Research (IISER) Mohali",
         link: "https://www.iisermohali.ac.in/faculty/dps/arvind",
     },
