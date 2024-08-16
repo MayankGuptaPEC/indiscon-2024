@@ -8,7 +8,7 @@ export const SPEAKERS = [
     {
         name: "Dr. Surendra Pal",
         image: "/assets/speakers/surendra_pal_photo.jpg",
-        designation: "Deputy Director, Digital & Communications Area, ISRO, Bangalore",
+        designation: "ISRO, Bangalore",
         link: "https://surendapal1948.tripod.com",
     },
     {
