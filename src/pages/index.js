@@ -257,13 +257,13 @@ export default function Home() {
                             <a
                                 //href="https://cmt3.research.microsoft.com/INDISCON2024/"
                                 // href="/List of Oral and Posters.pdf"
-                                href="/Schedule_Tentative_v2.pdf"
+                                href="/Final_schedule_of_conference_17082024.pdf"
                                 target="_blank"
                                 referrerPolicy="no-referrer"
                             >
                                     {/*<button>Submit Camera Ready Paper</button>*/}
                                 {/* <button>List of accepted papers</button> */}
-                                <button>Tentative Schedule of the Conference</button>
+                                <button>Final Schedule of the Conference</button>
                             </a>
                         </div>
 
