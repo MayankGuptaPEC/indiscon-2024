@@ -257,7 +257,7 @@ export default function Home() {
                             <a
                                 //href="https://cmt3.research.microsoft.com/INDISCON2024/"
                                 // href="/List of Oral and Posters.pdf"
-                                href="/Final_schedule_of_conference_17082024.pdf"
+                                href="/Final_schedule_of_conference_21082024.pdf"
                                 target="_blank"
                                 referrerPolicy="no-referrer"
                             >
